@@ -1,0 +1,358 @@
+.createPlanContentMainContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  width: 100vw;
+  margin-bottom: 5em;
+}
+.createPlanContentMainContainer .weekendClassesContainer {
+  display: grid;
+  grid-template-rows: 20% 1fr;
+  align-self: left;
+}
+.createPlanContentMainContainer .weekendClassesContainer .numberclassHeading {
+  display: flex;
+  text-align: left;
+  margin: 2em 6em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .numberclassHeading i {
+  color: #8a25d2;
+  padding: 0.2em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .numberclassHeading h2 {
+  color: #8a25d2;
+  font-size: 2em;
+  font-weight: lighter;
+  letter-spacing: 0.4px;
+  padding: 0.6em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard {
+  grid-column: 1;
+  border: 2px solid #5d1277;
+  border-radius: 1em;
+  text-align: center;
+  margin: 2em 4em 2em 6em;
+  width: 16%;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard h2 {
+  background-color: #5d1277;
+  text-align: center;
+  color: white;
+  padding: 0.6em 0.8em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard h1 {
+  padding: 0.5em;
+  color: #5d1277;
+  font-size: 2.5em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard .weekendClasses {
+  font-size: 2em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard h3 {
+  padding: 0em 0.5em 0.8em 0.5em;
+  color: rgb(80, 76, 76);
+  font-weight: lighter;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard .buttonContainer {
+  align-items: center;
+  justify-content: center;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard .buttonContainer button {
+  margin: 1em auto 0.5em auto;
+  display: block;
+  align-self: center;
+  padding: 0.3em 0.2em;
+  width: 10em;
+  border: 2px solid #803caf;
+  background-color: #803caf;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .alternateCard .buttonContainer .MWFButton {
+  margin: 0em auto 2em auto;
+  background-color: #eadbf1;
+  color: #803caf;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard {
+  grid-column: 1;
+  border-radius: 1em;
+  background-color: #f3ebf7;
+  text-align: center;
+  margin: 2em 4em 2em 2em;
+  width: 16%;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard h2 {
+  text-align: center;
+  color: white;
+  padding: 0.8em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard h1 {
+  padding: 0.8em 0em 0em 0em;
+  color: #5d1277;
+  font-size: 2.5em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard .weekendClasses {
+  font-size: 2em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard h3 {
+  margin: 1em 0em;
+  padding: 0em 0.5em 0.5em 0.5em;
+  color: rgb(80, 76, 76);
+  font-weight: lighter;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard .buttonContainer {
+  align-items: center;
+  justify-content: center;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard .buttonContainer button {
+  cursor: pointer;
+  margin: 1em auto 0.5em auto;
+  display: block;
+  align-self: center;
+  padding: 0.3em 0.2em;
+  width: 10em;
+  border: 2px solid #803caf;
+  background-color: #803caf;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard .buttonContainer .MWFButton {
+  margin: 0em auto 2em auto;
+  background-color: #eadbf1;
+  color: #803caf;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard:hover {
+  border: 2px solid #803caf;
+  box-shadow: 0px 0px 5px 1px #5d1277;
+  cursor: pointer;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard:hover h2 {
+  color: #4b6457;
+}
+.createPlanContentMainContainer .weekendClassesContainer .cardContainer .eachCard:active {
+  border: 2px solid #0fa958;
+  background-color: #a6dfc1;
+  box-shadow: none;
+}
+.createPlanContentMainContainer .finalizeWeekDaysContainer {
+  margin-top: 5em;
+}
+.createPlanContentMainContainer .finalizeWeekDaysContainer .finalizeDayHeader {
+  display: flex;
+  text-align: left;
+  margin: 2em 6em;
+}
+.createPlanContentMainContainer .finalizeWeekDaysContainer .finalizeDayHeader i {
+  color: #8a25d2;
+  padding: 0.2em;
+}
+.createPlanContentMainContainer .finalizeWeekDaysContainer .finalizeDayHeader h2 {
+  color: #8a25d2;
+  font-size: 2em;
+  font-weight: lighter;
+  letter-spacing: 0.4px;
+  padding: 0.6em;
+}
+.createPlanContentMainContainer .finalizeWeekDaysContainer .weekNameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-left: 6em;
+}
+.createPlanContentMainContainer .finalizeWeekDaysContainer .weekNameContainer .weekNameBox {
+  margin: 0.5em;
+  text-align: center;
+  width: 7em;
+  border: 1px solid #5d1277;
+  padding: 0.3em;
+  border-radius: 20px;
+  color: #9747ff;
+  font-size: 1.3em;
+  background-color: #f3ebf7;
+  font-weight: bold;
+}
+.createPlanContentMainContainer .finalizeWeekDaysContainer .weekNameContainer .weekNameBoxAlternate {
+  margin: 0.5em;
+  text-align: center;
+  width: 7em;
+  border: 1px solid #5d1277;
+  padding: 0.3em;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #af74c4;
+}
+.createPlanContentMainContainer .fillTime {
+  margin-top: 5em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeHeader {
+  display: flex;
+  text-align: left;
+  margin: 2em 6em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeHeader i {
+  color: #8a25d2;
+  padding: 0.2em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeHeader h2 {
+  color: #8a25d2;
+  font-size: 2em;
+  font-weight: lighter;
+  letter-spacing: 0.4px;
+  padding: 0.6em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeSelection select {
+  margin-left: 10em;
+  text-align: left;
+  width: 17em;
+  border: 1px solid #5d1277;
+  padding-left: 0.5em;
+  height: 2em;
+  border-radius: 10px;
+  font-size: 1.3em;
+  background-color: #f3ebf7;
+  letter-spacing: 1px;
+  color: #9747ff;
+}
+.createPlanContentMainContainer .fillTime .fillTimeSelection select option {
+  border: 1px solid #5d1277;
+  color: #9747ff;
+  background-color: white;
+  cursor: pointer;
+}
+.createPlanContentMainContainer .fillTime .fillTimeHeaderSecond {
+  display: flex;
+  text-align: left;
+  margin: 2em 10.5em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeHeaderSecond i {
+  color: #8a25d2;
+  padding: 0.2em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeHeaderSecond h2 {
+  color: #8a25d2;
+  font-size: 2em;
+  font-weight: lighter;
+  letter-spacing: 0.4px;
+  padding: 0.6em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeInput {
+  display: flex;
+  margin-left: 12em;
+}
+.createPlanContentMainContainer .fillTime .fillTimeInput input {
+  margin: 0.5em 1em;
+  text-align: left;
+  width: 10em;
+  border: 1px solid #5d1277;
+  padding: 0.5em 0.8em;
+  border-radius: 10px;
+  color: #803caf;
+  font-size: 1.3em;
+  background-color: #f3ebf7;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.createPlanContentMainContainer .fillTime .fillTimeInput input::placeholder {
+  color: #9747ff;
+  opacity: 0.4;
+}
+.createPlanContentMainContainer .payExpectPerDay {
+  margin-top: 3em;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectHeader {
+  display: flex;
+  text-align: left;
+  margin: 2em 6em;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectHeader i {
+  color: #8a25d2;
+  padding: 0.2em;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectHeader h2 {
+  color: #8a25d2;
+  font-size: 2em;
+  font-weight: lighter;
+  letter-spacing: 0.4px;
+  padding: 0.6em;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectContainer {
+  width: 100%;
+  margin-left: 12em;
+  font-size: 1em;
+  display: flex;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectContainer h2 {
+  word-spacing: 1em;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectContainer .payExpectBar {
+  width: 51.5em;
+  height: 0.5em;
+  border-radius: 5px;
+  margin: 3em 1em 1em -1.2em;
+  border: 1px solid #5d1277;
+  background-color: #f3ebf7;
+  display: flex;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectContainer .payExpectBar i {
+  position: relative;
+  margin-left: 5.9em;
+  color: #8a25d2;
+  font-size: 2em;
+  margin-top: -0.7em;
+}
+.createPlanContentMainContainer .payExpectPerDay .payExpectContainer .startedIntialSalaryBox {
+  width: 25%;
+  text-align: center;
+  padding: 0.5em;
+  margin: 2em 1em;
+  font-size: 1.1em;
+  background: #f3ebf7;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px 0.5px gray;
+}
+.createPlanContentMainContainer .payExpectPerDay .commentSection {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -25em 0em 0em 10em;
+  width: 25%;
+}
+.createPlanContentMainContainer .payExpectPerDay .commentSection .commentIcon {
+  width: 340px;
+  height: 210px;
+  border: 1px solid #5d1277;
+  background-color: #9747ff;
+  border-radius: 40px;
+}
+.createPlanContentMainContainer .payExpectPerDay .commentSection h3 {
+  position: relative;
+  margin: -10em 0em 0em -2.5em;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+  word-spacing: 5px;
+  line-height: 1.5em;
+}
+.createPlanContentMainContainer .payExpectPerDay .commentSection .tutorImage {
+  border: 1px solid red;
+  width: 7em;
+  height: 15em;
+  margin: 2em 0em 0em -2em;
+}/*# sourceMappingURL=CreatePlanContent.css.map */

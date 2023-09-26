@@ -1,0 +1,83 @@
+.containsCertificates {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    hr {
+        width: 15%;
+      }
+      .OurCertificatesHeading {
+        font-family: "Comfortaa", Sans-serif;
+        margin-bottom: 10px;
+        font-size: 35px;
+        font-weight: 500;
+      }
+      .certificatescontainer {
+        margin-top: 30px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        flex-wrap: wrap;
+        .imageslidercontainer {
+            flex: 2;
+            width: 100%;
+            height: 50%;
+
+          }
+          .aboutcompany {
+            flex: 1;
+            
+          }
+          .aboutcompany {
+            font-family: "Poppins", Sans-serif;
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+           
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            padding-top: 0px;
+            padding-right: 0px;
+            margin-left: 8%;
+            justify-content: flex-start;
+            .aboutcompanyintro {
+                font-weight: 500;
+                font-size: 17px;
+              }
+              .acheivements {
+                /*  margin-top: 20px; */
+                 font-size: 18px;
+                 font-weight: 500;
+                 display: flex;
+                 flex-direction: column;
+                 /* justify-content: space-between; */
+                 .acheivement {
+                    margin-top: 2px;
+                    display: flex;
+                    justify-content: flex-start;
+                    p {
+                        max-width: 400px;
+                        width: 100%;
+                        margin-left: 20px;
+                      }
+                      .acheivementIcon {
+                        display: flex;
+                        align-items: center;
+                      }
+                  }
+               }
+          }
+      }
+  }
+  
+@media screen and (max-width: 1090px) {
+    .certificatescontainer {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+  

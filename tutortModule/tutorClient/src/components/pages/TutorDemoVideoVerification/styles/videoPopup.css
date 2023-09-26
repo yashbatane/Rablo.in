@@ -1,0 +1,83 @@
+.TutorDemoVideoVerificationPopupContainer {
+  background-color: white;
+  z-index: 1;
+  width: 60%;
+  height: 70vh;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 4px 4px #803caf;
+  border: 1px solid #803caf;
+  border-radius: 10px;
+  position: relative;
+  padding: 30px;
+}
+.TutorDemoVideoVerificationPopupContainer .rabloLogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+.TutorDemoVideoVerificationPopupContainer .closePopup {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  top: -20px;
+  right: -20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  cursor: pointer;
+}
+.TutorDemoVideoVerificationPopupContainer .videoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+.TutorDemoVideoVerificationPopupContainer .videoContainer .video {
+  width: 800px;
+  height: 450px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.TutorDemoVideoVerificationPopupContainer .videoContainer .controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 40px;
+}
+.TutorDemoVideoVerificationPopupContainer .videoContainer .controls img {
+  width: 20px;
+  border: 2px solid blueviolet;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.TutorDemoVideoVerificationPopupContainer .videoContainer .controls .progressbar {
+  flex: 1;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+.TutorDemoVideoVerificationPopupContainer .videoContainer .controls .progressbar .filled {
+  background: #d9d9d9;
+  border: 0.5px solid #000000;
+  border-radius: 5px;
+  height: 100%;
+}
+.TutorDemoVideoVerificationPopupContainer .videoContainer .controls .time {
+  position: absolute;
+  top: 105%;
+  right: 0;
+}/*# sourceMappingURL=videoPopup.css.map */

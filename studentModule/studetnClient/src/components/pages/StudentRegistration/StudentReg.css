@@ -1,0 +1,95 @@
+.studentregistrationcontainer {
+  width: 100%;
+  overflow-x: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.studentregistrationcontainer .formdatacontainer {
+  width: 800px;
+}
+.studentregistrationcontainer .formdatacontainer .inputbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.studentregistrationcontainer .formdatacontainer .inputbox label {
+  font-weight: 600;
+}
+.studentregistrationcontainer .formdatacontainer .inputbox input {
+  font-size: 18px;
+}
+.studentregistrationcontainer .formdatacontainer .inputbox .mobileinfocontainer select {
+  margin-bottom: 0.3em;
+  font-size: 18px;
+}
+.studentregistrationcontainer .inputbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.studentregistrationcontainer .inputbox label {
+  font-weight: 600;
+}
+.studentregistrationcontainer .inputbox input {
+  font-size: 18px;
+}
+.studentregistrationcontainer .inputbox select {
+  font-size: 18px;
+}
+.studentregistrationcontainer .inputbox .radiobutton input {
+  margin-right: 0.5em;
+}
+.studentregistrationcontainer .inputbox .checkboxgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.studentregistrationcontainer .inputbox .checkboxgroup .option input {
+  margin-right: 0.5em;
+}
+.studentregistrationcontainer .inputbox .checkboxgroup .option label {
+  font-weight: 400;
+}
+.studentregistrationcontainer .inputbox .addressline {
+  margin-bottom: 1em;
+}
+.studentregistrationcontainer .inputbox .hasValidation {
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+}
+.studentregistrationcontainer .inputbox .hasValidation::before, .studentregistrationcontainer .inputbox .hasValidation::after {
+  position: absolute;
+  z-index: 1;
+  margin-left: 16px;
+  background-color: coral;
+}
+.studentregistrationcontainer .inputbox .hasValidation::after {
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 8px;
+  content: attr(data-content);
+  padding: 4px;
+  left: 100%;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: -30%;
+}
+.studentregistrationcontainer .inputbox .hasError {
+  border: 1px solid red;
+}
+.studentregistrationcontainer .submit-btn-rectangular {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 8px 20px;
+  font-size: 18px;
+  margin-bottom: 100px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}/*# sourceMappingURL=StudentReg.css.map */

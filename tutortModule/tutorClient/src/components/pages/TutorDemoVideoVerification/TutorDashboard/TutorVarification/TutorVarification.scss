@@ -1,0 +1,177 @@
+$Poppins: "Poppins", sans-serif;
+$Barlow: "Barlow Condensed", Sans-serif;
+$Mont: "Montserrat", Sans-serif;
+$Comfortaa: "Comfortaa", Sans-serif;
+
+.TutorVerificationMainContainer {
+  width: 70%;
+  .TutorverificationNav {
+    width: 100%;
+    background-color: #7609d8;
+    padding: 2em 5em;
+    .RabloLogo {
+      align-self: flex-start;
+      img {
+        width: 150px;
+      }
+    }
+  }
+
+  // image uploading
+  .TutorRegistrationFormUploadImage {
+    width: 60%;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    justify-items: center;
+    border: 1px dotted #b6b6b6;
+    cursor: pointer;
+    display: flex;
+    .RegistrationFormUploadImagecontainer {
+      margin: auto;
+      img {
+        width: 60px;
+      }
+      .errorMsg {
+        color: red;
+        font-size: 24px;
+        margin: 3px 0;
+      }
+      .imgPreview {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(124, 120, 120);
+      }
+      .imgPreview {
+        input[type="file"] {
+          display: none;
+        }
+        .customFileUpload {
+          color: #55d6d6;
+          font-size: 22px;
+          font-weight: 500;
+          padding: 6px 12px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .TutorVerificationContainer {
+    display: flex;
+    padding: 3em 0 0 0;
+
+    .TutorVerificationDoddle {
+      flex: 1;
+      text-align: center;
+      padding: 3em 0;
+      justify-content: center;
+      align-self: center;
+      img {
+        width: 200px;
+      }
+    }
+    .TutorVerificationFormContainer {
+      .TutorVerificationHeader {
+        padding: 1em 0;
+        h1 {
+          position: static;
+          text-align: left !important;
+          clear: both;
+          letter-spacing: 0ch;
+          line-height: 1;
+          font-family: "Barlow Condensed";
+          font-size: 40px !important;
+          font-weight: 600;
+          text-transform: uppercase;
+          color: #010244;
+          font-style: italic;
+        }
+        p {
+          line-height: 2;
+          font-weight: 600;
+          font-size: 1.1em;
+        }
+      }
+      flex: 2;
+      padding: 1em 0 0 3em;
+    }
+    form {
+      width: 100%;
+      input {
+        border: none;
+        background-color: #f5f3f3;
+        width: 80%;
+        padding: 10px 30px;
+        border-radius: 5px;
+      }
+      .formnamecontaier {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        // background-color: red;
+        .inputbox {
+          margin-right: 10px;
+          // flex-wrap: wrap;
+
+          input {
+            width: 73%;
+          }
+        }
+      }
+
+      .JoinUsButton {
+        margin: 2em 0;
+        text-align: start;
+
+        .btn1 {
+          box-shadow: 0px 10px 14px -7px #7609d8;
+          background: linear-gradient(to bottom, #7609d8 5%, #7609d8 100%);
+          background-color: #7609d8;
+          border-radius: 8px;
+          border: none;
+          cursor: pointer;
+          color: #ffffff;
+          font-family: $Comfortaa;
+          font-size: 20px;
+          font-weight: bold;
+          padding: 13px 32px;
+          text-decoration: none;
+          text-shadow: 0px 1px 0px #7609d8;
+        }
+      }
+      .radiobox-hr {
+        // background-color: red;
+        display: flex;
+        align-items: center;
+        margin:20px 0px;
+
+        .radiobutton {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          input {
+            flex: 1;
+          }
+          label {
+            flex: 4;
+          }
+        }
+        // justify-content: center;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .TutorVerificationContainer {
+    flex-direction: column;
+  }
+}

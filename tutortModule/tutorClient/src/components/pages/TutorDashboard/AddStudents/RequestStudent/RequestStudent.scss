@@ -1,0 +1,63 @@
+table {
+    thead {
+        tr{
+            // display: flex;
+            // flex-direction: row;
+        }
+    }
+    th {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    .headers {
+        color: #6764ff;
+        flex-direction: row;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .apart {
+        margin-left: 0.3rem;
+    }
+
+    .focus {
+        background-color: #6764ff;
+        border-radius: 2px;
+        color: white;
+        padding: 0.3rem;
+        margin-left: 0.1rem;
+    }
+
+    .btn {
+        width: 7vw;
+        height: 4vh;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background: #6764ff;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+
+    .rejectBtn {
+        color: #6764ff;
+        font-weight: 900;
+        font-size: 20px;
+
+        :hover {
+            cursor: pointer;
+        }
+    }
+
+    .AcceptRejectButton {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+}

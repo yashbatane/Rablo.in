@@ -1,0 +1,87 @@
+.Founderscontainer {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  .Foundershead {
+    display: flex;
+    flex-direction: column;
+    // height: 55px;
+    flex-wrap: wrap;
+
+    .heading1 {
+      height: 25%;
+      text-align: center;
+      color: #888888;
+      font-family: "Poppins", Sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 1.2em;
+      letter-spacing: 0.3px;
+    }
+    .heading2 {
+      color: #5e42bb;
+      height: 70%;
+      font-family: "Comfortaa", Sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+  .Foundersbody {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .Founderscard {
+      height: 100%;
+      
+      .card {
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 275px;
+        height: 100%;
+        .imagecontainer {
+            // height: 150px;
+            background-image: url("./images/founder1.png");
+
+          }
+        .card-body {
+          
+          .card-title {
+            font-family: "Poppins", Sans-serif;
+            font-size: 25px;
+            line-height: 20px;
+            color: #5271ff;
+            text-align: center;
+            font-weight: 900;
+            padding: 10px;
+          }
+          .card-sub-title {
+            color: #4d3699;
+            font-family: "Poppins", Sans-serif;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 1000;
+          }
+          .card-text {
+            color: #4d3699;
+            text-align: center;
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+  }
+}

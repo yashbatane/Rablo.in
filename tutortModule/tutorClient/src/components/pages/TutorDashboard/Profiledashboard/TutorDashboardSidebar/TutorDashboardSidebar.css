@@ -1,0 +1,129 @@
+.Leftsidebar * {
+  margin: 0;
+  padding: 0;
+}
+.Leftsidebar p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.Leftsidebar p:nth-child(1) {
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 50px;
+}
+.Leftsidebar .icons {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+.Leftsidebar .collapsed {
+  background-color: rgba(103, 100, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100px;
+  height: 100vh;
+}
+.Leftsidebar .collapsed .navbar {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Leftsidebar .collapsed .navbar .icons:nth-child(1) {
+  margin-top: 50px;
+}
+.Leftsidebar .collapsed .navbar div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 124px;
+}
+.Leftsidebar .collapsed .navbar div:nth-child(3) {
+  position: absolute;
+  bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.Leftsidebar .expanded {
+  background: rgba(82, 113, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 313px;
+  height: 100vh;
+}
+.Leftsidebar .expanded .navbar {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Leftsidebar .expanded .navbar .icon {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 5px 0 15px 243px;
+}
+.Leftsidebar .expanded .navbar .first {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.Leftsidebar .expanded .navbar .first div {
+  display: flex;
+  gap: 12px;
+}
+.Leftsidebar .expanded .navbar .first div:nth-child(3) {
+  width: 268px;
+  height: 46px;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.Leftsidebar .expanded .navbar .first div:nth-child(3) .icons {
+  color: #6777f0;
+}
+.Leftsidebar .expanded .navbar .first div:nth-child(3) p {
+  color: #6777f0;
+}
+.Leftsidebar .expanded .navbar .last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 65px;
+  left: 28px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.Leftsidebar .expanded .navbar .last p:nth-child(1) {
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.6);
+}
+.Leftsidebar .expanded .navbar .last div {
+  display: flex;
+  gap: 12px;
+}
+.Leftsidebar .expanded .navbar .last div:nth-child(3) {
+  width: 123px;
+  height: 46px;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.Leftsidebar .expanded .navbar .last div:nth-child(3) .icons {
+  color: #6777f0;
+}
+.Leftsidebar .expanded .navbar .last div:nth-child(3) p {
+  color: #6777f0;
+}/*# sourceMappingURL=TutorDashboardSidebar.css.map */

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+.constructionContainer {
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.constructionContainer .logoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.constructionContainer .logoDiv img {
+  height: 50px;
+  width: 200px;
+}
+.constructionContainer .constructionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.constructionContainer .constructionWrapper .imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.constructionContainer .constructionWrapper .textDiv h1 {
+  margin-bottom: 10px;
+}
+.constructionContainer .constructionWrapper .textDiv h5 {
+  margin-top: 15px;
+}
+.constructionContainer .constructionWrapper .textDiv button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: rgb(159, 159, 241);
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.constructionContainer .constructionWrapper .textDiv a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .constructionContainer .constructionWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .constructionContainer .constructionWrapper .textDiv {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .constructionContainer .constructionWrapper .textDiv button {
+    margin: auto;
+  }
+  .constructionContainer .constructionWrapper .imgDiv img {
+    height: 400px;
+    width: 400px;
+  }
+}/*# sourceMappingURL=UnderConstruction.css.map */

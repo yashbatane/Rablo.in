@@ -1,0 +1,90 @@
+.AboutUsLandingContainer{
+    // background-image: url(./AboutUsbg.png) ;
+    background-position: top;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // .AboutUsLandingBg{
+    //     position: relative;
+
+    // }
+    .AboutUsLandingHeading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 60vw;
+        .AboutUsLandingtitle{
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            font-family: "Poppins", Sans-serif;
+            font-size: 45px;
+            font-weight: 600;
+            text-transform: capitalize;
+            
+            .AboutUsLandingtitle1{
+                color: #4d3798;
+            }
+            .AboutUsLandingtitle2 {
+                color: white;
+            }
+        }
+        .AboutUsLandingSubtext{
+            // display:flex;
+            text-align: center;
+            color: #7158bd;
+            font-family: "Poppins", Sans-serif;
+            font-size: 20px;
+            margin-top: 20px;
+            
+        }
+        hr{
+            width: 55vw;
+            margin-top: 40px;
+            color: #4d3798;
+            size: 1px;
+        }
+        .AboutUsReadMore{
+            margin: 50px;
+            .AboutUsPreRegisterButton {
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    background-color: #4d3798;
+                    
+                    border-style: solid;
+                    border-color: #4d3798;
+                    border-radius: 10px 10px 10px 10px;
+                    color: white;
+                    text-decoration: none;
+                    padding: 12px 20px;
+                    margin: 20px;
+                    width: auto;
+                }
+            .AboutUsKnowMoreButton {
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    background-color: transparent;
+                    margin: 20px;
+                    border-style: solid;
+                    border-color: white;
+                    border-radius: 10px 10px 10px 10px;
+                    color: white;
+                    text-decoration: none;
+                    padding: 12px 20px;
+            
+                    width: auto;
+                }
+        }
+        
+    }
+
+}

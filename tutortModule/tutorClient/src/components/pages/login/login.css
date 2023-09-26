@@ -1,0 +1,78 @@
+.login-container{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.login-right{
+  margin: auto auto;
+}
+.login-right h1{
+    color: #322457;
+    font-family: "Poppins",Sans-serif;
+    font-weight: 770;
+    font-size: 30px;
+}
+.login-right p{
+  font-family: "Poppins",Sans-serif;
+  font-size: 15px;
+  color: #666666;
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+.login-bold{
+  color: #322457;
+  font-weight: 600;
+}
+.login-hr{
+  color: #666666;
+}
+.login-left img{
+height: 100vh;
+width: 100vh;
+margin-left: -20px;
+margin-top: -15px;
+}
+.right-arrow{
+color: #000;
+margin-left: 100px;
+height: 45px;
+font-weight: bolder;
+}
+.login-social-icons{
+  display: flex;
+  height: 50px;
+  gap: 8px;
+  margin-top: 25px;
+}
+.login-facebook{
+height: 5vh;
+}
+.login-google{
+  background-color: rgb(81, 4, 81);
+  border-radius: 5px;
+}
+.facebook-bg img{
+  height: 6vh;
+  display: flex;
+  padding: 7px;
+  text-align: center;
+  margin: auto auto;
+}
+.facebook-firstbg{
+  background-color:#218cf2;
+  border-radius: 5px;
+}
+.login-google:hover , .facebook-firstbg:hover , .login-linkedin:hover{
+  transform: scale(1.2);
+}
+@media (max-width:770px) {
+  .login-container{
+    display: block;
+  }
+  .login-left img{
+    height: 50vh;
+    width: auto;
+  }
+  
+}

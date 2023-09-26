@@ -1,0 +1,53 @@
+.notificationPopupContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
+  align-items: center;
+
+  width: 786px;
+  height: 152px;
+
+  background: #ffffff;
+  border-radius: 15px;
+  justify-content: center;
+  
+  .hrPopup {
+    hr {
+      width: 126px;
+      height: 0px;
+
+      border: 7px solid #1634ff;
+      transform: rotate(90deg);
+    }
+  }
+  .notif-popup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .imagePopupNotif {
+      height: 84px;
+      width: 84px;
+      background-color: #a1adff;
+      border-radius: 50%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+  }
+  .closebtn-notificationPopup {
+    button {
+      all: unset;
+      cursor: pointer;
+    }
+  }
+}
+// .transitionNotif-popup{
+//     width: 50px;
+//     transition: width 2s;
+//     transition-timing-function: linear;
+// }

@@ -1,0 +1,39 @@
+.payment-summary {
+  display: flex;
+  width: 430px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.payment-summary .top-heading {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.payment-summary .Coin {
+  color: #6764FF;
+  font-size: 37px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.payment-summary .Heading {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.payment-summary .text {
+  color: rgba(0, 0, 0, 0.58);
+  font-size: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}/*# sourceMappingURL=PaymentSummary.css.map */

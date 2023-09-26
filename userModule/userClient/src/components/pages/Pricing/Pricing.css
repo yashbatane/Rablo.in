@@ -1,0 +1,22 @@
+.pricingContainer {
+  width: 98.7239vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, #5F7BFF, #A5B4FF);
+}
+.pricingContainer .pricingWrapper {
+  width: 85vw;
+  background-color: white;
+  text-align: center;
+  border-radius: 0.7rem;
+  padding: 2rem 2.5rem;
+  padding-bottom: 1rem;
+  margin: 20px 0px;
+}
+@media (max-width: 600px) {
+  .pricingContainer .pricingWrapper {
+    width: 95vw;
+    padding: 2rem 0.2rem;
+  }
+}/*# sourceMappingURL=Pricing.css.map */

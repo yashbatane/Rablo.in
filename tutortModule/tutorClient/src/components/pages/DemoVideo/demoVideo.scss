@@ -1,0 +1,261 @@
+body {
+
+    font-family: 'Poppins';
+
+    h1 {
+
+        color: #6764FF;
+    }
+
+    h2 {
+        color: #6764FF;
+        font-size: 24px;
+    }
+}
+#mainVideo {
+
+    // min-height: 100vh;
+    height: 100%;
+    display: flex;
+
+    #mainContent {
+
+        margin: 3vw 3vw 1vw 2vw;
+        padding: 1rem;
+        overflow: auto;
+
+        #paraBottomToHeading {
+            // margin-top: -3%;
+            font-size: 19px;
+        }
+
+        #AddingVideoSection {
+
+            box-shadow: 0px 4px 5px 4px rgba(164, 162, 255, 0.31);
+            border-radius: 7px;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 2rem 2rem 2rem;
+            width: 65vw;
+
+            label {
+                font-size: 15px;
+            }
+
+                // add video details
+            #detail-section {
+
+                display: grid;
+                grid-template-columns: 1fr 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 2rem;
+
+
+                input {
+
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    min-width: 15vw;
+                    padding: 0.7rem;
+                    background: #FBFBFB;
+                    border: 1px solid #6764FF;
+                    border-radius: 3px;
+                }
+
+                select {
+
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    padding: 0.8rem;
+                    min-width: 10vw;
+                    background: #FBFBFB;
+                    border: 1px solid #6764FF;
+                    border-radius: 3px;
+                }
+
+                #description {
+
+                    grid-row: span 2;
+                    // height: 100%;
+                    // width: 100%;
+                    #description-input {
+                        width: 100%;
+                        height: 85%;
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                
+
+            }
+
+
+            #subjectAndClass {
+
+                display: flex;
+                flex-direction: column;
+
+                select {
+                    background: #FBFBFB;
+                    border: 1px solid #6764FF;
+                    border-radius: 3px;
+                    padding: 5%;
+                    margin-top: 2%;
+                }
+            }
+
+            #description {
+
+                input {
+                    height: 7.6vh;
+                    width: 28vw;
+                    margin-top: 0%;
+                }
+            }
+            
+            h3 {
+                font-size: 16px;
+                color: #6764FF;
+            }
+
+            #dragAndDrop {
+    
+    
+                #uploadSection {
+                    
+                    border: 2px dashed #6764FF;
+                    border-radius: 5px;
+                    min-height: 25vh;
+                    margin-right: 2vw;
+                    margin-bottom: 2vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 2%;
+                    width: 100%;
+                    
+                    #uploadingFile {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    #browse {
+                        color: #6764FF;
+                        font-size: 18px;
+                    }
+
+                    #browse:hover {
+                        cursor: pointer;
+                    }
+    
+                    h6 {
+                        padding: 0;
+                        margin: 0;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                    #uploadIcon {
+    
+                        height: 59px;
+                        width: 59px;
+                        border-radius: 50%;
+                        background: rgba(227, 227, 227, 0.6);
+                        color: #6764FF;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+
+            #orOption {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                #bar {
+                    border: 1px solid rgba(0, 0, 0, 0.51);
+                    width: 60vw;
+                }
+                #bar-right {
+
+                    border: 1px solid rgba(0, 0, 0, 0.51);
+                    width: 100%;
+                }
+            }
+
+            #pasteUrl {
+
+                input {
+
+                    // width: 60vw;
+                    width: 100%;
+                    height: 4vh;
+                    margin-right: 2vw;
+                    border: 1px solid #6764FF;
+                    border-radius: 3px;
+                }
+
+                #uploadBtn {
+                    display: flex;
+                    justify-content: end;
+
+                    button {
+                        
+                        font-weight: 500;
+                        font-size: 19.2973px;
+                        line-height: 29px;
+                        background: #6764FF;
+                        border-radius: 33.0811px;
+                        color: white;
+                        padding: 2%;
+                        width: 10vw;
+                        border: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    #uploadBtn {
+
+                        display: flex;
+                        justify-content: flex-end;
+
+                        #btn {
+                            margin-bottom: 3vh;
+                            margin-right: 2vw;
+                            
+                        }
+                    }
+
+
+                }
+            }
+
+        }
+
+        #uploadedVideo {
+
+            h1 {
+                font-size: 24px;
+                margin: 0;
+                padding: 0;
+                margin-top: 4vh;
+            }
+
+
+            p {
+                margin: 0;
+                padding: 0;
+                margin-bottom: 5vh;
+            }
+        }
+
+    }
+}

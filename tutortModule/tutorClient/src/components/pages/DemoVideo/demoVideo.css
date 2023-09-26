@@ -1,0 +1,186 @@
+body {
+  font-family: "Poppins";
+}
+body h1 {
+  color: #6764FF;
+}
+body h2 {
+  color: #6764FF;
+  font-size: 24px;
+}
+
+#mainVideo {
+  height: 100%;
+  display: flex;
+}
+#mainVideo #mainContent {
+  margin: 3vw 3vw 1vw 2vw;
+  padding: 1rem;
+  overflow: auto;
+}
+#mainVideo #mainContent #paraBottomToHeading {
+  font-size: 19px;
+}
+#mainVideo #mainContent #AddingVideoSection {
+  box-shadow: 0px 4px 5px 4px rgba(164, 162, 255, 0.31);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 2rem 2rem;
+  width: 65vw;
+}
+#mainVideo #mainContent #AddingVideoSection label {
+  font-size: 15px;
+}
+#mainVideo #mainContent #AddingVideoSection #detail-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+#mainVideo #mainContent #AddingVideoSection #detail-section input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  min-width: 15vw;
+  padding: 0.7rem;
+  background: #FBFBFB;
+  border: 1px solid #6764FF;
+  border-radius: 3px;
+}
+#mainVideo #mainContent #AddingVideoSection #detail-section select {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0.8rem;
+  min-width: 10vw;
+  background: #FBFBFB;
+  border: 1px solid #6764FF;
+  border-radius: 3px;
+}
+#mainVideo #mainContent #AddingVideoSection #detail-section #description {
+  grid-row: span 2;
+}
+#mainVideo #mainContent #AddingVideoSection #detail-section #description #description-input {
+  width: 100%;
+  height: 85%;
+  margin-bottom: 1rem;
+}
+#mainVideo #mainContent #AddingVideoSection #subjectAndClass {
+  display: flex;
+  flex-direction: column;
+}
+#mainVideo #mainContent #AddingVideoSection #subjectAndClass select {
+  background: #FBFBFB;
+  border: 1px solid #6764FF;
+  border-radius: 3px;
+  padding: 5%;
+  margin-top: 2%;
+}
+#mainVideo #mainContent #AddingVideoSection #description input {
+  height: 7.6vh;
+  width: 28vw;
+  margin-top: 0%;
+}
+#mainVideo #mainContent #AddingVideoSection h3 {
+  font-size: 16px;
+  color: #6764FF;
+}
+#mainVideo #mainContent #AddingVideoSection #dragAndDrop #uploadSection {
+  border: 2px dashed #6764FF;
+  border-radius: 5px;
+  min-height: 25vh;
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  width: 100%;
+}
+#mainVideo #mainContent #AddingVideoSection #dragAndDrop #uploadSection #uploadingFile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainVideo #mainContent #AddingVideoSection #dragAndDrop #uploadSection #browse {
+  color: #6764FF;
+  font-size: 18px;
+}
+#mainVideo #mainContent #AddingVideoSection #dragAndDrop #uploadSection #browse:hover {
+  cursor: pointer;
+}
+#mainVideo #mainContent #AddingVideoSection #dragAndDrop #uploadSection h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+#mainVideo #mainContent #AddingVideoSection #dragAndDrop #uploadSection #uploadIcon {
+  height: 59px;
+  width: 59px;
+  border-radius: 50%;
+  background: rgba(227, 227, 227, 0.6);
+  color: #6764FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mainVideo #mainContent #AddingVideoSection #orOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainVideo #mainContent #AddingVideoSection #orOption #bar {
+  border: 1px solid rgba(0, 0, 0, 0.51);
+  width: 60vw;
+}
+#mainVideo #mainContent #AddingVideoSection #orOption #bar-right {
+  border: 1px solid rgba(0, 0, 0, 0.51);
+  width: 100%;
+}
+#mainVideo #mainContent #AddingVideoSection #pasteUrl input {
+  width: 100%;
+  height: 4vh;
+  margin-right: 2vw;
+  border: 1px solid #6764FF;
+  border-radius: 3px;
+}
+#mainVideo #mainContent #AddingVideoSection #pasteUrl #uploadBtn {
+  display: flex;
+  justify-content: end;
+}
+#mainVideo #mainContent #AddingVideoSection #pasteUrl #uploadBtn button {
+  font-weight: 500;
+  font-size: 19.2973px;
+  line-height: 29px;
+  background: #6764FF;
+  border-radius: 33.0811px;
+  color: white;
+  padding: 2%;
+  width: 10vw;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainVideo #mainContent #AddingVideoSection #pasteUrl #uploadBtn #uploadBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+#mainVideo #mainContent #AddingVideoSection #pasteUrl #uploadBtn #uploadBtn #btn {
+  margin-bottom: 3vh;
+  margin-right: 2vw;
+}
+#mainVideo #mainContent #uploadedVideo h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  margin-top: 4vh;
+}
+#mainVideo #mainContent #uploadedVideo p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5vh;
+}/*# sourceMappingURL=demoVideo.css.map */

@@ -1,0 +1,264 @@
+.waveheader {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  min-height: 90vh;
+  width: 100%;
+  background-color: #bac5fd;
+  background-image: url(./bg1.png);
+  background-blend-mode: darken;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.waveheader .userHero__btndiv {
+  margin: 50px auto 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.waveheader .landing__JoinBtn {
+  border-radius: 10px;
+  background-color: #4d3699;
+  color: white;
+  padding: 8px 30px;
+  outline-color: transparent;
+  border-color: transparent;
+  font-weight: 600;
+  transition: all 0.1s linear;
+  border: 3px solid #4d3699;
+}
+.waveheader .landing__JoinBtn:hover {
+  color: #4d3699;
+  background-color: transparent;
+}
+.waveheader .landing__knowMore {
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 8px 30px;
+  outline-color: transparent;
+  border: 2px solid white;
+  transition: all 0.1s linear;
+}
+.waveheader .landing__knowMore:hover {
+  border-color: #4d3699;
+  color: #4d3699;
+}
+.waveheader .waveheaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 95vh;
+  width: 100vw;
+  padding-bottom: 60px;
+}
+.waveheader .waveheadercontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.waveheader .waveheadercontent .motto {
+  color: #4d3699;
+  text-align: center;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  line-height: 35px;
+  font-size: 2rem;
+}
+.waveheader .waveheadercontent .motto h1 {
+  margin-top: 0;
+  font-weight: 600 !important;
+  font-size: 2.8rem !important;
+}
+.waveheader .waveheadercontent .line {
+  width: 60%;
+  border-bottom: 1.5px solid #4d3699;
+  margin: auto;
+}
+.waveheader .waveheadercontent .smpara1 {
+  color: #5e42bb;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  word-spacing: 1px;
+  width: 100%;
+  margin: 10px 0;
+}
+.waveheader .waveheadercontent .plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.waveheader .waveheadercontent .plan .target {
+  text-align: center;
+  color: #5e42bb;
+  /* width: 1rem; */
+}
+.waveheader .waveheadercontent .plan .target p {
+  margin: 0;
+}
+.waveheader .waveheadercontent .plan .target h2 {
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin-top: 8px;
+}
+.waveheader .waveheadercontent .plan .target .sml {
+  line-height: 0.9rem;
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 1px;
+}
+.waveheader .waveheadercontent .plan .plusIcon {
+  font-size: 50px;
+  font-weight: bolder;
+  width: 100px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-weight: 900;
+}
+.waveheader .BecomeOurTutorButton {
+  display: flex;
+  text-decoration: none;
+  margin: 3em 0 0 0;
+}
+.waveheader .BecomeOurTutorButton h3 {
+  color: #4d3699;
+  padding: 0 1em;
+}
+.waveheader .BecomeOurTutorButton .BecomeOurTutorArrow lord-icon {
+  color: #4d3699;
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 850px) {
+  .waveheader .userHero__btndiv {
+    margin: 10px 0 200px 0;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .motto h1 {
+    font-size: 3rem;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .smpara1 {
+    font-size: 1rem;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .plusIcon {
+    margin: 15px 0 0 0;
+  }
+}
+@media screen and (max-width: 740px) {
+  .waveheader .BoatAnmation {
+    display: none;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .motto h1 {
+    font-size: 2.3rem;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .smpara1 {
+    font-size: 1rem;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .plusIcon {
+    margin: 15px 0 0 0;
+  }
+  .plan {
+    flex-direction: column;
+  }
+  .Number {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 550px) {
+  .waveheader .userHero__btndiv {
+    flex-direction: column;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .motto h1 {
+    font-size: 1.7rem;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .smpara1 {
+    font-size: 1rem;
+  }
+  .waveheader .waveheaderWrapper .waveheadercontent .plusIcon {
+    margin: 15px 0 0 0;
+  }
+  .wave5 {
+    display: none;
+  }
+  .wave3 {
+    display: none;
+  }
+}
+.Wavenpm {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.Wavenpm .wawes1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 1;
+}
+.Wavenpm .wawes2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 2;
+}
+.Wavenpm .wawes3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 3;
+}
+.Wavenpm .wawes4 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.3;
+  z-index: 4;
+}
+.Wavenpm .wawes5 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.1;
+  z-index: 5;
+}
+.Wavenpm .wawes6 {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 7;
+}
+
+.LandingPageBoat {
+  width: 500px;
+  position: absolute;
+  left: 0;
+}
+
+.BoatAnmation {
+  z-index: 3 !important;
+  width: 450px;
+  height: 350px;
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
+
+.wavewithboat {
+  position: relative;
+}/*# sourceMappingURL=WaveHeader.css.map */

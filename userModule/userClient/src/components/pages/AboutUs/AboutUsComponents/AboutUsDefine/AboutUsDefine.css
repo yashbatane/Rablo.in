@@ -1,0 +1,198 @@
+.AboutUsDefineContainer {
+  width: 80vw;
+  margin-top: 60px 0px;
+}
+.AboutUsDefineContainer .DefineHeading {
+  text-align: center;
+}
+.AboutUsDefineContainer .DefineHeading span {
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0.3px;
+  color: #bac5fd;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent {
+  margin: 15px 0px;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .CompetitiveEdgeTitle h3 {
+  text-align: center;
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #5370ff;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer {
+  display: flex;
+  margin: 30px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card {
+  display: flex;
+  border-radius: 10px 10px 10px 10px;
+  margin: 14px;
+  padding: 14px;
+  height: 350px;
+  box-shadow: 0px 7px 59px -12px rgba(0, 0, 0, 0.08);
+  border: none;
+  width: 271px;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card:hover {
+  box-shadow: 0px 7px 59px -12px rgba(0, 0, 0, 0.16);
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .outerIconContainer {
+  box-shadow: 0px 1px 10px 6px rgba(0, 0, 0, 0.12);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: flex;
+  border: 10px solid white;
+  background-color: #738afe;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .outerIconContainer:hover {
+  border: 10px solid #4d3798;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .outerIconContainer .iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .outerIconContainer .iconContainer .icon .icon-cog {
+  color: white;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .outerIconContainer .iconContainer .icon .icon-cog:hover {
+  color: #4d3798;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .title {
+  margin: 20px 0px;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .title h3 {
+  color: #5675fe;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.AboutUsDefineContainer .CompetitiveEdgeContent .cardContainer .card .content p {
+  text-align: justify;
+  color: #515151;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0.2px;
+}
+.AboutUsDefineContainer .tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0px;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap {
+  box-sizing: border-box;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter thead {
+  box-sizing: border-box;
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  font-size: 0.9em;
+  border-spacing: 0;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter thead .table-header {
+  text-align: left;
+  border-style: none;
+  box-sizing: border-box;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter thead .table-header .competitors {
+  width: 220px !important;
+  text-align: center;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter thead .table-header .competitors .data-table-header-text {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #5679fe;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody {
+  box-sizing: border-box;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody .even {
+  background-color: #f7f6f7;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody .even:hover {
+  background-color: #f0eef1;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody .odd {
+  background-color: #fdfbfa;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody tr {
+  border-style: none;
+  box-sizing: border-box;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody tr .p {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  text-align: left !important;
+  padding: 20px 15px;
+  line-height: 1;
+  border-width: 2px;
+  border-style: none;
+  background-clip: padding-box;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody tr .h1 {
+  text-align: center;
+  padding: 20px 15px;
+  line-height: 1;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody tr .h1 .td-content-wrapper {
+  font-family: "Poppins", Sans-serif;
+  font-size: 25px;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody tr .h1 .td-content-wrapper .eael-datatable-icon .fas {
+  font-weight: 900;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody tr .h1 .td-content-wrapper .eael-datatable-icon .fa-times {
+  color: #dc143c !important;
+}
+.AboutUsDefineContainer .tableContainer .eael-data-table-wrap .tablesorter tbody tr .h1 .td-content-wrapper .eael-datatable-icon .fa-check {
+  color: #85e228 !important;
+}
+
+@media (max-width: 425px) {
+  .td-content {
+    font-size: 12px;
+  }
+  .competitors {
+    padding: 0 5px;
+  }
+  .competitors .data-table-header-text {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=AboutUsDefine.css.map */

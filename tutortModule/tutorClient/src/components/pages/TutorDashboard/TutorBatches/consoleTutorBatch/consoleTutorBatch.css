@@ -1,0 +1,164 @@
+.consoleRow {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 263px;
+}
+.consoleRow .leftSection {
+  padding: 1rem;
+  padding-bottom: 0;
+  width: 608px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 5px 3px rgba(164, 162, 255, 0.2);
+  border-radius: 8px;
+}
+.consoleRow .leftSection img {
+  width: 19px;
+  height: 19px;
+}
+.consoleRow .leftSection .leftSectionFirstRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.consoleRow .leftSection .leftSectionFirstRow h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+}
+.consoleRow .leftSection .leftSectionFirstRow button {
+  height: 20px;
+  font-weight: 600;
+  font-size: 10.8068px;
+  background: #6764FF;
+  color: white;
+  gap: 0.25rem;
+  border-radius: 25px;
+}
+.consoleRow .leftSection #leftSectionSecondRow {
+  font-size: 14px;
+}
+.consoleRow .leftSection .leftSectionThirdRow {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.consoleRow .leftSection .leftSectionThirdRow p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.consoleRow .leftSection .leftSectionThirdRow #strength {
+  font-size: 20px;
+  color: #6764ff;
+}
+.consoleRow .leftSection .leftSectionThirdRow #capacity {
+  font-weight: 500;
+  font-size: 20px;
+}
+.consoleRow .leftSection .leftSectionThirdRow #borderSubjects {
+  border: 1px solid black;
+  font-size: 11.0526px;
+  padding: 2px;
+}
+.consoleRow .leftSection .leftSectionFourthRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.2rem;
+}
+.consoleRow .leftSection .leftSectionFourthRow .vl {
+  border: 2px solid rgba(103, 100, 255, 0.46);
+}
+.consoleRow .leftSection .leftSectionFourthRow .biggerNumbers {
+  font-weight: 500;
+  font-size: 28px;
+  color: #6764FF;
+}
+.consoleRow .leftSection .leftSectionFourthRow .smallerNotation {
+  font-size: 14px;
+}
+.consoleRow .leftSection .leftSectionFourthRow p {
+  font-size: 14px;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowOne {
+  display: flex;
+  flex-direction: column;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowTwo {
+  display: flex;
+  flex-direction: column;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowThree {
+  display: flex;
+  flex-direction: column;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowThree .secondRowAverageSession {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowThree .secondRowAverageSession button {
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowFour {
+  display: flex;
+  flex-direction: column;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowFour .secondRowAverageAttendance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.consoleRow .leftSection .leftSectionFourthRow .fourthRowSubRowFour .secondRowAverageAttendance button {
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+.consoleRow .rightSection {
+  width: 413px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 5px 3px rgba(164, 162, 255, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+}
+.consoleRow .rightSection p {
+  font-size: 14px;
+}
+.consoleRow .rightSection .rightSectionSecondRow {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.consoleRow .rightSection .rightSectionSecondRow p {
+  font-size: 13px;
+}
+.consoleRow .rightSection .rightSectionSecondRow #dialer {
+  margin-left: 2rem;
+  padding-top: 0.8rem;
+}
+.consoleRow .rightSection .rightSectionSecondRow #dialer #bigNum {
+  font-weight: 500;
+  font-size: 34px;
+  color: #6764FF;
+}
+.consoleRow .rightSection .rightSectionSecondRow .besideDialer {
+  display: flex;
+  flex-direction: column;
+  width: 185px;
+}
+.consoleRow .rightSection .rightSectionSecondRow .besideDialer #downloadBtn {
+  margin-top: 1rem;
+}
+.consoleRow .rightSection .rightSectionSecondRow .besideDialer #downloadBtn span {
+  padding: 2px;
+}
+.consoleRow .rightSection .rightSectionSecondRow .besideDialer #downloadBtn button {
+  font-weight: 500;
+  font-size: 11.8295px;
+  color: #6764FF;
+  border-radius: 15px;
+  border: 1px solid #6764FF;
+  background-color: white;
+}/*# sourceMappingURL=consoleTutorBatch.css.map */

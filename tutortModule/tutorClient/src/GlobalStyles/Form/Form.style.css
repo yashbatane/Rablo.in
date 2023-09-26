@@ -1,0 +1,246 @@
+/* Imporovement in select field for mobile number country code  */
+
+.inputclass {
+  border-radius: 7px;
+  height: 28px;
+  border: none;
+  border: solid 1px #7a7a7a;
+  outline: none;
+  color: #666;
+  z-index: 0;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-clip: padding-box;
+  margin-top: 5px;
+  padding: 6px 12px;
+  border: 1px solid #ced4da;
+  background-image: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  background: #fff;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.inputclasstextarea {
+  border-radius: 7px;
+  height: 180px;
+  border: none;
+  border: solid 1px #7a7a7a;
+  outline: none;
+  color: #666;
+  z-index: 0;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-clip: padding-box;
+  margin-top: 5px;
+  padding: 6px 12px;
+  border: 1px solid #ced4da;
+  background-image: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  background: #fff;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.inputclass::placeholder {
+  opacity: 0.6;
+}
+.formnamecontaier {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+select {
+  cursor: pointer;
+  height: 42px;
+  margin-top: 5px;
+  padding: 0;
+  border: none;
+  border: solid 1px #7a7a7a;
+  color: #666;
+  font-family: "poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  background: #fff;
+  z-index: 1000;
+  border-radius: 10px;
+  z-index: 1;
+}
+.inputbox {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.inputbox label {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+#lnamebox {
+  margin-left: 20px;
+}
+option {
+  background-color: #ced4da;
+  color: blue;
+}
+.radiobox-hr {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.btn-next {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px;
+  border-width: 2px !important;
+  border-style: solid;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #9641e2;
+  background-color: #ddb9f8;
+  color: #9641e2;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+.btn-next-rectangular {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  background-color: #010244;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #010244;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.4s;
+  color: white;
+  text-align: center;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+}
+.btn-next-rectangular:hover {
+  transform: scale(1.1);
+}
+.btn-prev {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px;
+  border-width: 2px !important;
+  border-style: solid;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #409eff;
+  background-color: #409eff73;
+  color: #409eff;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+.btn-prev-rectangular {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  color: #0445af;
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  text-align: center;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+  border-color: #0445af;
+  transition: transform 0.4s;
+}
+.btn-prev-rectangular:hover {
+  transform: scale(1.1);
+}
+.submit-btn-rectangular {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #010244;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #010244;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.submit-btn-rectangular:hover {
+  border-color: #010244;
+  color: #010244;
+  background-color: #fff;
+  border: solid 3px #010244;
+}
+
+.radiobox-hr .radiobutton {
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+.radiobox-hr .radiobutton label {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.radiobox-vr {
+  margin-top: 5px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+}
+.radiobox-vr .radiobutton {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+}
+.radiobox-vr .radiobutton label {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .formnamecontaier {
+    flex-direction: column;
+  }
+  #lnamebox {
+    margin-left: 0;
+  }
+  .inputclasstextarea {
+    height: 100px;
+  }
+}

@@ -1,0 +1,42 @@
+.verifypage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 7rem 10rem 0 10rem;
+
+    div:nth-child(2) {
+        color: #6764ff;
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+    div:nth-child(3) {
+        width: 23rem;
+        color: #6764ff;
+        text-align: center;
+        font-size: 13px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: .8rem;
+    }
+    div:nth-child(4) {
+        margin-top: 1.44375rem;
+    }
+    div:nth-child(5) {
+        display: flex;
+        width: 50%;
+        margin-top: 1.44375rem;
+
+        div {
+            margin-right: 5.7rem;
+        }
+    }
+}

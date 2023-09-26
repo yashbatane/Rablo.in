@@ -1,0 +1,206 @@
+.online-offline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.featured-program-container {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  width: 60%;
+  text-align: center;
+  /* align-items: center;
+    justify-content: center; */
+  /* border: 2px solid black; */
+}
+
+.featured-program-container h3 {
+  color: #888888;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  /* border: 2px solid black; */
+  margin-bottom: 0px;
+}
+
+.featured-program-container h2 {
+  color: #54595f;
+  font-family: "Comfortaa", Sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  /* border: 2px solid black; */
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.featured-program-container p {
+  color: #808080;
+  font-size: 17px;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+
+  line-height: 25px;
+}
+
+.online-offline-container .online-heading-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: 70px;
+}
+
+.online-offline-container .online-heading-card .online-heading {
+  text-align: center;
+  color: #54595f;
+  width: 250px;
+  padding-bottom: 30px;
+}
+.online-offline-container .online-heading-card .online-heading h3 {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  /* border: 2px solid black; */
+}
+
+.online-offline-container .online-heading-card .online-heading p {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+}
+
+.online-offline-container .online-heading-card .online-heading button {
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", Sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  /* line-height: 20px; */
+  letter-spacing: 0.6px;
+  fill: #ffffff;
+  background-color: #5901a0;
+  border-radius: 30px 30px 30px 30px;
+  padding: 6px 12px 6px 12px;
+  margin-top: 20px;
+}
+
+.online-offline-container .online-heading-card .online-heading button:hover {
+  background-color: #9d00ff;
+}
+
+.online-offline-container .online-heading-card .online-card {
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #444444;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+}
+
+.online-offline-container .online-heading-card .online-card .card-text p {
+  font-weight: 500;
+}
+
+.online-offline-container .online-heading-card .online-card .key-points h6 {
+  color: #828282;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 540;
+  /* line-height: 3.1em; */
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.online-offline-container .online-heading-card .online-card .key-points hr {
+  /* color: #828282; */
+  /* background-color: #828282;
+    height: 1px; */
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #efefef;
+}
+
+.online-offline-container
+  .online-heading-card
+  .online-card
+  .key-points
+  .points {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  padding-left: 0px;
+}
+
+.online-offline-container
+  .online-heading-card
+  .online-card
+  .key-points
+  .points
+  li {
+  margin-left: 10px;
+  /* border: 1px solid black; */
+}
+
+.online-offline-container
+  .online-heading-card
+  .online-card
+  .key-points
+  .points
+  strong {
+  margin-left: 8px;
+}
+
+.online-offline-container
+  .online-heading-card
+  .online-card
+  .key-points
+  .points
+  i {
+  color: #d6d6d6;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .featured-program-container {
+    width: 90%;
+  }
+  .online-offline-container .online-heading-card .online-card {
+    width: 100%;
+  }
+  .online-offline-container .online-heading-card {
+    width: 98%;
+  }
+
+  .online-offline-container .online-heading-card .online-heading h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .online-offline-container .online-heading-card .online-card {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

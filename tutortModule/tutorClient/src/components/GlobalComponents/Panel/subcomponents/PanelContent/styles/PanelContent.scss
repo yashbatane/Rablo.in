@@ -1,0 +1,81 @@
+.panelcontent {
+    padding: 1.25rem 1.25rem;
+    background: rgba(103, 100, 255, 0.3);
+    // border-radius: 31.7056px;
+    border-radius: 15px;
+    height: 100%;
+    
+
+    .panelcontent-top {
+        display: flex;
+        div:nth-child(1) {
+            display: flex;
+            width: 50%;
+            justify-content: left;
+            align-items: center;
+            cursor: pointer;
+        }
+        div:nth-child(2) {
+            display: flex;
+            width: 50%;
+            justify-content: right;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    .panelcontent-middle {
+        margin-top: 8.7rem;
+        margin-bottom: 1.925rem;
+        div:nth-child(1) {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        div:nth-child(2) {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-size: 2.25rem;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            // mix-blend-mode: difference;
+        }
+        div:nth-child(3) {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 1);
+            font-weight: 500;
+            // mix-blend-mode: difference;
+        }
+    }
+    .panelcontent-bottom {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0.5775rem 1rem 0.5775rem 1.155rem;
+        border-radius: 8px;
+        border: 1px solid #6764FF;
+        background: rgb(103, 100, 255);
+        cursor: pointer;
+
+        div {
+            display: grid;
+            grid-template-areas: "a a";
+            gap: .75rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.7);
+        }
+       
+    }
+}

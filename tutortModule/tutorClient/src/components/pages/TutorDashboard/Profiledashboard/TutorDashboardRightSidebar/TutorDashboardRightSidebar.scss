@@ -1,0 +1,152 @@
+.rightProfileContainer{
+    height: 95vh;
+    background:url('./SeaLighthouse-day.png') center;
+    position: relative;
+    padding: 1rem .3rem;
+    transition: all 1s ease;
+    .rightProfileWrapper{
+        transition: all 2s ease;
+        height: 98%;
+        background-color: rgba($color: #4e4bff, $alpha: .2);
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        width: 98%;
+        flex-direction: column;
+        position: absolute;
+        .rightProfileFirstChild{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            width: 90%;
+            margin-top: .4rem;
+            color: white;
+
+            .arrow1{
+                padding: .5rem;
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color:#7774fd ;
+                cursor: pointer;
+                
+                .arrow{
+                    font-size: 1.5rem;  
+                    color: white;
+                    margin-left: .5rem;
+                }
+                
+            }
+            .warning1{
+                padding: .5rem;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+               
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                cursor: pointer;
+            }
+            .warning{
+                
+                font-size: 3rem;
+                color: 
+                #FFD400;
+    
+            }
+
+        }
+        .rightProfileSecondChild{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            width: 90%;
+            margin-top: 4rem;
+            
+            .frist{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 1rem;
+
+
+            .fristImage{
+                width: 5rem;
+                height: 5rem;
+                border: 2px solid greenyellow;
+                border-radius: 50%;
+                margin: .5rem 0rem;
+                img{
+                    width: 100%;
+                    border-radius: 50%;
+                    height: 100%;
+                }
+            }
+            h5{
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-size: 1.1rem;
+                margin-top: .2rem;
+                margin-bottom: .1rem;
+
+            }
+            p{
+              
+                font-weight: 400;
+                font-size: .9rem;
+                letter-spacing: 1px;
+            }
+            }
+            .second{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                background-color: 
+                #FFD400;
+                
+                padding: .8rem .9rem;
+                border-radius:1rem ;
+                margin-top: .5rem;
+                cursor: pointer;
+                a{
+                    color: rgba($color: black, $alpha: .5);
+                    text-decoration: none;
+                    
+                    .anchorContent{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: 700;
+
+                    }
+                    p{
+                        margin-right: .1rem;
+                    }
+                    span{
+                        display: flex;
+                        align-items: center;
+                        justify-content: cent
+
+                        ;
+                        .arrow{
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,218 @@
+.mainfooter {
+  min-height: 60vh;
+  background-color: rgb(108, 23, 208);
+  width: 100%;
+  color: white;
+  font-family: "Comfortaa", cursive;
+}
+.mainfooter .footercontentsmaincontainer {
+  margin: 6vh 20vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.mainfooter .footercontentsmaincontainer a {
+  text-decoration: none;
+  color: white;
+}
+.mainfooter .footercontentsmaincontainer h3 {
+  color: #fbc909;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 {
+  flex: 2;
+  padding-right: 10px;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterAboutCompnay {
+  width: 80%;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 p {
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterFindus {
+  display: flex;
+  margin-bottom: 1em;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterFindus .FooterLocation {
+  margin: 0.5em;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterFindus .FooterLocation address {
+  padding: 0.3em 0 0 0.5em;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterFindus .FooterLocation a {
+  padding: 0.3em 0 0 0.5em;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterFindus img {
+  width: 40px;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterCompanySocialMeadia {
+  margin: 3em 0;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 .FooterCompanySocialMeadia img {
+  width: 40px;
+  margin: 0.5em;
+  cursor: pointer;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer1 img {
+  width: 200px;
+}
+.mainfooter .footercontentsmaincontainer .mainfooternavigationslinks {
+  display: flex;
+  flex: 2;
+}
+.mainfooter .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer2 {
+  flex: 1;
+}
+.mainfooter .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer2 .footerMainMenu {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+.mainfooter .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer2 .footerMainMenu a {
+  padding: 0.8em 0;
+  font-weight: 600;
+  font-size: 1em;
+}
+.mainfooter .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer3 {
+  flex: 1;
+}
+.mainfooter .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer3 .FooterImportantLink {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+.mainfooter .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer3 .FooterImportantLink a {
+  padding: 0.8em 0;
+  font-weight: 600;
+  font-size: 1em;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer4 {
+  flex: 0.5;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer4 .FooterinfoButtons {
+  display: flex;
+  flex-direction: column;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer4 .FooterinfoButtons a {
+  border-radius: 50px;
+  padding: 10px 10px;
+  color: black;
+  font-weight: 600;
+  background-color: #fbc909;
+  margin: 0.1em 1em;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer4 .FooterShareLinks {
+  margin: 1.5em;
+}
+.mainfooter .footercontentsmaincontainer .mainfootercontainer4 .FooterShareLinks img {
+  margin: 0.4em;
+  width: 30px;
+  display: flex;
+  cursor: pointer;
+}
+.mainfooter .footer-copyright {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px 0 5px 0;
+}
+.mainfooter .footer-copyright span {
+  color: #fbc909;
+}
+
+@media (max-width: 1400px) {
+  .FooterFindus {
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 900px) {
+  .footercontentsmaincontainer {
+    margin: 6vh 2vh !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .footercontentsmaincontainer .FooterinfoButtons {
+    align-self: center;
+  }
+  .footercontentsmaincontainer .FooterCompanySocialMeadia {
+    text-align: center;
+  }
+  .footercontentsmaincontainer .FooterFindus {
+    flex-direction: row !important;
+    align-self: center;
+    justify-content: center;
+  }
+  .mainfooternavigationslinks {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 3em 0;
+  }
+  .mainfootercontainer4 {
+    align-self: center;
+    text-align: center;
+  }
+  .mainfootercontainer4 .FooterShareLinks {
+    display: flex;
+    flex-direction: row;
+  }
+  .FooterinfoButtons {
+    flex-direction: row !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footercontentsmaincontainer {
+    flex-direction: column;
+  }
+  .footercontentsmaincontainer .mainfootercontainer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footercontentsmaincontainer .mainfootercontainer1 .FooterAboutCompnay {
+    width: 100%;
+  }
+  .footercontentsmaincontainer .mainfootercontainer1 .FooterAboutCompnay {
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .footercontentsmaincontainer .mainfootercontainer1 .FooterFindus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .footercontentsmaincontainer .mainfooternavigationslinks {
+    flex-direction: column;
+  }
+  .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer2 .footerMainMenu {
+    align-items: center;
+  }
+  .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footercontentsmaincontainer .mainfooternavigationslinks .mainfootercontainer3 .FooterImportantLink {
+    align-items: center;
+  }
+}/*# sourceMappingURL=Foortmain.css.map */

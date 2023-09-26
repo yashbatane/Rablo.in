@@ -1,0 +1,55 @@
+.JoinUsNowMainContainer {
+  margin: 3em 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #9001EA;
+}
+.JoinUsNowMainContainer .JoinUsNowImage img {
+  width: 100%;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents {
+  margin: 2em 0;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .heading {
+  margin: 1em 0;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .heading h1 {
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .Content {
+  display: flex;
+  justify-content: center;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .Content p {
+  text-align: center;
+  color: #e2e1e1;
+  margin: 1em 0;
+  font-weight: 400;
+  width: 70%;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .JoinCounting {
+  margin: 1em 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .JoinCounting .JoinUsCountingContent {
+  text-align: center;
+  min-width: 400px;
+  padding: 0.5em 0;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .JoinCounting .JoinUsCountingContent .CountNumber {
+  color: #ffffff;
+}
+.JoinUsNowMainContainer .JoinUsNowComponents .JoinCounting .JoinUsCountingContent .CountHead {
+  color: #585BF2;
+}/*# sourceMappingURL=JoinUsNow.css.map */

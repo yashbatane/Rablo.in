@@ -1,0 +1,89 @@
+.buySlotBackground {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buySlotContainer {
+    width: 37.5rem;
+    height: 18.75rem;
+    border-radius: 0.75rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.938rem 1.25rem 0.939rem 2.5rem;
+
+    .buySlottitle {
+        display: inline-block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .buySlotbody {
+        flex: 50%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.065rem;
+        text-align: center;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.40);
+        margin-bottom: 10px;
+    }
+
+    .buySlotfooter {
+        flex: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        margin-top: 10px;
+
+    }
+}
+
+.buySlottitleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  
+    button {
+      background-color: transparent;
+      border: none;
+      font-size: 1.563rem;
+      cursor: pointer;
+      margin-top: -5px;
+    }
+  
+    .buySlotfooter button {
+      margin: 0.625rem;
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
+  }
+
+#buySlotcancelBtn {
+    color: #6764FF;
+    border-radius: 32.421px;
+    background-color: #FFF;
+    border: 2px solid #6764FF;
+    // border-color: #6764FF;
+    font-size: 0.813rem;
+    margin: 0.625rem;
+    width: 4.875rem;
+    height: 2rem;
+}
+
+#buySlotRemoveBtn {
+    border-radius: 32.421px;
+    margin: 0.625rem;
+    background: #6764FF;
+    font-size: 0.813rem;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    border: none;
+}

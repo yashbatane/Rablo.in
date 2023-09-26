@@ -1,0 +1,23 @@
+.form{
+    width: 685px;
+height: 495px;
+display: flex;
+border-radius: 11.717px;
+
+background: rgba(217, 217, 217, 0.00);
+
+}
+.self-declaration-section{
+    width: 650px;
+flex-shrink: 0;
+color: rgba(0, 0, 0, 0.71);
+font-family: Poppins;
+font-size: 10.501px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.accept-terms-condition-section{display: inline-flex;
+    align-items: center;
+    gap: 22px;}

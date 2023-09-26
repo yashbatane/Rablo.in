@@ -1,0 +1,234 @@
+.testSummaryMainContainer {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.testSummaryMainContainer .box {
+  width: 50%;
+  height: 75%;
+  text-align: center;
+  border: 2px solid #803caf;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.testSummaryMainContainer .box .summaryHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.testSummaryMainContainer .box .summaryHeader .logoDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.testSummaryMainContainer .box .summaryHeader .logo {
+  display: inline;
+  width: 4em;
+  height: 4em;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 1em;
+}
+.testSummaryMainContainer .box .summaryHeader .crossDiv {
+  background-color: black;
+  margin: -1.5em -1.5em 0em 0;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.testSummaryMainContainer .box .summaryHeader .crossDiv i {
+  color: white;
+}
+.testSummaryMainContainer .box .summaryHeader .heading {
+  display: flex;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.testSummaryMainContainer .box .summaryBody {
+  width: 70%;
+  height: 35%;
+  border-radius: 0;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.testSummaryMainContainer .box .summaryBody .attemptedQuestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 1em;
+  font-size: 1em;
+  width: 30%;
+  height: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.testSummaryMainContainer .box .summaryBody .attemptedQuestionsGreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: white;
+  color: #46a772;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 1em;
+  font-size: 1em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  width: 30%;
+  height: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+}
+.testSummaryMainContainer .box .buttonsContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.testSummaryMainContainer .box .buttonsContainer .submitButton {
+  background-color: #803caf;
+  padding: 0.8em;
+  color: white;
+  border: 1px solid #803caf;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.testSummaryMainContainer .box .buttonsContainer .submitButton p {
+  font-size: 1.7em;
+}
+.testSummaryMainContainer .box .buttonsContainer .submitButton i {
+  color: white;
+}
+.testSummaryMainContainer .box .buttonsContainer .submitButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #803caf;
+}
+.testSummaryMainContainer .box .buttonsContainer .submitButton:hover i {
+  color: #803caf;
+}
+.testSummaryMainContainer .box .buttonsContainer .prevButton {
+  background-color: #803caf;
+  padding: 0.8em;
+  color: white;
+  border: 1px solid #803caf;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-right: 1.5em;
+}
+.testSummaryMainContainer .box .buttonsContainer .prevButton p {
+  font-size: 1.7em;
+}
+.testSummaryMainContainer .box .buttonsContainer .prevButton i {
+  color: white;
+}
+.testSummaryMainContainer .box .buttonsContainer .prevButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #803caf;
+}
+.testSummaryMainContainer .box .buttonsContainer .prevButton:hover i {
+  color: #803caf;
+}
+.testSummaryMainContainer .box .paragraph {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  font-family: arial;
+}
+.testSummaryMainContainer .box .paragraph h2 {
+  margin: auto;
+  font-weight: 300;
+  color: #46a772;
+  text-align: center;
+  margin-right: 80px;
+}
+.testSummaryMainContainer .box .paragraph .images {
+  margin-right: 10px;
+  width: 7em;
+  height: 7em;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+@media screen and (max-width: 1175px) {
+  .testSummaryMainContainer .box {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .testSummaryMainContainer .box {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 7px;
+  }
+  .testSummaryMainContainer .box .summaryHeader {
+    font-size: 1rem;
+  }
+  .testSummaryMainContainer .box .summaryHeader .crossDiv {
+    color: rebeccapurple;
+    margin-top: -1.7em;
+    margin-right: -1em;
+  }
+  .testSummaryMainContainer .box .summaryBody .attemptedQuestions {
+    width: 50%;
+    height: 60%;
+  }
+  .testSummaryMainContainer .box .summaryBody .attemptedQuestionsGreen {
+    width: 50%;
+    height: 60%;
+  }
+  .testSummaryMainContainer .box .buttonsContainer {
+    margin-bottom: 20px;
+  }
+  .testSummaryMainContainer .box .buttonsContainer .prevButton {
+    padding: 0.35em;
+    align-items: center;
+  }
+  .testSummaryMainContainer .box .buttonsContainer .submitButton {
+    padding: 0.35em;
+    align-items: center;
+  }
+  .testSummaryMainContainer .box .paragraph h2 {
+    margin-right: 2px;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=TestSummary.css.map */

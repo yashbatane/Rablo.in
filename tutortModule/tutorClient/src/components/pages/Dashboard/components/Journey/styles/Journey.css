@@ -1,0 +1,28 @@
+.journey {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 43px;
+  border-radius: 10px;
+  margin-bottom: 0.9625rem;
+}
+.journey .journey-head {
+  width: 100%;
+  text-align: center;
+  font-size: 1.44rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+.journey .journey-body {
+  display: flex;
+  width: 67rem;
+  padding: 2rem 0rem;
+  margin: 0px -60px 0px 0px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.journey .journey-body::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=Journey.css.map */

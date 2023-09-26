@@ -1,0 +1,13 @@
+.BecOurTutBBoxWraper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+@media screen and (max-width:500px){
+    .BecOurTutBBoxWraper{
+        margin-top: 150px;
+    }
+}

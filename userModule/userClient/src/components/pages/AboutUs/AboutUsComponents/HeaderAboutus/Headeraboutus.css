@@ -1,0 +1,43 @@
+.Headeraboutuscontainer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://img.freepik.com/premium-vector/sky-game-background_7814-424.jpg?w=996");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Headeraboutuscontainer .Middletitle {
+  margin-top: 30vh;
+  text-align: center;
+  font-family: "Poppins", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #4D3699;
+}
+.Headeraboutuscontainer .headertitle2 {
+  color: white;
+}
+.Headeraboutuscontainer .Headerbody {
+  color: #5E42BB;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  padding: 2vh 18vw;
+}
+.Headeraboutuscontainer .Headerbutton {
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: #4D3699;
+  border-style: solid;
+  border-color: #4D3699;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 0 45%;
+}/*# sourceMappingURL=Headeraboutus.css.map */

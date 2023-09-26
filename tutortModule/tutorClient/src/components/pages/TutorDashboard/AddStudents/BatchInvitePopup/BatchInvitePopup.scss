@@ -1,0 +1,132 @@
+.PopupContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 0%, 0.15);
+
+  .BatchInvitePopup {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+    background-color: white;
+
+    h2{
+        margin:0;
+        font-size:  30px;
+    }
+    p{
+      margin-top: -10px;
+      font-size: 16px;
+      color: #00000066;
+      height:24px;
+    }
+
+
+    .copyContainer{
+      background-color: #F4F4F4;
+      height: 40px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 10px;
+
+      img{
+        height: 20px;
+        margin: 10px;
+      }
+
+      .linkInput{
+        border: none ;
+        background: transparent;
+        height: 38px;
+        width: 250px;
+        padding: 0 10px;
+        outline: 0;
+      }
+      .copyButton{
+        background-color: #6764FF;
+        width: 100px;
+        height: 38px;
+        border: none;
+        color: white;
+        border-top-right-radius:10px ;
+        border-bottom-right-radius:10px ;
+      }
+      .copyButton1{
+        background-color: #6764FF;
+        width: 100px;
+        color: white;
+        height: 38px;
+        border: none;
+        border-top-right-radius:10px ;
+        border-bottom-right-radius:10px ;
+        animation-name: copy;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+      }
+    }
+
+    .closeButton {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      height:25px;
+      width:auto;
+      cursor: pointer;
+    }
+
+    .or{
+      .orImg{
+        transform: translate(650% ,10px);
+      }
+      .lineImg{
+
+      }
+    }
+
+    .linkContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+
+      .link {
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+        // color : rgba(0, 0, 0, 0.6);
+        font-weight:600;
+
+        p{
+
+          color: #6764FF;
+        }
+
+        .imgContainer{
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            border-radius:50%;
+            box-shadow: 0px 4px 6px 0px #00000040;
+            padding:0.8rem;
+            background-color: #6764FF;
+
+            img {
+                height: 30px;
+                width: auto;
+                padding: 0.25rem;
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.AgeSlider {
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+.AgeSlider .AgeScale {
+  width: 75%;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #ff8c90;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.AgeSlider .AgeScale .minAge,
+.AgeSlider .AgeScale .maxAge {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #d8232a;
+  position: absolute;
+}
+.AgeSlider .AgeScale .minAge::before, .AgeSlider .AgeScale .maxAge::before {
+  position: absolute;
+  top: -40px;
+  left: -50%;
+  height: 30px;
+  width: 50px;
+  border: 1px solid #d8232a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: attr(data-age);
+  border-radius: 0.5rem;
+}
+.AgeSlider .AgeScale .rangeIndicator {
+  height: 100%;
+  background-color: #d8232a;
+}/*# sourceMappingURL=AgeSlider.css.map */

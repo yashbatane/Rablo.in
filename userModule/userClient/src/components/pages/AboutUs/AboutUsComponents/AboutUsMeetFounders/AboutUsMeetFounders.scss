@@ -1,0 +1,147 @@
+.AboutUsMeetFoundersHeadContainer{
+    background-color: #A1B1FF;
+    width: 100vw;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+.AboutUsMeetFoundersContainer{
+    background-color: #A1B1FF;
+    width:80vw;
+    margin-top: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .heading1{
+        text-align: center;
+        span {
+                font-family: "Poppins", Sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 1.2em;
+                letter-spacing: 0.3px;
+                color: #bac5fd;
+            }
+    }
+    .heading2{
+        text-align: center;
+        margin: 15px 0px;
+        h3{
+            text-align: center;
+                font-family: "Comfortaa", Sans-serif;
+                font-size: 30px;
+                font-weight: 600;
+                color: #5370ff;
+        }
+    }
+    .cardContainer{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60vw;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        .card{
+            background-color: transparent;
+            width: 300px;
+            // height: 70vh;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            .image{
+                width: 250px;
+                height: 250px;
+                img {
+                    width: 250px;
+                    border-radius: 50%;
+                    
+                }
+            }
+            
+            .title{
+                font-family: "Poppins", Sans-serif;
+                font-size: 25px;
+                line-height: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 40px ;
+                color: #4d3798;
+                .surname{
+                    color:white;
+                }
+            }
+            .qualification{
+                margin-top: 10px;
+                font-family: "Poppins", Sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                color:white;
+            }
+            .description{
+                text-align: center;
+                margin: 5px 0.9rem;
+                font-family: "Poppins", Sans-serif;
+                color: white;
+            }
+            .post{
+                font-family: "Poppins", Sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+            }
+            .connectLinks{
+                width: inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    width: 2.7em;
+                    border-radius: 50%;
+                    height: 2.7em;
+                    // border: 2px solid black;
+                    margin:20px 5px;
+                    background-color: #5e42bb;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        color: white;
+                        
+                        font-weight: 400;
+                        font-size: 25px;
+
+                    }
+                }
+                
+                
+            }
+        }
+    }
+}
+}
+.custom-shape-divider-bottom-1676468869 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1676468869 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.custom-shape-divider-bottom-1676468869 .shape-fill {
+    fill: #A1B1FF;
+}

@@ -1,0 +1,81 @@
+.onlineMainContainer {
+  justify-content: center;
+  align-items: center;
+  margin: 5em;
+}
+.onlineMainContainer h1 {
+  margin-bottom: 0.5em;
+  color: #9d00ff;
+}
+.onlineMainContainer h4 {
+  margin-bottom: 0.5em;
+}
+.onlineMainContainer h5 {
+  margin-bottom: 0.5em;
+}
+.onlineMainContainer i {
+  margin: 0.8em;
+}
+.onlineMainContainer input {
+  margin: 1em;
+  padding: 0.5em;
+}
+.onlineMainContainer select {
+  width: 7em;
+  height: 1.5em;
+  border-radius: none;
+  margin-left: 1em;
+}
+.onlineMainContainer .searchButton {
+  background-color: #9d00ff;
+  border-radius: 5px;
+  margin: 3em 0em;
+  padding: 0.6em;
+  width: 8em;
+  color: #fff;
+  display: block;
+  border: 1px solid #9d00ff;
+}
+.onlineMainContainer .mapPart {
+  position: absolute;
+  right: 15em;
+  margin: 2em 4em;
+  float: right;
+}
+.onlineMainContainer .findButton {
+  background-color: #9d00ff;
+  border-radius: 5px;
+  padding: 0.6em;
+  width: 7em;
+  color: #fff;
+  margin-left: 2em;
+  border: 1px solid #9d00ff;
+}
+.onlineMainContainer .map {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 1em;
+}
+.onlineMainContainer .divForCards {
+  display: flex;
+}
+.onlineMainContainer .divForCards .ProgressRegistrationBarCard {
+  text-align: center;
+  justify-self: center;
+  border-radius: 10px;
+  padding: 1em 0;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background-color: #f1e9f7;
+  margin: 2em;
+  width: 100%;
+}
+.onlineMainContainer .divForCards .ProgressRegistrationBarCard i {
+  margin: 0.7em;
+}
+.onlineMainContainer .divForCards .ProgressRegistrationBarCard .profileImag img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}/*# sourceMappingURL=SearchAndLocateOnline.css.map */

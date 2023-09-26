@@ -1,0 +1,84 @@
+
+// .selfDecHeadings{
+//     position: relative;
+//     margin-top: 20px;
+//     margin-bottom: 3.5rem;
+//     h1{
+//         font-family: 'Poppins';
+//         margin-left: 20%;
+//         color:#4F4F4F;
+//     }
+//     h2{
+//         font-family: 'Poppins';
+//         margin-left: 20%;
+//         position: absolute;
+//         color: #B9B9B9;
+//         top: 0.9rem;
+//     }
+// }
+
+.selfDeclaration-agreementContainer{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+    min-height: 20.7rem;
+    max-height: 25rem;
+    margin-left: 13%;
+    
+    border-style: solid;
+    border-color: #DBDBDB;
+    border-radius: 0.6rem;
+
+    overflow: scroll;
+
+    p{
+        font-family: 'Poppins';
+        padding: 1.4rem 3rem 1rem 3rem;
+        color: #616161;
+    }
+}
+.consentCheckMainContainer{
+    max-width: 75%;
+    
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+}
+.consentCheckContainer{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: #7d7d7d;
+    margin: 0.5rem;
+}
+
+.selfDeclaration-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-end;
+    margin-right: 20%;
+
+    .selfDec-agree{
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: #6764ff;
+        color: white;
+        cursor: pointer;
+        border: 1px solid white;
+    }
+    .selfDec-back{
+        min-width: 7.5rem;
+        height: 3.6rem;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: white;
+        color:#6764ff;
+        cursor: pointer;
+        border: 2px solid #6764ff;
+    }
+}

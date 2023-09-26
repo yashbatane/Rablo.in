@@ -1,0 +1,65 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    .profile-head {
+        display: flex;
+        width: 100%;
+        .profile-head-left {
+            display: flex;
+            width: 100%;
+            justify-content: left;
+            font-size: 1.375rem;
+            font-weight: 600;
+            color: #bac5fd;
+        }
+        .profile-head-right {
+            color: #6764ff;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+
+            div {
+                display: flex;
+                justify-content: center;
+                height: fit-content;
+            }
+            div:nth-child(1) {
+                margin-top: 3px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .profile-body {
+        margin-top: 1.44rem;
+
+        display: grid;
+        grid-template-areas: "a a";
+        gap: 1.925rem;
+        .profile-body-card {
+            display: flex;
+            width: 100%;
+
+            .body-card-left {
+                margin-right: 1.2rem;
+                display: flex;
+                justify-content: center;
+            }
+            .body-card-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                div:nth-child(1) {
+                    color: rgba(0, 0, 0, 0.6);
+                    font-weight: 500;
+                    font-size: 0.9625rem;
+                }
+                div:nth-child(2) {
+                    font-size: 0.77rem;
+                    font-weight: 500;
+                    color: #bac5fd;
+                }
+            }
+        }
+    }
+}

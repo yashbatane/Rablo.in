@@ -1,0 +1,133 @@
+.onlyContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 3.5em repeat(4, 1fr) 4em;
+  -moz-column-gap: 3em;
+       column-gap: 3em;
+  row-gap: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.onlyContainer .SelectNavbar {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #eadbf1;
+  display: flex;
+  border-radius: 0.5em;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px;
+}
+.onlyContainer .SelectNavbar h4 {
+  font-size: 1.6em;
+  padding: 0.5em;
+  font-weight: 200;
+}
+.onlyContainer .SelectNavbar .tutor {
+  color: #803caf;
+}
+.onlyContainer .SelectNavbar select {
+  position: absolute;
+  float: right;
+  right: 3em;
+}
+.onlyContainer .ProgressRegistrationBarCard {
+  text-align: center;
+  justify-self: center;
+  border-radius: 7px;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  box-shadow: 0px 0px 4px 0.1px rgb(65, 65, 65);
+  background-color: #f1e9f7;
+  height: 100%;
+  width: fit-content;
+}
+.onlyContainer .ProgressRegistrationBarCard .imageSection {
+  width: 40%;
+  padding: 1em 0.5em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.onlyContainer .ProgressRegistrationBarCard h4 {
+  margin: 0.4em;
+  font-weight: bold;
+}
+.onlyContainer .ProgressRegistrationBarCard i {
+  margin: 0.4em;
+  color: rgb(255, 202, 29);
+}
+.onlyContainer .ProgressRegistrationBarCard .moreIcons i {
+  border: 1px solid #803caf;
+  padding: 0.4em;
+  margin: 0.6em;
+  border-radius: 50%;
+  color: #803caf;
+  background-color: white;
+}
+.onlyContainer .ProgressRegistrationBarCard .classAndQualifications {
+  display: flex;
+}
+.onlyContainer .ProgressRegistrationBarCard .classAndQualifications h4 {
+  margin-left: 1em;
+}
+.onlyContainer .ProgressRegistrationBarCard .profileImag img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.onlyContainer .ProgressRegistrationBarCard .fullAbout {
+  border-left: 1px solid black;
+  justify-content: left;
+  text-align: justify;
+  width: 70%;
+  padding: 1em 0.5em;
+}
+.onlyContainer .ProgressRegistrationBarCard .fullAbout h4 {
+  margin: 0.5em;
+}
+.onlyContainer .ProgressRegistrationBarCard .fullAbout .inputText {
+  display: flex;
+}
+.onlyContainer .ProgressRegistrationBarCard .fullAbout .inputText input {
+  width: 5em;
+  border-radius: 10px;
+  border: 1px solid #803caf;
+  margin: 0.5em;
+}
+.onlyContainer .ProgressRegistrationBarCard .fullAbout h6 {
+  margin: 1em 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(53, 53, 53);
+}
+.onlyContainer .ProgressRegistrationBarCard .fullAbout .classAndQualifications {
+  display: flex;
+}
+.onlyContainer .ProgressRegistrationBarCard .fullAbout .classAndQualifications h4 {
+  margin: 0.8em;
+}
+.onlyContainer .pagination {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+  align-items: center;
+}
+.onlyContainer .pagination i {
+  margin: 0.2em;
+  border: 1px solid #f1e9f7;
+  background-color: #f1e9f7;
+  border-radius: 50%;
+  padding: 0.2em;
+  font-size: 1.2em;
+}
+.onlyContainer .pagination i:hover {
+  cursor: pointer;
+}
+.onlyContainer .pagination h3 {
+  margin: 0.3em;
+  border: 1px solid #f1e9f7;
+  padding: 0.2em;
+}
+.onlyContainer .pagination h3:hover {
+  background-color: #f1e9f7;
+  cursor: pointer;
+}/*# sourceMappingURL=TutorCardPage.css.map */

@@ -1,0 +1,213 @@
+.RefindTutorMainContainer {
+    width: 100vw;
+    // height: 100vh;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+
+    margin: auto;
+
+    .upperContent {
+        margin: 2em;
+        margin-top: 5em;
+
+        .search {
+            width: 350px;
+            height: 40px;
+            margin-left: 2em;
+
+            background: #FEFDFF;
+            box-shadow: 0px 4px 4px rgba(128, 60, 175, 0.25);
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            padding-left: 3em;
+
+        }
+
+        .findAndFilter {
+            display: flex;
+
+            margin: 4em;
+
+            h1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 54px;
+
+                color: #000080;
+                margin-right: 14em;
+                margin-left: 1.2em;
+
+            }
+
+            h2 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 54px;
+                margin: 0em 1em 0.5em 1em;
+                color: #000080;
+            }
+
+            select {
+                width: 160px;
+                height: 40px;
+                // left: 1365px;
+                // top: 225px;
+                margin-left: 1em;
+                border: none;
+                background: #FEFDFF;
+                box-shadow: 0px 4px 4px rgba(128, 60, 175, 0.25);
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .divCardFlex {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 4em;
+        .cards {
+            // grid-column: 1;
+            width: 330px;
+            height: 410px;
+            left: 50px;
+            background: #FEFDFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+
+            .imageSection {
+                display: flex;
+
+                .cardImage {
+                    width: 70px;
+                    height: 66px;
+                    border-radius: 50%;
+                    margin: 1em 1em 0em 1em;
+                }
+
+                .cardName {
+                    margin-top: 4em;
+
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    // font-size: 14px;
+                    // line-height: 24px;
+                    /* identical to box height */
+
+
+                    color: #9667C3;
+                }
+
+                .cardNameContent {
+
+
+                    margin-top: -0.8em;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    // font-size: 16px;
+                    line-height: 30px;
+                    /* identical to box height */
+
+
+                    color: #000000;
+
+                }
+            }
+
+            .firstSlot {
+                display: flex;
+                margin: 0.5em 1em 0em 1em;
+                // justify-content: center;
+                text-align: left;
+
+                .firstSlotQualification {
+
+                    margin: 0em 0.5em;
+
+                    .firstSlotQualificationHeader {
+
+
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        /* identical to box height */
+                        line-height: 30px;
+                        margin-right: 0.5em;
+                        color: #8F5DBF;
+                    }
+
+                    .firstSlotQualificationContent {
+                        margin: 0em 0 1.2em 0em;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        /* identical to box height */
+                        color: #000000;
+
+                        span {
+                            border: 1px solid gray;
+                            padding: 0.3em;
+                            border-radius: 5px;
+                            margin-left: 0.5em;
+
+                        }
+
+                        .stars {
+                            border: none;
+                            margin-left: 5.5em;
+
+                            i {
+                                color: orangered;
+                            }
+                        }
+
+                    }
+
+                    .range {
+                        padding: 0.3em 0.6em;
+                        // margin-top: -0.5em;
+                        background: #B1FACB;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 50px;
+                        width: 260px;
+                    }
+                }
+
+
+
+                .fees {
+                    margin: 1.9em 0em 0em 2em;
+
+                    .feesContent {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        /* identical to box height */
+                        color: #000000;
+
+                        span {
+                            border: 1px solid gray;
+                            padding: 0.3em;
+                            border-radius: 5px;
+                            margin-left: 0.5em;
+                        }
+
+                    }
+
+                    .startingFrom {
+                        font-size: 9px;
+                        color: #949494;
+                        margin: 0.7em 3em;
+                    }
+                }
+            }
+
+        }
+    }
+}

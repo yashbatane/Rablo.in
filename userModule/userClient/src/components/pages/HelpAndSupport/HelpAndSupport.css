@@ -1,0 +1,474 @@
+.userClient__helpAndSupport .helpAndSupport__heroSection {
+  background-image: linear-gradient(#A5B4FF, #7E95FF);
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 0 20px;
+}
+.userClient__helpAndSupport .helpAndSupport__heroSection .custom-shape-divider-bottom-1676396431 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.userClient__helpAndSupport .helpAndSupport__heroSection .custom-shape-divider-bottom-1676396431 svg {
+  position: relative;
+  display: block;
+  width: calc(190% + 1.3px);
+  height: 76px;
+}
+.userClient__helpAndSupport .helpAndSupport__heroSection .custom-shape-divider-bottom-1676396431 .shape-fill {
+  fill: #FFFFFF;
+}
+.userClient__helpAndSupport .helpAndSupport__heroSection .helpAndSupport__heroHeading {
+  margin-top: 120px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+}
+.userClient__helpAndSupport .helpAndSupport__heroSection .helpAndSupport__heroHeading__main {
+  margin-top: 180px;
+  color: #4d3699;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+.userClient__helpAndSupport .helpAndSupport__heroSection .helpAndSupport__heroPara {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  font-weight: 400;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  max-width: 900px;
+  letter-spacing: 0.2px;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  gap: 40px;
+  margin-top: 50px;
+  z-index: 5;
+  margin-bottom: 30px;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card {
+  flex: 1;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  max-width: 360px;
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card .helpAndSupport__cardHeading {
+  font-family: "Poppins", sans-serif;
+  color: #888888;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card .helpAndSupport__cardIconContainer {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 30px auto;
+  border-radius: 100%;
+  z-index: 99;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card .helpAndSupport__cardIconContainer::before {
+  position: absolute;
+  background-color: transparent;
+  content: "";
+  width: 124%;
+  height: 124%;
+  top: -12%;
+  left: -12%;
+  z-index: -99;
+  border-radius: 100%;
+  box-shadow: 0px 1px 10px 6px rgba(0, 0, 0, 0.12);
+  transition: background 0.3s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card .helpAndSupport__cardIconContainer:hover::before {
+  background-color: #9744c4;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card .helpAndSupport__cardIcon {
+  box-sizing: content-box;
+  padding: 12px;
+  width: 61px;
+  z-index: 99;
+  background-image: linear-gradient(to bottom, #46027a, #031048);
+  border-radius: 100%;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card .helpAndSupport__cardHeading {
+  margin: 50px auto 20px auto;
+  text-align: center;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card .helpAndSupport__cardDesc {
+  width: 90%;
+  margin: auto;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+}
+.userClient__helpAndSupport .helpAndSupport__cardContainer .helpAndSupport__card:hover {
+  box-shadow: 0px 7px 77px 5px rgba(0, 0, 0, 0.08);
+}
+.userClient__helpAndSupport .helpAndSupport__contentSection {
+  width: 100vw;
+  margin: 100px auto;
+  padding: 0px 20px;
+  background-color: #FDFBFA;
+  display: flex;
+  justify-content: center;
+}
+.userClient__helpAndSupport .helpAndSupport__contentSection .helpAndSupport__contentSection__faq {
+  width: 100vw;
+}
+.userClient__helpAndSupport .helpAndSupport__contentSection .helpAndSupport__contentSection__faq .faq__headingContainer {
+  text-align: center;
+  gap: 20px;
+  font-family: "Comfortaa", Sans-serif;
+}
+.userClient__helpAndSupport .helpAndSupport__contentSection .helpAndSupport__contentSection__faq .faq__headingContainer .faq_heading {
+  color: #a695d8;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 5;
+}
+.userClient__helpAndSupport .helpAndSupport__contentSection .helpAndSupport__contentSection__faq .faq__headingContainer .faq__underline {
+  border-top: 2px solid #efefef;
+  flex: 1;
+}
+.userClient__helpAndSupport .faqcontainer {
+  max-width: 1200px;
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians {
+  max-width: 1200px;
+  height: 105%;
+  z-index: 2;
+  font-family: "Poppins", sans-serif;
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer {
+  margin-top: 100px;
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer .accordian {
+  color: #54595F;
+  margin-top: 0px;
+  color: #AAACAE;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer .accordian .question {
+  max-width: 100%;
+  margin: 0;
+  padding: 15px 20px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-top: none;
+  font-family: "Poppins", sans-serif;
+  color: #54595F;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8em;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer .accordian .question .questiontriagnleicon {
+  margin-right: 7px;
+  font-size: 15px;
+  height: auto;
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer .accordian .question.active {
+  color: rgb(163, 32, 246);
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer .accordian .answer {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  border-top: none;
+  color: #333333;
+  font-family: "Poppins", sans-serif, Sans-serif;
+  font-size: 16px;
+  margin-top: -1px;
+  font-weight: 400;
+  line-height: 1.8em;
+  border: 1px solid #d4d4d4;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer .accordian .answer p {
+  margin: 10px;
+  margin-bottom: 21px;
+}
+.userClient__helpAndSupport .faqcontainer .allaccordians .accordiancontainer .accordian .answer.show {
+  max-height: 46rem;
+  height: auto;
+  overflow: hidden;
+  border: none;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+.userClient__helpAndSupport .helpAndSupport__footer {
+  position: relative;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 80px 20px;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footerHeadingContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footerHeadingContainer .helpAndSupport__footerHeading {
+  color: #5E42BB;
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 2.2rem;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footerHeadingContainer .helpAndSupport__footerPara {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group {
+  margin-top: 15px;
+  border-radius: 50%;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group input {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.07);
+  border-radius: 20px 20px 20px 20px;
+  width: 25vw;
+  height: 5vh;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group textarea {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.07);
+  border-radius: 20px 20px 20px 20px;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group ::-moz-placeholder {
+  position: relative;
+  left: 10px;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group ::placeholder {
+  position: relative;
+  left: 10px;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group input:hover, .userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group input:active, .userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group input:focus {
+  outline: none;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group textarea:hover, .userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group textarea:active, .userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__form .form-group textarea:focus {
+  outline: none;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__btnContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__btnContainer .helpAndSupport__footer__btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  background-color: #5e42bb;
+  color: white;
+  width: 25vw;
+  border: 2px solid #5e42bb;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.4s linear;
+  display: block;
+}
+.userClient__helpAndSupport .helpAndSupport__footer .helpAndSupport__footerContainer .helpAndSupport__footer__btnContainer .helpAndSupport__footer__btn:hover {
+  background-color: white;
+  color: blue;
+}
+
+@media (max-width: 770px) {
+  .helpAndSupport__card {
+    max-width: none;
+  }
+  .helpAndSupport__cardContainer {
+    flex-direction: column;
+  }
+  .accordiancontainer {
+    flex-direction: column;
+  }
+  .faq__headingContainer {
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+  .faq__underline {
+    width: 110%;
+  }
+  .helpAndSupport__footerContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+}
+.helpAndSupport__btnContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.helpAndSupport__btnf {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 12px 30px;
+  background-color: #4d3699;
+  color: white;
+  border: 2px solid #5e42bb;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s linear;
+  display: block;
+}
+
+.helpAndSupport__btnf:hover {
+  background-color: transparent;
+  color: #5e42bb;
+}
+
+.helpAndSupport__btns {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 12px 30px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  display: block;
+  left: 10px;
+  position: relative;
+}
+
+.helpAndSupport__accordions__hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #8084DD;
+  margin-left: 0.5em;
+  margin: 20px;
+  padding: 0;
+  color: #8084DD;
+  width: 60vw;
+  border-width: 2px;
+  position: relative;
+  top: -10px;
+}
+
+.faq__accordion__heading {
+  color: #AAACAE;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.faq__accordion__para {
+  font-size: 2.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #5E42BB;
+  position: relative;
+  left: 10px;
+}
+
+.faq__button {
+  color: #a695d8;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.helpAndSupport__heading {
+  display: flex;
+  align-items: center;
+}
+
+.accordion_btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  background-color: #4D3699;
+  color: white;
+  width: 13vw;
+  border-radius: 20px;
+  border: 2px solid #5e42bb;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.4s linear;
+  display: block;
+}
+
+.accordion_btn:hover {
+  background-color: white;
+  color: #5e42bb;
+  border: 2px solid black;
+}
+
+.helpAndSupport__accordion__hr {
+  display: block;
+  height: 1px;
+  border: 0.5;
+  border-top: 0.5px solid #9b9797;
+  margin-left: 0.5em;
+  margin: 20px;
+  padding: 0;
+  color: #888;
+  flex: 1;
+  position: relative;
+  top: -10px;
+}
+
+.accordion__footer__btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  background-color: #5e42bb;
+  color: white;
+  width: 13vw;
+  border-radius: 20px;
+  border: 2px solid #5e42bb;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.4s linear;
+  display: block;
+}/*# sourceMappingURL=HelpAndSupport.css.map */

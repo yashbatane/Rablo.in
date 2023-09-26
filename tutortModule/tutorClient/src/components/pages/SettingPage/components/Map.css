@@ -1,0 +1,68 @@
+.NearMeTabContainer {
+  height: 20%;
+}
+
+.NearMe-map-container {
+  position: relative;
+  display: flex;
+  height: 30px;
+}
+
+.nearMeTab-button-container {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.button-unselected {
+  background-color: white;
+  color: #6764ff;
+  border-radius: 1rem;
+  width: 3.5rem;
+  height: 1.8rem;
+  border-color: #6764ff;
+  cursor: pointer;
+}
+
+.button-selected {
+  background-color: #6764ff;
+  color: white;
+  border-radius: 1rem;
+  width: 3.5rem;
+  height: 1.8rem;
+  border-color: #6764ff;
+  cursor: pointer;
+}
+
+.InfoWindowContainer {
+  display: flex;
+  width: 13rem;
+}
+
+.InfoWindowContainer img {
+  height: 40px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.infowindowTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.infowindowName {
+  width: auto;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #6764ff;
+}
+
+.infowindowDistance {
+  font-size: 10px;
+} /*# sourceMappingURL=Map.css.map */

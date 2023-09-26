@@ -1,0 +1,34 @@
+.tableRow {
+  background-color: #FFF;
+  height: 45px;
+  border: none;
+  text-align: center;
+}
+.tableRow .btnInvoice {
+  width: 110px;
+  height: 33px;
+  padding: 5px;
+  border-radius: 7px;
+  background: #6764FF;
+  border: 1px solid #6764FF;
+  color: white;
+  font-family: Poppins;
+  letter-spacing: -0.2px;
+  font-size: 15px;
+  margin-right: -28px;
+}
+.tableRow .btnInvoice:hover {
+  background: #ffffff;
+  color: #6764FF;
+  border: 1px solid #6764FF;
+}
+.tableRow td {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}/*# sourceMappingURL=Financials.css.map */

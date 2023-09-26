@@ -1,0 +1,246 @@
+.Select {
+  cursor: pointer;
+  height: 42px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 0;
+  border: none;
+  border: solid 1px #7a7a7a;
+  color: #666;
+  font-family: "poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  background: #fff;
+  z-index: 1000;
+  border-radius: 10px !important;
+  z-index: 1;
+  border: none;
+}
+
+.preferencesMainContainer {
+  width: 100%;
+}
+.preferencesMainContainer .TutorDetailNav {
+  width: 100%;
+  background-color: #7609d8;
+  padding: 2em 5em;
+}
+.preferencesMainContainer .TutorDetailNav .RabloLogo {
+  align-self: flex-start;
+}
+.preferencesMainContainer .TutorDetailNav .RabloLogo img {
+  width: 150px;
+}
+.preferencesMainContainer .PreferenceHeading {
+  text-align: center;
+  padding: 2em;
+}
+.preferencesMainContainer .prefferedSectionContainer {
+  display: flex;
+  padding: 3em 0 0 0;
+  justify-content: space-around;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm {
+  flex: 2;
+  padding: 1em 0 0 3em;
+  padding: 0 3em;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm .PrefferedHeader {
+  padding: 1em 0;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm .PrefferedHeader h1 {
+  position: static;
+  text-align: center !important;
+  clear: both;
+  letter-spacing: 0ch;
+  line-height: 1;
+  font-family: "Barlow Condensed";
+  font-size: 40px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #010244;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm .PrefferedHeader p {
+  line-height: 2;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form {
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  width: 80%;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .JoinUsButton {
+  margin: 2em 0;
+  text-align: end;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .JoinUsButton .btn1 {
+  box-shadow: 0px 10px 14px -7px #7609d8;
+  background: linear-gradient(to bottom, #7609d8 5%, #7609d8 100%);
+  background-color: #7609d8;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #7609d8;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .radioButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .radioButtonDiv .radiobutton label {
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin-left: 1em;
+  width: 150px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .radioButtonDiv .radiobutton label:hover {
+  font-weight: 600;
+  background-color: #666;
+  color: white;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .radioButtonDiv .radiobutton input {
+  display: none;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .radioButtonDiv input {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0px;
+  font-size: 17px;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .radioButtonDiv input:focus {
+  border: 2px solid blue;
+  background-color: rgb(185, 185, 243);
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv {
+  display: flex;
+  flex-direction: column;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv Label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv .radiobox-hr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20px 0px;
+  flex-direction: row;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv .radiobox-hr input {
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  display: none;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv .radiobox-hr label {
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin-left: 1em;
+  width: 150px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv .radiobox-hr label:hover {
+  font-weight: 600;
+  background-color: #666;
+  color: white;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv .radiobox-hr input:focus {
+  border: 2px solid blue;
+  background-color: rgb(185, 185, 243);
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv .inputboxContainer .inputbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .prefferedInputDiv .inputboxContainer .inputbox .Stage1radiobox-hr {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .hasValidation {
+  position: relative;
+  width: max-content;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .hasValidation::before, .preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .hasValidation::after {
+  position: absolute;
+  z-index: 1;
+  margin-left: 16px;
+  background-color: coral;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .hasValidation::after {
+  width: max-content;
+  border-radius: 8px;
+  content: attr(data-content);
+  padding: 4px;
+  left: 100%;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: -30%;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .hasError {
+  border: 1px solid red;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .inputbox {
+  margin: 20px 0px;
+}
+.preferencesMainContainer .prefferedSectionContainer .PreferenceForm form .inputbox select {
+  width: 100%;
+  background-color: #f5f3f3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.preferencesMainContainer .prefferedSectionContainer .prefferedSectionIllustrator {
+  flex: 1;
+  text-align: center;
+  padding: 3em 0;
+  justify-content: center;
+  align-self: center;
+}
+.preferencesMainContainer .prefferedSectionContainer .prefferedSectionIllustrator img {
+  width: 250px;
+}
+.preferencesMainContainer .JoinUsButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (max-width: 900px) {
+  .prefferedSectionContainer {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=PrefferedSection.css.map */

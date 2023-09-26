@@ -1,0 +1,65 @@
+.cardsContainer {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+  align-self: center;
+}
+.cardsContainer .card {
+  display: flex;
+  width: 351px;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  font-family: "poppins";
+}
+.cardsContainer .card img {
+  max-width: 100px;
+  object-fit: contain;
+}
+.cardsContainer .cardHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* identical to box height */
+  color: #4A3794;
+  letter-spacing: 0.01em;
+}
+.cardsContainer .cardInfo {
+  color: white;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+}
+.buttons .btn1 {
+  width: 355px;
+  height: 79px;
+  background: #6177F6;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.buttons .btn2 {
+  box-sizing: border-box;
+  width: 307px;
+  height: 79px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #3C4852;
+}/*# sourceMappingURL=infoCards.css.map */

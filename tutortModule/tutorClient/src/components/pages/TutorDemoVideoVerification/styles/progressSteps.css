@@ -1,0 +1,37 @@
+.ProgressStepsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.ProgressStepsContainer .circles {
+  display: flex;
+  align-items: center;
+}
+.ProgressStepsContainer .circles .step {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.ProgressStepsContainer .circles .step img {
+  width: 1.2rem;
+}
+.ProgressStepsContainer .circles .step.done {
+  background-color: lightgreen;
+}
+.ProgressStepsContainer .circles .step.current {
+  scale: 1.5;
+  margin: 10px;
+}
+.ProgressStepsContainer .circles .line {
+  height: 2px;
+  background-color: blueviolet;
+  flex: 1;
+}
+.ProgressStepsContainer .texts {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=progressSteps.css.map */

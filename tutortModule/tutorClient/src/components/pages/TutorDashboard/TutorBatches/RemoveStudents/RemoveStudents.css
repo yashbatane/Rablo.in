@@ -1,0 +1,145 @@
+.RemoveStuTutBatches {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 707px;
+  height: 504px;
+  left: 27vw;
+  top: 20vh;
+  gap: 1.5rem;
+  opacity: 1;
+  z-index: 5000;
+  background: #ffffff;
+  border-radius: 11px;
+  padding: 2rem;
+}
+.RemoveStuTutBatches button {
+  cursor: pointer;
+}
+.RemoveStuTutBatches .headRmStu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.RemoveStuTutBatches .headRmStu .removeKeyStuTut {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 150%;
+  /* or 39px */
+  color: #656262;
+}
+.RemoveStuTutBatches .headRmStu .nameStuTutRm {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+  color: #000000;
+}
+.RemoveStuTutBatches .reasons-of-removal-StuTut {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.RemoveStuTutBatches .reasons-of-removal-StuTut div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  color: rgba(0, 0, 0, 0.7);
+}
+.RemoveStuTutBatches .reasons-of-removal-StuTut .buttons-for-reasons-stuTut {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+}
+.RemoveStuTutBatches .reasons-of-removal-StuTut .remove-btn-stuTut-selected {
+  box-sizing: border-box;
+  padding: 8.4478px 34.2985px;
+  gap: 7.91px;
+  background: #ffffff;
+  border: 1.18657px solid #6764ff;
+  border-radius: 33.2239px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3383px;
+  line-height: 150%;
+  background: #6764ff;
+  box-shadow: 0px 3.82335px 13px rgba(0, 0, 0, 0.16);
+  /* identical to box height, or 19px */
+  color: #ffffff;
+}
+.RemoveStuTutBatches .reasons-of-removal-StuTut .remove-btn-stuTut-unSelected {
+  box-sizing: border-box;
+  padding: 8.4478px 34.2985px;
+  gap: 7.91px;
+  background: #ffffff;
+  border: 1.18657px solid #6764ff;
+  border-radius: 33.2239px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3383px;
+  line-height: 150%;
+  /* identical to box height, or 19px */
+  color: #6764ff;
+}
+.RemoveStuTutBatches .reason-mention-txt-stuTut {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 0.5rem;
+}
+.RemoveStuTutBatches .reason-mention-txt-stuTut .another-reason-rmStuBathc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  color: rgba(0, 0, 0, 0.66);
+}
+.RemoveStuTutBatches .reason-mention-txt-stuTut textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  border: 2px solid #6764ff;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14.7692px;
+  line-height: 150%;
+  /* or 22px */
+  color: #000000;
+}
+.RemoveStuTutBatches .bottomButtons-StuTut-remove {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+.RemoveStuTutBatches .bottomButtons-StuTut-remove button {
+  width: 101px;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #6764ff;
+  border-radius: 28.56px;
+  color: #6764ff;
+}
+.RemoveStuTutBatches .bottomButtons-StuTut-remove .remove-button-bottom-StuRem {
+  width: 112px;
+  height: 51.68px;
+  color: white;
+  background: #6764ff;
+  box-shadow: 0px 3.82335px 13px rgba(0, 0, 0, 0.16);
+  border-radius: 28.74px;
+}/*# sourceMappingURL=RemoveStudents.css.map */

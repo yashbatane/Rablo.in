@@ -1,0 +1,174 @@
+.tableContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.2rem;
+}
+.tableContainer .tableWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.tableContainer .tableWrapper table {
+  width: 100%;
+  border-collapse: separate;
+}
+.tableContainer .tableWrapper table tr {
+  font-weight: 400;
+  color: #54595f;
+  font-size: 1rem;
+}
+@media (max-width: 376px) {
+  .tableContainer .tableWrapper table tr {
+    font-size: 0.6rem;
+  }
+}
+.tableContainer .tableWrapper table tr:first-child {
+  height: 20rem;
+}
+.tableContainer .tableWrapper table tr:nth-child(3) td, .tableContainer .tableWrapper table tr:nth-child(5) td, .tableContainer .tableWrapper table tr:nth-child(11) td, .tableContainer .tableWrapper table tr:nth-child(17) td, .tableContainer .tableWrapper table tr:nth-child(18) td, .tableContainer .tableWrapper table tr:nth-child(19) td, .tableContainer .tableWrapper table tr:nth-child(20) td {
+  padding: 0.5rem;
+}
+@media (max-width: 376px) {
+  .tableContainer .tableWrapper table tr:nth-child(3) td, .tableContainer .tableWrapper table tr:nth-child(5) td, .tableContainer .tableWrapper table tr:nth-child(11) td, .tableContainer .tableWrapper table tr:nth-child(17) td, .tableContainer .tableWrapper table tr:nth-child(18) td, .tableContainer .tableWrapper table tr:nth-child(19) td, .tableContainer .tableWrapper table tr:nth-child(20) td {
+    padding: 0;
+  }
+}
+.tableContainer .tableWrapper table tr td {
+  width: 21.5rem;
+  padding: 1.3rem 0rem;
+  margin-top: 5px;
+}
+.tableContainer .tableWrapper table tr td:first-child {
+  border-bottom: 1px solid #CCCCCC;
+}
+.tableContainer .tableWrapper table tr td:nth-child(2) {
+  border-top: 1px solid white;
+  border-right: 3px solid #5271ff;
+  border-left: 3px solid #5271ff;
+  border-bottom: 1px solid #5271ff;
+}
+.tableContainer .tableWrapper table tr td:last-child {
+  color: white;
+  background-color: #5271ff;
+  border: 1px solid white;
+  border-top: none;
+}
+.tableContainer .tableWrapper table tr td.firstRow {
+  border-bottom: 0px solid white;
+  border-radius: 2rem 2rem 0rem 0rem;
+  border-top: 3px solid #5271ff;
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .firstDiv {
+  border-bottom: 1px solid #54595f;
+  width: 87%;
+}
+@media (max-width: 600px) {
+  .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .firstDiv {
+    width: 98%;
+  }
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .firstDiv h1 {
+  color: #5271FF;
+  font-weight: 500;
+  font-size: 2rem;
+}
+@media (max-width: 376px) {
+  .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .firstDiv h1 {
+    font-size: 1.5rem;
+  }
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .firstDiv p {
+  color: #7a7a7a;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+@media (max-width: 376px) {
+  .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .firstDiv p {
+    font-size: 1rem;
+  }
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv {
+  width: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+@media (max-width: 600px) {
+  .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv {
+    flex-direction: column;
+  }
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv .span1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #54595f;
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv .span2 {
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: #54595f;
+  margin-right: 1rem;
+}
+@media (max-width: 600px) {
+  .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv .span2 {
+    margin-right: 0.2rem;
+    font-size: 2rem;
+  }
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv .span3, .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv .span4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv .span4 {
+  margin-left: 1rem;
+  border: 1px #28303d solid;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  color: #54595f;
+}
+@media (max-width: 600px) {
+  .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .secondDiv .span4 {
+    margin-left: 0.1rem;
+  }
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .thirdDiv {
+  width: 87%;
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .thirdDiv button {
+  width: 100%;
+  color: white;
+  background-color: #5E42BB;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 0rem;
+}
+@media (max-width: 376px) {
+  .tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .thirdDiv button {
+    font-size: 1rem;
+  }
+}
+.tableContainer .tableWrapper table tr td.firstRow .firstRowContainer .fourthDiv {
+  width: 87%;
+  color: #bac5fd;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 1.4rem;
+}/*# sourceMappingURL=Table.css.map */

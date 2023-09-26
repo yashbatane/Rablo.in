@@ -1,0 +1,152 @@
+.aboutUsFooterContainer{
+
+    background-color: #5272fe;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    
+        h3 {    
+                margin-top: 40px;
+                text-align: center;
+                font-family: "Comfortaa", Sans-serif;
+                font-size: 30px;
+                font-weight: 600;
+                color: white;
+            }
+    
+    .logos{
+        display: flex;
+        width: 60vw;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        align-items: center;
+        img{
+            width: 10vw;
+            // opacity: 0.54;
+            // filter: grayscale(1);
+            &:hover{
+                opacity: 1;
+                filter: grayscale(0);
+            }
+        }
+    }
+    .aboutUsFooterHeading{
+        
+        h2{
+            font-family: "Poppins", Sans-serif;
+            font-size: 50px;
+            font-weight: 600;
+            text-transform: capitalize;
+            line-height: 89px; 
+            color: #4c3698;
+            span{
+                color: white;
+            }
+        }
+    }
+    .aboutUsSubHeading{
+        color:white
+    }
+    .aboutUsFooterContent{
+        width: 80vw;
+        display: flex;
+        margin-top: 100px;
+        .introHeading{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 40vw;
+            padding-right: 21vw;
+            img{
+                width: 200px;
+                margin-bottom: 20px;
+            }
+            span{
+                color: white;
+                text-align: left;
+            }
+        }
+        .product{
+            color: #FFFFFF;
+            font-family: "ABeeZee", Sans-serif;
+            
+            width: 20vw;
+            text-align: left;
+            h4{
+                font-weight: bold;
+                margin-bottom: 30px;
+                padding-left: 20px;
+            }
+            ul{
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                padding-left: 20px;
+                li{
+                    padding: 8px 0px;
+                    font-size: 15px;
+                    
+                }
+            }
+            .ForStudentsButton{
+                font-family: "Poppins", Sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    background-color: #4d3798;
+                
+                    border-style: solid;
+                    border-color: #4d3798;
+                    border-radius: 10px 10px 10px 10px;
+                    color: white;
+                    text-decoration: none;
+                    padding: 12px 70px;
+                    margin-top: 20px;
+                    width: auto;
+                    
+            }
+        }
+        .legalPolicies{
+            width: 20vw;
+            color: #FFFFFF;
+            font-family: "ABeeZee", Sans-serif;
+            h4{
+                margin-bottom: 30px;
+            }
+            ul{
+                list-style: none;
+                li{
+                    padding: 8px 0px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    hr{
+        width: 80vw;
+        color: white;
+        height: 5px;
+    }
+}
+@media (max-width:770px) {
+    .aboutUsFooterContainer .logos {
+        display: flex;
+        flex-direction: column;
+        width: 82vh;
+        gap: 35px;
+        height: 28vh;
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .aboutUsSubHeading {
+        color: white;
+        font-size: larger;
+        font-family: "Poppins";
+    }
+}

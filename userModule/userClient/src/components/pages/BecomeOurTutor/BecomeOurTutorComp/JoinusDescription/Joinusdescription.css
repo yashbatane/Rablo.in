@@ -1,0 +1,42 @@
+.joinus-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: 100px;
+    width: 70%;
+    /* border: 1px solid black; */
+    
+}
+.heading{
+    display: flex;
+    font-family: "Comfortaa", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    align-items: center;
+    color: #54595f;
+    /* border: 1px solid black; */
+    
+}
+
+.heading .typing{
+    color: #FCCA07;
+    margin-left: 10px;
+}
+
+.joinus-para{
+    margin-top: 20px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    /* font-weight: 200; */
+    line-height: 1.7em;
+    word-spacing: 1px;
+}
+
+
+@media (max-width:767px){
+    .heading{
+        justify-content: center;
+        font-size: 25px;
+    }
+}

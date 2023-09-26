@@ -1,0 +1,81 @@
+.editable__inputWrapperOuter
+{
+    margin-top:15px;
+    margin-bottom:20px;
+   
+opacity: 0.5;
+border: 3px dashed rgba(0, 0, 0, 0.5);
+border-radius: 13px;
+height:200px;
+display: flex;
+justify-content: center;
+}
+
+.editable__inputWrapper
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width:900px;
+    
+}
+.editable__inputWrapper input
+{
+    color:#6764FF;
+    width: 90%;
+    padding: 5px 0;
+}
+.editable__inputWrapper   span
+{
+    color:rgb(63, 125, 217);
+   /* padding: 5px 10px ;
+    border: 2px solid rgba(128, 128, 128, 0.45);
+    border-radius:5px;*/
+    justify-content: center;
+    align-items: center;
+    
+}
+.editable__inputWrapper .editable__content
+{
+    width: 90%;
+  height: fit-content;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: rgba(0, 0, 0, 0.4);
+align-items: center;
+justify-content: center;
+padding-left: 45%;
+}
+
+.btn{
+
+width: 274px;
+height: 73px;
+
+background-color: #6764FF;
+border-radius: 37px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+color: #FFFFFF;
+align-items: center;
+justify-content: center;
+padding-top: 6%;
+padding-bottom: 6%;
+
+}
+
+
+.ver__btn{
+    width:30px;
+    position: relative;
+}

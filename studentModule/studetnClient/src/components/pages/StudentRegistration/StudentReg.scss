@@ -1,0 +1,128 @@
+.studentregistrationcontainer {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+    .formdatacontainer {
+      width: 800px;
+  
+      .inputbox {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-bottom: 1em;
+  
+        label {
+          font-weight: 600;
+        }
+  
+        input {
+          font-size: 18px;
+        }
+  
+        .mobileinfocontainer {
+          select {
+            margin-bottom: 0.3em;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  
+    .inputbox {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      margin-bottom: 1em;
+  
+      label {
+        font-weight: 600;
+      }
+  
+      input {
+        font-size: 18px;
+      }
+  
+      select {
+        font-size: 18px;
+      }
+  
+      .radiobutton {
+        input {
+          margin-right: 0.5em;
+        }
+      }
+  
+      .checkboxgroup {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3em;
+  
+        .option {
+          input {
+            margin-right: 0.5em;
+          }
+  
+          label {
+            font-weight: 400;
+          }
+        }
+      }
+  
+      .addressline {
+        margin-bottom: 1em;
+      }
+  
+      .hasValidation {
+        position: relative;
+        width: max-content;
+  
+        &::before,
+        &::after {
+          position: absolute;
+          z-index: 1;
+          margin-left: 16px;
+          background-color: coral;
+        }
+  
+        &::after {
+          width: max-content;
+          border-radius: 8px;
+          content: attr(data-content);
+          padding: 4px;
+          left: 100%;
+          color: white;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          top: -30%;
+        }
+  
+        // &::before {
+        //   content: "";
+        //   width: 20px;
+        //   height: 20px;
+        //   left: 96%;
+        //   transform: rotate(45deg);
+        // }
+      }
+      .hasError {
+        border: 1px solid red;
+      }
+    }
+  
+    .submit-btn-rectangular {
+      border: none;
+      background-color: blueviolet;
+      color: white;
+      padding: 8px 20px;
+      font-size: 18px;
+      margin-bottom: 100px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+  

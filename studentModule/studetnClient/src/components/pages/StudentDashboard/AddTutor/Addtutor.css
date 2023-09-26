@@ -1,0 +1,148 @@
+.AddStudentContainer {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.AddStudentContainer main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 1rem 0 2rem;
+  flex: 1;
+}
+.AddStudentContainer main .headerContainer {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+}
+.AddStudentContainer main .headerContainer .heading-headercontainer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+}
+.AddStudentContainer main .headerContainer .subhead-headercontainer {
+  nt-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.4);
+}
+.AddStudentContainer main .dataContainer {
+  height: calc(100% - 50px - 1rem);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.AddStudentContainer main .dataContainer .tabsContainer {
+  display: flex;
+  height: 50px;
+  width: 700px;
+  border-bottom: 2px solid #d9d9d9;
+  gap: 1rem;
+}
+.AddStudentContainer main .dataContainer .tabsContainer .tab {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  margin-bottom: -3px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.AddStudentContainer main .dataContainer .tabsContainer .activeTab {
+  background: transparent;
+  font-weight: bold;
+  color: #d04e62;
+  border-bottom: 4px solid #d04e62;
+}
+.AddStudentContainer main .dataContainer .tableContainer::-webkit-scrollbar {
+  background-color: white;
+  width: 0.5rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer::-webkit-scrollbar-thumb {
+  background-color: #e2e2e2;
+  border-radius: 1rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer {
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+  position: relative;
+  margin-top: 1rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.AddStudentContainer main .dataContainer .tableContainer table .circle {
+  height: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #d04e62;
+}
+.AddStudentContainer main .dataContainer .tableContainer table thead {
+  background-color: white;
+  text-align: center;
+}
+.AddStudentContainer main .dataContainer .tableContainer table tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+.AddStudentContainer main .dataContainer .tableContainer table tbody tr.activeStudent {
+  background-color: #fb93a3;
+}
+.AddStudentContainer main .dataContainer .tableContainer table tr {
+  text-align: left;
+  font-size: 0.8rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer table td {
+  text-align: center;
+  padding: 0.5rem;
+  position: relative;
+}
+.AddStudentContainer main .dataContainer .tableContainer table th {
+  padding: 0.5rem;
+  text-align: center;
+}
+.AddStudentContainer main .dataContainer .tableContainer table td.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.AddStudentContainer .requesttab-buttons button {
+  all: unset;
+  cursor: pointer;
+  margin: 6px;
+}
+.AddStudentContainer .rank-container-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.AddStudentContainer .rank-requestTab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.787849px solid #e0bd00;
+  border-radius: 15.8177px;
+  color: #e0bd00;
+  width: 8rem;
+  height: 1.8rem;
+}
+.AddStudentContainer .rank-requestTab .starsrounded {
+  position: absolute;
+  left: -2.8px;
+  top: 1;
+  height: 2.1rem;
+  width: 2.1rem;
+}/*# sourceMappingURL=Addtutor.css.map */

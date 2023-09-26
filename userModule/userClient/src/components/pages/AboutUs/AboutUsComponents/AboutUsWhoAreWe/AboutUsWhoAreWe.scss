@@ -1,0 +1,67 @@
+.AboutUsWhoAreWeContainer{
+    
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .AboutUsWhoAreWeHeading{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        h3{
+            color: #888888;
+            font-family: "Poppins", Sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            line-height: 1.2em;
+            letter-spacing: 0.3px;
+        }
+    }
+    .AboutUsWhoAreWePara{
+        text-align: center;
+        p{
+                color: #7a7a7a;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.7em;
+        }
+    }
+    .AboutUsWhoAreWeData{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0px;
+        width: 60vw;
+        flex-wrap: wrap;
+        .DataItem{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .number{
+                color: #5370ff;
+                font-family: "Nunito", Sans-serif;
+                font-size: 36px;
+                font-weight: 600;
+                
+            }
+            .text{
+                font-family: "Poppins", Sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.4px;
+                color: #eb465b;
+            }
+        }
+    }
+}
+@media (max-width: 425px){
+    .AboutUsWhoAreWeContainer{
+        .AboutUsWhoAreWeData{
+            justify-content: center;
+        }
+    }
+}

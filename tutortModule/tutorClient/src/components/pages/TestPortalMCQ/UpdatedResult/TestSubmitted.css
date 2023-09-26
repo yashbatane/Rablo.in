@@ -1,0 +1,176 @@
+.testSubmittedMainContainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.testSubmittedMainContainer .submittedBox {
+  position: absolute;
+  width: 50%;
+  height: 75%;
+  text-align: center;
+  border: 2px solid #803caf;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 0;
+}
+.testSubmittedMainContainer .submittedBox .submittedHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 0;
+}
+.testSubmittedMainContainer .submittedBox .submittedHeader .submittedLogoDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.testSubmittedMainContainer .submittedBox .submittedHeader .logo {
+  display: inline;
+  width: 4em;
+  height: 4em;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 1em;
+}
+.testSubmittedMainContainer .submittedBox .submittedHeader .heading {
+  display: flex;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  color: black;
+  padding: 20px;
+  margin: auto;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.testSubmittedMainContainer .submittedBox .submittedHeader .crossDiv {
+  background-color: black;
+  margin: -1.5em -1.5em 0em 0;
+  position: relative;
+  float: right;
+  right: 0;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.testSubmittedMainContainer .submittedBox .submittedHeader .crossDiv i {
+  color: white;
+}
+.testSubmittedMainContainer .submittedBox .submittedBody {
+  width: 70%;
+  height: 42%;
+  border-radius: 0;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.testSubmittedMainContainer .submittedBox .submittedBody i {
+  display: block;
+  color: green;
+}
+.testSubmittedMainContainer .submittedBox .submittedBody h2 {
+  font-weight: 500;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .submitButton {
+  background-color: #803caf;
+  width: 17em;
+  padding: 0.8em;
+  color: white;
+  border: 1px solid #803caf;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .submitButton p {
+  font-size: 1.7em;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .submitButton i {
+  color: white;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .submitButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #803caf;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .submitButton:hover i {
+  color: #803caf;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .prevButton {
+  background-color: #803caf;
+  width: 17em;
+  padding: 0.8em;
+  color: white;
+  border: 1px solid #803caf;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-right: 1.5em;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .prevButton p {
+  font-size: 1.7em;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .prevButton i {
+  color: white;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .prevButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #803caf;
+}
+.testSubmittedMainContainer .submittedBox .submittedButtonsContainer .prevButton:hover i {
+  color: #803caf;
+}
+.testSubmittedMainContainer .submittedBox .submittedParagraph {
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.testSubmittedMainContainer .submittedBox .submittedParagraph .images {
+  margin-right: 10px;
+  width: 5em;
+  height: 5em;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+@media screen and (max-width: 1175px) {
+  .testSubmittedMainContainer .submittedBox {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding: 7px;
+  }
+  .testSubmittedMainContainer .submittedBox .submittedHeader .crossDiv {
+    margin-top: -1.7em;
+    margin-right: -1em;
+  }
+  .testSubmittedMainContainer .submittedBox .submittedButtonsContainer {
+    margin-bottom: 20px;
+  }
+  .testSubmittedMainContainer .submittedBox .submittedButtonsContainer .prevButton {
+    padding: 0.35em;
+    align-items: center;
+  }
+  .testSubmittedMainContainer .submittedBox .submittedButtonsContainer .submitButton {
+    padding: 0.35em;
+  }
+}/*# sourceMappingURL=TestSubmitted.css.map */

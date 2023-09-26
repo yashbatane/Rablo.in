@@ -1,0 +1,265 @@
+
+.tutorProposalBar {
+  position: relative;
+  width: 310px;
+  height: 90vh;
+  padding: 0 20px 20px 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  overflow-y: scroll;
+  transition: 1s all ease;
+  margin-top: 30px;
+  .start {
+  margin-left: 30px;
+}
+  .row {
+    display: flex;
+  }
+  .row::after {
+    position: absolute;
+    content: "";
+    top: 154px;
+    left: 200px;
+    width: 2px;
+    height: 56px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .cross{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 20px;
+    color: #6764FF;
+    cursor: pointer;
+  }
+  h1:nth-child(1) {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  p:nth-child(1) {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .schedule {
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 0 0 5px 0;
+    }
+    .days {
+      display: flex;
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #6764ff;
+        margin-right: 35px;
+        
+      }
+     .rightArrow{
+      position: relative;
+      top: -15px;
+      font-size: 25px;
+          color: #6764ff;
+        }
+    }
+  }
+  .schedule::after {
+    position: absolute;
+    content: "";
+    top: 300px;
+    width: 287px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .free-classes {
+    p:nth-child(1) {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    p:nth-child(2) {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+    .classes {
+      .days:nth-child(1) {
+        display: flex;
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 92%;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 1.66em;
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+      .days:nth-child(2) {
+        display: flex;
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 30px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 1em;
+          color: #6764ff;
+          margin: 0;
+        }
+        .rightArrow{
+      position: relative;
+      top: -15px;
+      font-size: 25px;
+          color: #6764ff;
+        }
+      }
+    }
+    .classes::after {
+      position: absolute;
+      content: "";
+      top:470px;
+      width: 287px;
+      height: 2px;
+      background: rgba(0, 0, 0, 0.1);
+    }
+  }
+  .subjects {
+    p:nth-child(1) {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 0;
+    }
+    p:nth-child(2) {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.4);
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    select {
+      width: 287px;
+      height: 40px;
+      border: none;
+      background: rgb(246 238 238 / 80%);
+      border-radius: 6px;
+    }
+  }
+  .subjects::after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    bottom: 269px;
+    width: 287px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .salary {
+    p:nth-child(1) {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    p:nth-child(2) {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+
+      color: #6764ff;
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #0000004d;
+        margin-left: 8px;
+      }
+    }
+    p:nth-child(3) {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    div {
+      display: flex;
+      button {
+        width: 50px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+        margin-right: 20px;
+        color: #ffffff;
+        border: none;
+        background: #6764ff;
+        border-radius: 30px;
+      }
+      button:nth-child(2) {
+        background: transparent;
+        border: 1px solid #6764ff;
+        color: #6764ff;
+      }
+    }
+  }
+}
+.tutorProposalBar::-webkit-scrollbar{
+  display: none;
+}

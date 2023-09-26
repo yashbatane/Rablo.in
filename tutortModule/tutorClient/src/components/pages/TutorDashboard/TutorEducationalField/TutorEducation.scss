@@ -1,0 +1,238 @@
+$Poppins: 'Poppins', sans-serif;
+$Barlow: 'Barlow Condensed', Sans-serif;
+$Mont: 'Montserrat', Sans-serif;
+$Comfortaa: 'Comfortaa', Sans-serif;
+
+.TutorEducationMainContainer {
+  width: 70%;
+  .TutorEducationNav {
+    width: 100%;
+    background-color: #7609d8;
+    padding: 2em 5em;
+    .RabloLogo {
+      align-self: flex-start;
+      img {
+        width: 150px;
+      }
+    }
+  }
+
+  .TutorEducationContainer {
+    display: flex;
+    padding: 3em 0 0 0;
+    .TutorEducationDoddle {
+      flex: 1;
+      text-align: center;
+      padding: 3em 0;
+      justify-content: center;
+      align-self: center;
+      img {
+        width: 200px;
+      }
+    }
+    .TutorEducationFormContainer {
+      .TutorEducationHeader {
+        padding: 1em 0;
+        h1 {
+          position: static;
+          text-align: left !important;
+          clear: both;
+          letter-spacing: 0ch;
+          line-height: 1;
+          font-family: 'Barlow Condensed';
+          font-size: 40px !important;
+          font-weight: 600;
+          text-transform: uppercase;
+          color: #010244;
+          font-style: italic;
+        }
+        p {
+          line-height: 2;
+          font-weight: 600;
+          font-size: 1.1em;
+        }
+      }
+      flex: 2;
+      padding: 1em 0 0 3em;
+    }
+    form {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 50px;
+      .inputbox {
+        .TutoJobRoleCheckBox {
+          width: 100%;
+          select {
+            width: 100%;
+            padding: 10px 10px 10px 10px;
+            border-radius: 5px;
+            background-color:white;
+            border: 1px solid ;
+          }
+        }
+        .uploadMarksheet{
+          font-family: "poppins";
+          border: 2px dashed rgba(0, 0, 0, 0.5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 150px;
+          border-radius: 12px;
+          border-spacing: 15px;
+
+          .marksheetText{
+            padding: 5px 10px;
+            background-color: #A8B2FB;
+            border-radius: 22px;
+            color: white;
+            cursor: pointer;
+          }
+        }
+
+      }
+
+      .radiobutton {
+        label {
+          font-weight: normal;
+          margin-left: 1em;
+        }
+      }
+
+      .hasValidation {
+        position: relative;
+        width: max-content;
+
+        &::before,
+        &::after {
+          position: absolute;
+          z-index: 1;
+          margin-left: 16px;
+          background-color: coral;
+        }
+
+        &::after {
+          width: max-content;
+          border-radius: 8px;
+          content: attr(data-content);
+          padding: 4px;
+          left: 100%;
+          color: white;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          top: -30%;
+        }
+
+        // &::before {
+        //   content: '';
+        //   width: 20px;
+        //   height: 20px;
+        //   left: 96%;
+        //   transform: rotate(45deg);
+        // }
+      }
+
+      .hasError {
+        border: 1px solid red;
+      }
+
+      .StudentRequirement {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        gap: 50px;
+
+        input{
+          border: 1px solid;
+        }
+
+        #extraSkills {
+          // background-color: red;
+          input {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid;
+            // background-color: #f5f3f3;
+          }
+        }
+      }
+
+      .Stage1radiobox-hr {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 0px;
+        // background-color: red;
+        flex-wrap: wrap;
+
+        input {
+          border: 1px solid;
+          padding: 10px 30px;
+          border-radius: 5px;
+          
+          cursor: pointer;
+          margin: 5px 0px;
+          font-size: 17px;
+        }
+
+        .radiobutton{
+         
+          #yes{
+            display: none;
+          }
+          #no{
+            display: none;
+          }
+          .yesLabel{
+          padding: 10px 30px;
+          border-radius: 22px;
+          border: 1px solid;
+          color:  #363F85;
+          cursor: pointer;
+          }
+          .noLabel{
+         border: 1px solid;
+         color:  #363F85;
+         padding: 10px 30px;
+         cursor: pointer;
+         border-radius: 22px;
+          }
+        }
+        // input:focus {
+        //   border: 2px solid blue;
+        //   background-color: rgb(185, 185, 243);
+        //   // color: white;
+        // }
+      }
+
+      .JoinUsButton {
+
+width: 100%;
+        justify-content: flex-end;
+        display: flex;
+        .btn1 {
+          border-radius: 8px;
+          border: none;
+          cursor: pointer;
+          color: #ffffff;
+          font-family: $Comfortaa;
+          font-size: 20px;
+          font-weight: bold;
+          padding: 13px 32px;
+          text-decoration: none;
+          background: #6764FF;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .TutorEducationContainer {
+    flex-direction: column;
+  }
+}

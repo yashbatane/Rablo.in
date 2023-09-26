@@ -1,0 +1,142 @@
+.SidebarContainer {
+  width: auto;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: fixed;
+  overflow-x: hidden;
+}
+.SidebarContainer .profileSubelements {
+  left: 15%;
+}
+.SidebarContainer .logo {
+  font-size: 30px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+.SidebarContainer .logo img {
+  height: 30px;
+}
+.SidebarContainer .menu,
+.SidebarContainer .social,
+.SidebarContainer .general {
+  padding-left: 2em;
+  padding-right: 4.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -8px;
+  margin-bottom: 6px;
+}
+.SidebarContainer .menu > p,
+.SidebarContainer .social > p,
+.SidebarContainer .general > p {
+  color: gray;
+}
+.SidebarContainer .menu .menuItem,
+.SidebarContainer .social .menuItem,
+.SidebarContainer .general .menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  position: relative;
+  cursor: pointer;
+  height: 23px;
+}
+.SidebarContainer .menu .menuItem img,
+.SidebarContainer .social .menuItem img,
+.SidebarContainer .general .menuItem img {
+  width: 20px;
+  height: 20px;
+}
+.SidebarContainer .menu .menuItem:hover,
+.SidebarContainer .social .menuItem:hover,
+.SidebarContainer .general .menuItem:hover {
+  color: blueviolet;
+}
+.SidebarContainer .menu .menuItem.selected,
+.SidebarContainer .social .menuItem.selected,
+.SidebarContainer .general .menuItem.selected {
+  color: blueviolet;
+  font-weight: bold;
+}
+.SidebarContainer .menu .menuItem.selected::after,
+.SidebarContainer .social .menuItem.selected::after,
+.SidebarContainer .general .menuItem.selected::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 90%;
+  background-color: blueviolet;
+  left: -1.75em;
+  border-radius: 0 10px 10px 0;
+}
+.SidebarContainer .sectionHeading {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.SidebarContainer .referral {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0px;
+  margin-left: 10;
+  align-items: center;
+  left: 0;
+}
+.SidebarContainer .referral img {
+  width: 50px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  scale: 1.1;
+}
+.SidebarContainer .referral p {
+  color: gray;
+}
+.SidebarContainer .referral button {
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0.5em 0;
+}
+.SidebarContainer .referral button:hover {
+  scale: 1.02;
+}
+
+@media screen and (max-width: 900px) {
+  .SidebarContainer {
+    min-height: 100vh;
+  }
+  .SidebarContainer .logo {
+    margin-bottom: 8px;
+    margin-left: 1em;
+  }
+  .SidebarContainer .menu,
+  .SidebarContainer .social,
+  .SidebarContainer .general {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .SidebarContainer .referral {
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+  }
+  .SidebarContainer .referral img {
+    width: 100px;
+  }
+}/*# sourceMappingURL=tutDashboardSidebar.css.map */

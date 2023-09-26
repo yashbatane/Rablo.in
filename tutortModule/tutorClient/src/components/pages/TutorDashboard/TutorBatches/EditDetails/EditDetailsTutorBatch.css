@@ -1,0 +1,154 @@
+.editDetailsContainer {
+  position: absolute;
+  width: 699px;
+  height: 465px;
+  left: 27vw;
+  top: 20vh;
+  background: #ffffff;
+  border-radius: 13.5126px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+.editDetailsContainer input[type=time]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+.editDetailsContainer button {
+  cursor: pointer;
+}
+.editDetailsContainer .headingContainer-editDetails .editDet-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.0253px;
+  line-height: 150%;
+  /* identical to box height, or 41px */
+  color: rgba(0, 0, 0, 0.75);
+}
+.editDetailsContainer .headingContainer-editDetails .lastEdit-editDet {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.8639px;
+  line-height: 150%;
+  /* or 22px */
+  color: rgba(0, 0, 0, 0.53);
+}
+.editDetailsContainer .infoContainer-editDetails {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.editDetailsContainer .infoContainer-editDetails p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.8639px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.53);
+}
+.editDetailsContainer .batchName-editDetails {
+  position: relative;
+}
+.editDetailsContainer .batchName-editDetails input {
+  width: 231.07px;
+  height: 43.25px;
+  background: #ffffff;
+  border: 0.988519px solid #6764ff;
+  border-radius: 4.94259px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2152px;
+  line-height: 150%;
+  /* or 24px */
+  color: #000000;
+  padding-left: 0.5rem;
+}
+.editDetailsContainer .batchName-editDetails i {
+  position: absolute;
+  right: 6.5rem;
+  top: 2rem;
+}
+.editDetailsContainer .timingsContainer-editDet .timingWrapper-editDet {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+.editDetailsContainer .timingsContainer-editDet .timingWrapper-editDet label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.8101px;
+  line-height: 150%;
+  /* or 16px */
+  color: #6764ff;
+}
+.editDetailsContainer .timingsContainer-editDet .timingWrapper-editDet input {
+  width: 120.26px;
+  height: 43.24px;
+  background: #ffffff;
+  border: 0.988519px solid #6764ff;
+  border-radius: 4.94259px;
+}
+.editDetailsContainer .timingsContainer-editDet .timingWrapper-editDet i {
+  position: absolute;
+  right: 1.3rem;
+  top: 1.75rem;
+}
+.editDetailsContainer .timingsContainer-editDet .start-timing-editDet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.editDetailsContainer .timingsContainer-editDet .end-timing-editDet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.editDetailsContainer .buttonContainer-editDetails {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.editDetailsContainer .buttonContainer-editDetails button {
+  border-radius: 31.41px;
+  width: 101px;
+  height: 44px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.5664px;
+  line-height: 150%;
+}
+.editDetailsContainer .scheduleContainer-editDetials button {
+  margin: 0.3rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.5126px;
+  padding: 7.98354px 13.4051px;
+  border-radius: 25.674px;
+}
+.editDetailsContainer .selected-editDetails {
+  background: #6764ff;
+  color: #ffffff;
+  border: 1px solid #6764ff;
+}
+.editDetailsContainer .unselected-editDetails {
+  background: #ffffff;
+  color: #6764ff;
+  border: 1px solid #6764ff;
+}
+.editDetailsContainer .subjectsContainer-editDetials button {
+  box-sizing: border-box;
+  padding: 8.08023px 11.5432px;
+  border-radius: 28.5524px;
+  margin: 0.3rem;
+}/*# sourceMappingURL=EditDetailsTutorBatch.css.map */

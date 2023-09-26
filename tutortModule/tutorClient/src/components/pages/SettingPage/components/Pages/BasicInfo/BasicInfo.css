@@ -1,0 +1,187 @@
+.main-container-basic-info {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1.5rem 3rem 1rem 3rem;
+  width: 60vw;
+}
+.main-container-basic-info button {
+  width: 15vw;
+  height: 5vh;
+  border: 0px;
+  background: #6764ff;
+  border-radius: 37px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.main-container-basic-info h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 24px;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+}
+.main-container-basic-info #uploadImage {
+  height: 20vh;
+  width: 40vw;
+  opacity: 0.5;
+  border: 3px dashed rgba(0, 0, 0, 0.5);
+  border-radius: 13px;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rem;
+}
+.main-container-basic-info #uploadImage p {
+  font-weight: 500;
+  font-size: 20px;
+}
+.main-container-basic-info #uploadImage input {
+  display: none;
+}
+.main-container-basic-info #uploadImage:hover {
+  cursor: pointer;
+}
+.main-container-basic-info .labelling {
+  display: flex;
+}
+.main-container-basic-info .labelling div {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.main-container-basic-info .labelling #email {
+  color: rgba(74, 55, 148, 0.8);
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 8rem;
+  margin-right: 0.2rem;
+}
+.main-container-basic-info .labelling #mobile {
+  color: rgba(74, 55, 148, 0.8);
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 8rem;
+  margin-right: 0.2rem;
+}
+.main-container-basic-info .labelling #wp-label {
+  color: rgba(74, 55, 148, 0.8);
+  font-weight: bold;
+  font-size: 16px;
+}
+.main-container-basic-info .input-email-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-container-basic-info .input-email-number input {
+  flex: 1;
+  border: none;
+  padding: 0.6rem;
+  background: rgba(217, 217, 217, 0.2);
+  font-size: 16px;
+}
+.main-container-basic-info .input-email-number button {
+  background: #6764ff;
+  border: 1px solid #6764ff;
+  border-radius: 6px;
+  color: white;
+  padding: 0.4rem;
+  font-size: 15px;
+  height: 4vh;
+  width: 5vw;
+  margin: 0.4rem;
+}
+.main-container-basic-info .input-email-number #input-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6vh;
+  width: 40vw;
+  background: rgba(217, 217, 217, 0.2);
+  border: 1px solid #6764ff;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-left: 8rem;
+}
+.main-container-basic-info .input-email-number #number-field {
+  display: flex;
+  flex-direction: row;
+}
+.main-container-basic-info .input-email-number #number-field #input-number {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 6vh;
+}
+.main-container-basic-info .input-email-number #number-field #input-number #input-mob {
+  margin-left: 8rem;
+  display: flex;
+  border-radius: 4px;
+  justify-content: space-between;
+  background: white;
+  border: 1px solid #6764ff;
+  width: 20vw;
+}
+.main-container-basic-info .input-email-number #number-field #input-number #input-mob input {
+  background: white;
+  border: none;
+}
+.main-container-basic-info .input-email-number #number-field #input-whatn {
+  border-radius: 4px;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #6764ff;
+  width: 20vw;
+  height: 6vh;
+}
+.main-container-basic-info .input-email-number #number-field #input-whatn input {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#curr-add {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#mapping input {
+  border: none;
+}
+#mapping #getInput {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4vh;
+  background: #ffffff;
+  border: 1px solid #6764ff;
+  border-radius: 4px;
+}
+
+#update-btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4vh;
+  margin-right: 5rem;
+  justify-content: space-between;
+}
+#update-btn button {
+  background: #6764ff;
+  width: 297.19px;
+  height: 63px;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  font-size: 20px;
+  border: none;
+}
+#update-btn button:first-child {
+  background: none;
+  color: #6764ff;
+}/*# sourceMappingURL=BasicInfo.css.map */

@@ -1,0 +1,172 @@
+.HEAD {
+    font-family: "Poppins";
+    font-size: 0.838rem;
+    font-weight: 600;
+    line-height: 1.338rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00000099;
+    margin: 0 0 0.75rem 0;
+    
+}
+.milestonecard {
+    
+    padding: 1.21rem;
+    background: #ffffff;
+    box-shadow: 0px 3.15px 13.65px 1.05px rgba(164, 162, 255, 0.59);
+    border-radius: 10.5px;
+    margin: .9rem 1.41vw .9rem 1.41vw;
+    width: 34.48vw;
+    .card-top {
+        display: grid;
+        grid-template-areas: "a a";
+        overflow: hidden;
+
+        .card-top-left {
+
+            .top-left-one {
+                margin: 0 0 0.938rem 0;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 0.78vw;
+                line-height: 1.275rem;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                width: fit-content;
+                padding: 0.088rem 0.838rem 0.088rem 0.838rem;
+                border-radius: 5px;
+            }
+            .top-left-two {
+                display: flex;
+                align-items: center;
+                gap: 1.04vw;
+                div {
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1.30vw;
+                    line-height: 150%;
+                    
+                }
+            }
+        }
+        .card-top-right {
+            text-align: right;
+            font-family: "Poppins";
+            
+            font-weight: 600;
+            font-size: 0.9vw;
+            div {
+                button {
+                    display: inline-block;
+                    padding: 0.27vh 1.04vw;
+                    background: #6764ff;
+                    border: none;
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 1.04vw;
+                    color: #ffffff;
+                    border-radius: 6.20948px;
+                    img {
+                        vertical-align: middle;
+                        margin-left: 0.243rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .card-end {
+        display: flex;
+        .card-end-left {
+            padding: 0 1.56vw 0 0;
+            width: fit-content;
+            border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+            .end-left-heading {
+                @extend .HEAD;
+                font-size: 0.78vw;
+
+                
+            }
+            .end-left-body {
+                font-family: "Poppins";
+                font-size: 0.78vw;
+                font-weight: 400;
+                text-align: left;
+                width: 13.44vw;
+            }
+        }
+        .card-end-right {
+            display: flex;
+            justify-content: space-between;
+            
+            align-items: center;
+            width: 100%;
+            
+            margin-left: 0.8vw;
+            .end-right-one {
+                .right-one-heading {
+                    @extend .HEAD;
+                    font-size: 0.78vw;
+                }
+                
+                .right-one-value {
+                    display: flex;
+                    .one-value-left {
+                        display: flex;
+                        div {
+                            margin: 0 .486rem 0 0;
+                            width: 1.30vw;
+                            aspect-ratio: 1;
+                          
+                            
+                            border-radius: 100%;
+                            border: 3px solid #ffffff;
+                            box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.25);
+                        }
+                    }
+                    .one-value-right {
+                        
+                        color: #6764FF;
+                        font-weight: 700;
+                        font-size:0.96vw;
+                    }
+                }
+            }
+            .end-right-two {
+                position: "absolute";
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                width: max-content;
+                
+
+                button {
+                    
+                    float: right;
+                    display: flex;
+                    align-items: center;
+                    padding: 0.96vh 1.27vw;
+                    font-family: "Poppins";
+                    font-weight: 900;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    border-radius: 32.4211px;
+                    font-size: 0.95vw;
+                    color: #f8f8f8;
+                    border: none;
+                    background: #6764ffcc;
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.gender {
+  display: flex;
+  background: #fff;
+}
+.gender .gender-gen {
+  display: flex;
+}
+.gender .gender-gen .gender-gen-btn {
+  display: flex;
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 0.769px solid #6764ff;
+  background: #fff;
+  color: rgba(74, 55, 148, 0.8);
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.gender .gender-gen .gender-gen-btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gender .gender-ngen .gender-gen-btn {
+  display: flex;
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 0.769px solid #6764ff;
+  background: #fff;
+  color: rgba(74, 55, 148, 0.8);
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.gender .gender-ngen .gender-gen-btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gender .gender-ngen .gender-gen-btn .other-genip {
+  border-radius: 10px;
+  border: 0.2px solid #6764ff;
+  background: rgba(248, 248, 248, 0.5);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: black;
+  font-size: 0.77rem;
+  font-weight: 400;
+  letter-spacing: 4.96px;
+  text-align: center;
+  height: 1.925rem;
+  width: 10rem;
+}/*# sourceMappingURL=Gender.css.map */

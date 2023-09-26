@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-cotainer-with-sidebar {
+  display: flex;
+}
+#main-cotainer-with-sidebar #content .below-banner-container #edit-profile-heading {
+  margin-left: 3rem;
+  margin-top: 0.75rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem 1rem 0 2rem;
+  flex: 1;
+  width: 62.7vw;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  gap: 3rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .headerContainer .searchContainer {
+  display: flex;
+  gap: 0.5rem;
+  background-color: rgb(226, 226, 226);
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .headerContainer .searchContainer input {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  height: 25px;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer {
+  height: calc(100% - 50px - 1rem);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tabsContainer {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid #d9d9d9;
+  gap: 1rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tabsContainer .tab {
+  width: fit-content;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  margin-bottom: -3px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tabsContainer .activeTab {
+  background: transparent;
+  font-weight: bold;
+  color: #6764ff;
+  border-bottom: 4px solid #6764ff;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer::-webkit-scrollbar {
+  background-color: white;
+  width: 0.5rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer::-webkit-scrollbar-thumb {
+  background-color: #e2e2e2;
+  border-radius: 1rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer {
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+  position: relative;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table .circle {
+  height: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: cyan;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table tbody tr:nth-child(odd) {
+  background-color: #fbfbfb;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table tbody tr.activeStudent {
+  background-color: #a8b8ff;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table tr {
+  text-align: left;
+  font-size: 0.8rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table td,
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table th {
+  padding: 0.5rem;
+}
+#main-cotainer-with-sidebar #content .below-banner-container main .dataContainer .tableContainer table td.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}/*# sourceMappingURL=Profile.css.map */

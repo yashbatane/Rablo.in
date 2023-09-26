@@ -1,0 +1,94 @@
+.proposalMaincontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+.proposalMaincontainer .proposalSearchContainer select {
+  background: #ffffff;
+  border: 1.19554px solid #3c5aac;
+  border-radius: 4.78218px;
+  font-size: 15px;
+  padding: 5px;
+  width: 110px;
+}
+.proposalMaincontainer .proposalTableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.proposalMaincontainer .proposalTableContainer table thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr:nth-child(odd) {
+  background-color: #fbfbfb;
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr {
+  margin-left: 10px;
+  box-shadow: 0px 4px 4px rgba(103, 100, 255, 0.11);
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr td .action {
+  background-color: #6764ff;
+  color: #ffffff;
+  border: 0;
+  width: 80px;
+  border-radius: 5px;
+  height: 40px;
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr td .action:hover {
+  color: #6764ff;
+  border: 2px solid #6764ff;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr .charge {
+  color: #6764ff;
+  font-weight: 600;
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr .charge svg {
+  color: #6764ff;
+}
+.proposalMaincontainer .proposalTableContainer table tbody tr .plan {
+  color: rgba(248, 32, 131, 0.8);
+}
+.proposalMaincontainer .proposalTableContainer table th {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 20px */
+  color: rgba(0, 0, 0, 0.6);
+}
+.proposalMaincontainer .proposalTableContainer .studentName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  color: #000000;
+}
+.proposalMaincontainer .proposalTableContainer .studentStatus {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  color: #6764ff;
+}
+.proposalMaincontainer .proposalTableContainer .studentSent {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  color: rgba(0, 0, 0, 0.5);
+}
+.proposalMaincontainer .proposalTableContainer .studentViewDetails a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #6764ff;
+  cursor: pointer;
+}/*# sourceMappingURL=ProposalStudentsTable.css.map */

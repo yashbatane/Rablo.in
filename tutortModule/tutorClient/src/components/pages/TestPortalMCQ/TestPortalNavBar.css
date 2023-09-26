@@ -1,0 +1,150 @@
+.allContainer {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em 0em 0em 0em;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.allContainer .SelectNavbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 0.5em;
+  position: relative;
+  margin: auto;
+}
+.allContainer .SelectNavbar h4 {
+  font-size: 1.6em;
+  font-weight: 200;
+}
+.allContainer .SelectNavbar .instruction {
+  border: 1px solid #803caf;
+  right: 2em;
+  padding: 0.5em;
+  margin: 0.6em;
+  color: #803caf;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+.allContainer .box {
+  transform: translate(0%, 50%);
+  position: absolute;
+  width: 50%;
+  height: 75%;
+  border: 3px solid #803caf;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.allContainer .box .headerDiv {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -45px;
+}
+.allContainer .box .iconDiv {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.allContainer .box .icon {
+  display: inline;
+  grid-column: 1;
+  width: 5em;
+  height: 5em;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin: 1.5em;
+}
+.allContainer .box .heading {
+  display: inline;
+  grid-column: 2;
+  font-size: 2em;
+  margin: 2em 1em 2em 0em;
+  text-align: center;
+  color: black;
+  padding: 0;
+}
+.allContainer .box .cross {
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: -6em;
+  cursor: pointer;
+  z-index: 100;
+}
+.allContainer .box .points {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  text-align: left;
+}
+.allContainer .box .points .pointsInnerDiv {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+.allContainer .box .points .pointsToRemember {
+  margin: 0.2em;
+  font-size: 1.4em;
+  font-weight: 100;
+  align-content: left;
+}
+.allContainer .box .checkDiv {
+  width: 35%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.allContainer .box .checkDiv p {
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 17px;
+}
+.allContainer .box .proctoringImages {
+  display: flex;
+  flex-grow: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.allContainer .box .proctoringImages .images {
+  width: 5em;
+  height: 5em;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+@media screen and (max-width: 700px) {
+  .allContainer .box {
+    transform: translate(5%, -20%);
+    position: fixed;
+    width: 50%;
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+  .allContainer .box .headerDiv {
+    margin-top: -15px;
+  }
+  .allContainer .box .checkDiv {
+    width: 70%;
+  }
+  .allContainer .SelectNavbar {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=TestPortalNavBar.css.map */

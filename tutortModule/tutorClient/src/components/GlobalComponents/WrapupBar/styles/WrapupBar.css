@@ -1,0 +1,26 @@
+.wrapupbar {
+  padding: 1.6rem 1.44rem;
+  background: #ffffff;
+  border-radius: 10px;
+  width: auto;
+}
+.wrapupbar .wrapupbar-head {
+  display: flex;
+  width: 14.875rem;
+  height: 2.875rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.wrapupbar .wrapupbar-body {
+  display: flex;
+  margin-top: 1rem;
+}/*# sourceMappingURL=WrapupBar.css.map */

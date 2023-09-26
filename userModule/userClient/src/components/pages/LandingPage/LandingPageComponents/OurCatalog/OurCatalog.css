@@ -1,0 +1,93 @@
+.catalogcontainer {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 3em;
+}
+
+.catalogcontainer .heading {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #54595f;
+  text-align: center;
+}
+.catalogcontainer .desc {
+  margin-top: 20px;
+  width: 90%;
+  line-height: 27px;
+  text-align: center;
+  color: #515151;
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.catalogcontainer hr {
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 90%;
+  height: 0.1px;
+  margin-bottom: 40px;
+}
+.data {
+  width: 80%;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* border: solid 2px black; */
+}
+.data .category {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.data .category .numbers {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: center; */
+  /* align-items: center; */
+}
+.data .category .numbers h1 {
+  color: #7a7a7a;
+  font-family: "Nunito", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+}
+
+.data .category .text {
+  color: rgb(118, 12, 184);
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 900px) {
+  .data {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .data .category .text {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .data .category .numbers {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .catalogcontainer {
+    width: 100%;
+  }
+}

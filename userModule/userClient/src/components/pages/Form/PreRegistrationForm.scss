@@ -1,0 +1,126 @@
+
+.PreRegistrationFormContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #5F7BFF, #A5B4FF);
+  }
+  .PreRegistrationFormContainer .PreRegistrationFormWrapper {
+    width: 91vw;
+    background-color: white;
+    text-align: center;
+    border-radius: 0.7rem;
+    padding: 2rem 2.5rem;
+    padding-bottom: 1rem;
+    margin: 20px 0px;
+  }
+  @media (max-width: 1024px) {
+    .PreRegistrationFormContainer .PreRegistrationFormWrapper {
+      width: 95vw;
+      padding: 2rem 0.2rem;
+    }
+  }
+  
+  .button {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .button .buttonWrapper {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  @media (max-width: 1024px) {
+    .button .buttonWrapper {
+      width: 95%;
+    }
+  }
+  @media (max-width: 768px) {
+    .button .buttonWrapper {
+      width: 99%;
+    }
+  }
+  .button .buttonWrapper button {
+    padding: 0.55rem 2.3rem;
+    border-radius: 0.5rem;
+    background-color: #4D3699;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 3px solid #4d3699;
+    cursor: pointer;
+  }
+  .button .buttonWrapper button:hover {
+    color: #4d3699;
+    background-color: white;
+  }
+  .button .buttonWrapper button:first-child {
+    margin-left: 0.3rem;
+    background-color: white;
+    color: #4d3699;
+  }
+  .button .buttonWrapper button:first-child:hover{
+    background-color: #4d3699;
+    color: white;
+  }
+  .button .buttonWrapper button:last-child {
+    margin-right: 0.3rem;
+  }
+  
+  .congratulation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .congratulation .congratulationWrapper{
+    width: 74%;
+    padding: 1rem;
+    border: 1px solid gray;
+    font-weight: 700;
+    box-shadow: 0px 0px 4px .1px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-bottom: 2.2rem;
+    border-radius: 2px;
+  }
+  @media (max-width: 1024px) {
+    .congratulation .congratulationWrapper {
+      width: 95%;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 768px) {
+    .congratulation .congratulationWrapper {
+      width: 99%;
+    }
+  }
+  .congratulation .congratulationWrapper h1{
+    text-align: center;
+    color: #5E42BB;
+    font-size: 2.5rem;
+  
+  }
+  @media (max-width: 768px) {
+    .congratulation .congratulationWrapper h1{
+     
+    font-size: 2.2rem;
+    }
+  }
+  
+  .congratulation .congratulationWrapper h4{
+    color: #54595F;
+    font-size: 1.125rem;
+  
+  }
+  /*# sourceMappingURL=PreRegistrationForm.css.map */

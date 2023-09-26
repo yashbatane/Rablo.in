@@ -1,0 +1,76 @@
+.NearMeTabContainer {
+  margin: 2rem;
+  height: 80%;
+  // border-style: solid;
+
+  .NearMe-map-container {
+    position: relative;
+    display: flex;
+    // border-style: solid;
+    height: 100%;
+    // border-radius: 15px;
+  }
+
+  .nearMeTab-button-container {
+    display: flex;
+    gap: 1rem;
+    // justify-content: flex-end;
+    margin-right: 5%;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .button-unselected {
+    background-color: white;
+    color: #D04E62;
+    border-radius: 1rem;
+    width: 3.5rem;
+    height: 1.8rem;
+    border-color: #D04E62;
+    cursor: pointer;
+  }
+
+  .button-selected {
+    background-color: #D04E62;
+    color: white;
+    border-radius: 1rem;
+    width: 3.5rem;
+    height: 1.8rem;
+    border-color: #D04E62;
+    cursor: pointer;
+  }
+
+  .InfoWindowContainer {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 13rem;
+    // gap: 1rem;
+
+    img {
+      height: 60px;
+      width: auto;
+      border-radius: 100%;
+    }
+    .infowindowTextContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+
+  .infowindowName {
+    // align-items: center;
+    width: auto;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #D04E62;
+  }
+
+  .infowindowDistance {
+    font-size: 10px;
+  }
+}

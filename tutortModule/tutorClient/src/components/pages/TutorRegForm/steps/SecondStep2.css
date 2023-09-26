@@ -1,0 +1,309 @@
+.HeadingContainer {
+  margin-bottom: 10px;
+  padding: 2% 8% 0 18%;
+}
+.HeadingContainer h1 {
+  font-weight: 600;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0px;
+}
+.HeadingContainer p {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.form-container {
+  height: 34rem;
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.9rem;
+  background-color: #ffffff;
+}
+.form-container .progress {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  width: 140%;
+}
+.form-container .progress .line {
+  flex: 1;
+  width: 0.2rem;
+  background-color: rgba(153, 153, 153, 0.41);
+  border-radius: 0.3rem;
+}
+.form-container .progress .line .line-completed {
+  margin-top: -0.3rem;
+  padding: 0;
+  border-radius: 0.3rem;
+  position: relative;
+  max-height: 94%;
+  width: 100%;
+  height: 65%;
+  background-color: rgba(103, 100, 255, 0.8);
+}
+.form-container .progress .line .progress-indication {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  background-color: #0000ff;
+  padding: 0.4rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section {
+  padding-left: 8%;
+  padding-right: 8%;
+  background: #ffffff;
+}
+.form-section .top-section {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  color: #919191;
+  font-weight: 450;
+}
+.form-section .top-section span {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  color: #6764ff;
+}
+.form-section .personalDetailContainer {
+  width: 190rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-family: "Poppins";
+  width: 85%;
+  margin: auto;
+  margin-top: 0%;
+}
+.form-section .personalDetailContainer .errorBox {
+  color: red;
+}
+.form-section .personalDetailContainer .headingLabel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+  color: rgba(74, 55, 148, 0.8);
+  margin-bottom: 3px;
+  margin-top: 6px;
+}
+.form-section .personalDetailContainer form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 90%;
+}
+.form-section .personalDetailContainer form .maindiv {
+  display: flex;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox {
+  margin-right: 5%;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox input {
+  background: #ffffff;
+  border: 1px solid #6764ff;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  height: 45px;
+  padding-left: 5%;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox input ::placeholder {
+  font-size: 16px;
+  padding-left: 15%;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox select {
+  background: #ffffff;
+  border: 1px solid #6764ff;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox select option[disabled]:first-child {
+  text-transform: capitalize;
+  color: #999999;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox select option {
+  text-transform: capitalize;
+  color: #999999;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox .radioButtonDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.form-section .personalDetailContainer form .maindiv .inputbox .radioButtonDiv .radiobutton label {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 0.768708px solid #6764ff;
+  border-radius: 10px;
+  color: #363f85;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10% 0 15% 0;
+  height: 45px;
+  width: 90px;
+}
+.form-section .personalDetailContainer form .buttonContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+.form-section .personalDetailContainer form .buttonContainer .submitButton {
+  padding: 10px 75px;
+  background: #6764ff;
+  border: 1px solid #4f62f5;
+  border-radius: 10px;
+  justify-self: center;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+.form-section .personalDetailContainer form .hasValidation {
+  position: relative;
+  width: max-content;
+}
+.form-section .personalDetailContainer form .hasValidation::before, .form-section .personalDetailContainer form .hasValidation::after {
+  position: absolute;
+  z-index: 1;
+  margin-left: 16px;
+  background-color: coral;
+}
+.form-section .personalDetailContainer form .hasValidation::after {
+  width: max-content;
+  border-radius: 8px;
+  content: attr(data-content);
+  padding: 4px;
+  left: 100%;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: -30%;
+}
+.form-section .personalDetailContainer form .hasError {
+  border: 1px solid red;
+}
+
+.sidebar {
+  width: 100%;
+  height: 100vh;
+}
+.sidebar .sidebar-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar .sidebar-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6764ff;
+  opacity: 0.5;
+  z-index: 1;
+}
+.sidebar .sidebar-container img {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.sidebar .sidebar-container .arrow-logo-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sidebar .sidebar-container .arrow-logo-wrapper .arrow-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: #ffffff;
+  cursor: pointer;
+}
+.sidebar .sidebar-container .arrow-logo-wrapper .rablo-logo img {
+  position: relative;
+  width: 10rem;
+  height: auto;
+}
+.sidebar .sidebar-container .logout-btn {
+  position: relative;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 1rem;
+  padding: 0.6rem;
+  color: #1d35fb;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sidebar .sidebar-container .logout-btn .logout-icon {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon input {
+  padding-right: 30px; /* Add padding to the right of the input to accommodate the icon */
+}
+
+.inputWithIcon .calendarIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=SecondStep2.css.map */

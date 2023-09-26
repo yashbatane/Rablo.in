@@ -1,0 +1,137 @@
+.AboutUsMeetFoundersHeadContainer {
+  background-color: #A1B1FF;
+  width: 100vw;
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer {
+  background-color: #A1B1FF;
+  width: 80vw;
+  margin-top: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .heading1 {
+  text-align: center;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .heading1 span {
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0.3px;
+  color: #bac5fd;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .heading2 {
+  text-align: center;
+  margin: 15px 0px;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .heading2 h3 {
+  text-align: center;
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #5370ff;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card {
+  background-color: transparent;
+  width: 300px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .image {
+  width: 250px;
+  height: 250px;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .image img {
+  width: 250px;
+  border-radius: 50%;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .title {
+  font-family: "Poppins", Sans-serif;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: #4d3798;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .title .surname {
+  color: white;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .qualification {
+  margin-top: 10px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .description {
+  text-align: center;
+  margin: 5px 0.9rem;
+  font-family: "Poppins", Sans-serif;
+  color: white;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .post {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .connectLinks {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .connectLinks span {
+  width: 2.7em;
+  border-radius: 50%;
+  height: 2.7em;
+  margin: 20px 5px;
+  background-color: #5e42bb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsMeetFoundersHeadContainer .AboutUsMeetFoundersContainer .cardContainer .card .connectLinks span i {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.custom-shape-divider-bottom-1676468869 {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1676468869 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 160px;
+}
+
+.custom-shape-divider-bottom-1676468869 .shape-fill {
+  fill: #A1B1FF;
+}/*# sourceMappingURL=AboutUsMeetFounders.css.map */

@@ -1,0 +1,35 @@
+.demoDates {
+    height: 45px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+
+    .dates {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .date{
+            color: black;
+            height: 22px;
+            width: 19px;
+            text-align: center;
+        }
+    }
+    .numbers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .num {
+            height: 22px;
+            color:  #00000040;
+            width: 19px;
+            text-align: center;
+        }
+        .mark {
+            background-color: #6764FF;
+            border-radius: 2px;
+            color: white;
+        }
+    }
+}

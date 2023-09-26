@@ -1,0 +1,193 @@
+.contentContainer {
+  display: block;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10000;
+}
+.contentContainer .box {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 75%;
+  text-align: center;
+  border: 2px solid #803caf;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  z-index: 100;
+}
+.contentContainer .box .summaryHeader {
+  display: flex;
+  height: 28%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  border-bottom-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+  border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(to right, #9a4fb6 14%, #6b00cc 100%);
+  margin-bottom: 2em;
+}
+.contentContainer .box .summaryHeader .logo {
+  width: 4em;
+  height: 4em;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 1em;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+.contentContainer .box .summaryHeader .headingDiv {
+  margin: auto;
+}
+.contentContainer .box .summaryHeader .heading {
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  padding: 0;
+}
+.contentContainer .box .summaryBody {
+  width: 70%;
+  padding: 1em;
+  height: 25%;
+  border-radius: 0;
+  background-color: #f3ebf7;
+  margin: auto;
+}
+.contentContainer .box .summaryBody .attemptedQuestions {
+  padding: 8px;
+  background-color: white;
+  color: #803caf;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 1em auto;
+  font-size: 1em;
+  width: 53%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  box-shadow: 0px 0px 2px 0.1px #803caf;
+}
+.contentContainer .box .buttonsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: -1.5em;
+  text-align: center;
+}
+.contentContainer .box .buttonsContainer .submitButton {
+  background-color: #803caf;
+  width: 17em;
+  padding: 0.8em;
+  color: white;
+  border: 1px solid #803caf;
+  border-radius: 25px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+.contentContainer .box .buttonsContainer .submitButton p {
+  font-size: 1.7em;
+}
+.contentContainer .box .buttonsContainer .submitButton i {
+  color: white;
+}
+.contentContainer .box .buttonsContainer .submitButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #803caf;
+}
+.contentContainer .box .buttonsContainer .submitButton:hover i {
+  color: #803caf;
+}
+.contentContainer .box .buttonsContainer .prevButton {
+  background-color: #b984fc;
+  width: 17em;
+  padding: 0.8em;
+  color: white;
+  border: 1px solid #803caf;
+  border-radius: 25px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-right: 1.5em;
+}
+.contentContainer .box .buttonsContainer .prevButton p {
+  font-size: 1.7em;
+}
+.contentContainer .box .buttonsContainer .prevButton i {
+  color: white;
+}
+.contentContainer .box .buttonsContainer .prevButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #803caf;
+}
+.contentContainer .box .buttonsContainer .prevButton:hover i {
+  color: #803caf;
+}
+.contentContainer .box .paragraph {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-family: arial;
+}
+.contentContainer .box .paragraph h2 {
+  margin: auto;
+  font-weight: 300;
+}
+.contentContainer .box .paragraph .images {
+  width: 7em;
+  height: 7em;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+@media screen and (max-width: 700px) {
+  .contentContainer .box {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .contentContainer .box .summaryHeader {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .contentContainer .box .summaryHeader .heading {
+    width: 100%;
+    font-size: 1.5em;
+    margin: auto;
+  }
+  .contentContainer .box .summaryHeader .logo {
+    margin: 1em;
+  }
+  .contentContainer .box .buttonsContainer {
+    margin-top: 20px;
+    margin-top: 2em;
+  }
+  .contentContainer .box .paragraph {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .contentContainer .box .paragraph .images {
+    width: 5em;
+    height: 5em;
+  }
+}

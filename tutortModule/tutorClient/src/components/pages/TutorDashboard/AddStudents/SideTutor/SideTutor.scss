@@ -1,0 +1,62 @@
+.wrapper {
+  padding: 1rem 0.95rem;
+  height: 100vh;
+  width: 22rem;
+  // background: rgba(47, 154, 200, 0.7);
+  background: transparent;
+  border: 1px solid;
+  .sideContainer {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 30px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    border-left: 1px solid rgba(106, 106, 106, 0.58);
+
+    .profileImageContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      .profileImg {
+        height: 120px;
+        padding-bottom: 0.6rem;
+      }
+      // .profileImage {
+      //   height: 30px;
+      // }
+      p {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.7);
+        font-family: "Poppins";
+        margin: 0;
+      }
+    }
+  }
+
+  .tutorInfoList li {
+    color: rgba(0, 0, 0, 0.58);
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+  .tutorName {
+    padding: 1.4rem;
+  }
+  .tutorName h2 {
+    color: #6764ff;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 150%;
+    margin: 0;
+  }
+}

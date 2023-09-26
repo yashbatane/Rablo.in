@@ -1,0 +1,28 @@
+.progress {
+  display: flex;
+  div {
+    position: relative;
+    top: 5px;
+    h1 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 52px;
+      display: flex;
+      align-items: center;
+      color: #6764ff;
+      span {
+        color: #00000099;
+      }
+      margin: 0;
+    }
+  }
+  .icons {
+    position: absolute;
+    left: -54px;
+    top: 33px;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.6) z;
+  }
+}

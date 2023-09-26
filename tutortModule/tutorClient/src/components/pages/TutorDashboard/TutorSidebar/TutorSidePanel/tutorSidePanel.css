@@ -1,0 +1,189 @@
+.sidePanel {
+  position: relative;
+  padding: 0 20px 20px 40px;
+  width: 310px;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  overflow-y: scroll;
+  transition: 1s all ease;
+  margin-top: 30px;
+}
+.sidePanel .sideArrow {
+  position: absolute;
+  top: 18px;
+  left: 11px;
+  color: #6764ff;
+  font-size: 33px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sidePanel .row {
+  display: flex;
+}
+.sidePanel .header {
+  margin-top: 50px;
+}
+.sidePanel .header p:nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.sidePanel .header .profiles {
+  background: rgba(255, 204, 0, 0.826);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 111px;
+}
+.sidePanel .header .profiles img {
+  display: block;
+  position: relative;
+  top: 15px;
+  left: 14px;
+  height: 60px;
+  width: 60px;
+}
+.sidePanel .header h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #6764ff;
+  margin-bottom: 0;
+}
+.sidePanel .header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0;
+}
+.sidePanel .header p span {
+  color: rgba(0, 0, 0, 0.3019607843);
+}
+.sidePanel .header .progresses {
+  margin-bottom: 35px;
+}
+.sidePanel .header .progresses .row {
+  gap: 12px;
+}
+.sidePanel .header .progresses::after {
+  position: absolute;
+  content: "";
+  top: 400px;
+  width: 280px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.sidePanel .salary {
+  margin-bottom: 35px;
+}
+.sidePanel .salary p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0px;
+}
+.sidePanel .salary::after {
+  position: absolute;
+  content: "";
+  top: 560px;
+  width: 280px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.sidePanel .sub p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 2px;
+}
+.sidePanel .sub .subject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.sidePanel .sub .subject div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  height: 30px;
+  background: #6764ff;
+  border-radius: 50px;
+  margin: 5px;
+}
+.sidePanel .sub::after {
+  position: absolute;
+  content: "";
+  bottom: -21px;
+  width: 280px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.sidePanel .time .row {
+  background: rgba(246, 238, 238, 0.8);
+  border-radius: 10px;
+}
+.sidePanel .time h3 {
+  margin-bottom: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.sidePanel .time::after {
+  position: absolute;
+  content: "";
+  left: 196px;
+  bottom: -122px;
+  width: 2px;
+  height: 58px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.sidePanel button {
+  width: 311px;
+  height: 50px;
+  background: #6764ff;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 11px;
+  cursor: pointer;
+}
+
+.sidePanel::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=tutorSidePanel.css.map */

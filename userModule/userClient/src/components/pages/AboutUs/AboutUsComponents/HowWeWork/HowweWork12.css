@@ -1,0 +1,49 @@
+.howweworkcontainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.howweworkcontainer .howweworktitle {
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 30px;
+  margin-bottom: 15px;
+  /* text-shadow: 1px 1px rgb(167, 167, 167); */
+}
+.howweworkcontainer .boxesType1 {
+  width: 100%;
+  margin-top: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.howweworkcontainer .boxesType1 .bbox {
+  height: auto;
+  padding: 20px 10px !important;
+  margin: 20px;
+}
+.howweworkcontainer .boxesType1 .bbox p {
+  width: 50%;
+}
+.howweworkcontainer .boxesType1 .bbox #first {
+  width: 50% !important;
+}
+.howweworkcontainer .horizontal-line {
+  width: 65%;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .howweworkcontainer {
+    width: 100%;
+  }
+  .howweworkcontainer .boxesType1 {
+    width: 92%;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .howweworkcontainer .boxesType1 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=HowweWork12.css.map */

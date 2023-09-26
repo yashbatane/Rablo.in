@@ -1,0 +1,132 @@
+.Leftsidebar {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  p:nth-child(1) {
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 50px;
+  }
+  .icons {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .collapsed {
+    background-color: rgba(103, 100, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100px;
+    height: 100vh;
+
+    .navbar {
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icons:nth-child(1) {
+        margin-top: 50px;
+      }
+      div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 124px;
+      }
+      div:nth-child(3) {
+        position: absolute;
+        bottom: 65px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+    }
+  }
+  .expanded {
+    background: rgba(82, 113, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 313px;
+    height: 100vh;
+    .navbar {
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icon {
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+        margin: 5px 0 15px 243px;
+      }
+      .first {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        div {
+          display: flex;
+          gap: 12px;
+        }
+        div:nth-child(3) {
+          width: 268px;
+          height: 46px;
+          align-items: center;
+          background: #ffffff;
+          border-radius: 10px;
+          padding-left: 10px;
+          .icons {
+            color: #6777f0;
+          }
+          p {
+            color: #6777f0;
+          }
+        }
+      }
+      .last {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p:nth-child(1) {
+          font-weight: 800;
+          color: rgba(255, 255, 255, 0.6);
+        }
+        position: absolute;
+        bottom: 65px;
+        left: 28px;
+        display: flex;
+        flex-direction: column;
+        div {
+          display: flex;
+          gap: 12px;
+        }
+        div:nth-child(3) {
+          width: 123px;
+          height: 46px;
+          align-items: center;
+          background: #ffffff;
+          border-radius: 10px;
+          padding-left: 10px;
+          .icons {
+            color: #6777f0;
+          }
+          p {
+            color: #6777f0;
+          }
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.searchFieldContainer {
+  padding: 15px;
+  background-color: white;
+  border-radius: 100px;
+  align-self: center;
+}
+.searchFieldContainer .searchField {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.searchFieldContainer .searchField .singleField {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.searchFieldContainer .searchField .singleField img {
+  max-width: 50px;
+  object-fit: contain;
+}
+.searchFieldContainer .searchField .singleField input {
+  border: none;
+}
+.searchFieldContainer .searchField .exploreUsBtn {
+  border-radius: 22px;
+  background-color: #4D3699;
+  height: 68px;
+  width: 195px;
+  text-align: center;
+  color: white;
+  border: none;
+  font-family: "poppins";
+  cursor: pointer;
+}
+.searchFieldContainer .searchField .searchFieldDivision {
+  height: auto;
+  width: 1px;
+  background-color: #444;
+}
+.searchFieldContainer .mode {
+  border: none;
+  font-family: "poppins";
+}
+.searchFieldContainer .hidden {
+  display: none;
+}
+.searchFieldContainer .select {
+  border: none;
+  font-family: "poppins";
+  width: 180px;
+}/*# sourceMappingURL=searchField.css.map */

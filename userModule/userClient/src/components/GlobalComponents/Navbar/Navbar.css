@@ -1,0 +1,195 @@
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #BAC5FD;
+}
+.navbarContainer img {
+  height: 45px;
+  /* margin-left: 70px;*/
+}
+.navbarContainer .centerDiv {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarContainer .centerDiv .centerDivInner {
+  margin-left: 150px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbarContainer .centerDiv .centerDivInner a {
+  color: white;
+  font-weight: 545;
+  text-decoration: none;
+  height: 40px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbarContainer .centerDiv .centerDivInner .hoverLine::after {
+  content: "";
+  display: block;
+  background-color: white;
+  height: 2px;
+  width: 0%;
+  transition: width 0.3s;
+}
+.navbarContainer .centerDiv .centerDivInner .hoverLine:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.navbarContainer .endDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbarContainer .endDiv .endDivInner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: flex-end;
+}
+.navbarContainer .endDiv .endDivInner .userName h3 {
+  color: white;
+}
+.navbarContainer .endDiv .endDivInner .userName .nameHoverDiv {
+  align-items: left;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+  height: 100px;
+  width: 120px;
+  position: absolute;
+  top: 90px;
+  right: 250px;
+  border: 5px;
+  display: none;
+}
+.navbarContainer .endDiv .endDivInner .userName:hover .nameHoverDiv {
+  display: flex;
+  height: 100px;
+  width: 120px;
+  position: absolute;
+  top: 90px;
+  right: 250px;
+}
+.navbarContainer .endDiv .endDivInner .userName:hover .nameHoverDiv .nameHoverDivInner {
+  width: 100%;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.navbarContainer .endDiv .endDivInner .userName:hover .nameHoverDiv .nameHoverDivInner:hover {
+  background-color: rgb(239, 230, 230);
+}
+.navbarContainer .endDiv .endDivInner a {
+  color: white;
+  font-weight: 545;
+  font-size: large;
+  text-decoration: none;
+  height: 40px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbarContainer .endDiv .endDivInner .hoverLine::after {
+  content: "";
+  display: block;
+  background-color: #4D3699;
+  height: 2px;
+  width: 0%;
+  transition: width 0.3s;
+}
+.navbarContainer .endDiv .endDivInner .hoverLine:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.navbarContainer .endDiv .endDivInner .forStudentsButton {
+  background-color: #4D3699;
+  padding: 0px 40px;
+  border: 3px solid #4D3699;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+.navbarContainer .endDiv .endDivInner .forStudentsButton #navLink {
+  width: 100%;
+}
+.navbarContainer .endDiv .endDivInner .forStudentsButton .NavLinkButton {
+  color: white;
+  font-family: "poppins";
+  font-weight: normal;
+  width: 100%;
+}
+.navbarContainer .endDiv .endDivInner .forStudentsButton:hover {
+  transition: 0.2s;
+  background-color: transparent;
+  color: #4D3699;
+  border: 3px solid #4D3699;
+}
+.navbarContainer .endDiv .endDivInner .forStudentsButton:hover .NavLinkButton {
+  color: #4D3699;
+  font-family: "poppins";
+  width: 100%;
+}
+.navbarContainer .menuList {
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 200px;
+  width: 150px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.navbarContainer .menuList a {
+  text-decoration: none;
+  font-size: 22px;
+}
+.navbarContainer .menuList .menuListInner {
+  height: 50px;
+}
+.navbarContainer .menuList .menuListInner:hover {
+  color: black;
+}
+.navbarContainer #falsetoogle {
+  display: none;
+}
+.navbarContainer #opentoogle {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .navContainer .navWrapper .endDiv .nameHoverDiv {
+    right: inherit;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .navbarContainer .endDiv .endDivInner .registerButton {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1084px) {
+  .navContainer .navWrapper .endDiv .endDivInner {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 395px) {
+  .navContainer .navWrapper .endDiv .endDivInner {
+    width: 100%;
+  }
+  .navContainer .navWrapper .endDiv .endDivInner .userName:hover .nameHoverDiv {
+    right: 80px;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,118 @@
+.navMobileContainer{
+    width: 100vw;
+    background-color: #BAC5FD;
+    transition: 1s all ease;
+    .navMobileWrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem 0rem;
+        .navMobileWrapperLogo{
+
+            .navMobileWrapperLogoImg {
+                height: 4rem;
+                width: 14rem;
+                margin:0rem  -1rem;
+              }
+        }
+
+        .navMobileWrapperHamberger{
+            border: 1px solid rgba($color: #4E6BF2, $alpha: .5);
+            width:3.5rem;
+                    height: 3.5rem;
+                    background-color:rgba($color: #4E6BF2, $alpha: .5);
+                    border-radius: 2px;
+                    color: white;
+                    padding: 0rem .1rem;
+                    cursor: pointer;
+                    margin-right: .5rem;
+                    border-radius: .5rem;
+
+                    &:hover{
+                        background-color: white;
+                        color: #4E6BF2;
+                        
+                    }
+        }
+    }
+    .navMobileWrapperContainer{
+        display: none;
+        position:absolute ;
+        z-index: 0;
+        right: 3.7rem;
+        top: 3.9rem;
+        width: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color:rgba($color: #4d3699, $alpha: .2);
+       border-radius: .8rem;
+        transition: 1s all ease;
+        border: none;
+        .nmwcLink{
+            opacity: 1;
+            width: 85%;
+            margin: .4rem 0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            a{
+                width: 100%;
+                font-weight: 600;
+                text-align: center;
+                text-decoration: none;
+                padding: .2rem 0rem;
+                margin: .3rem 0rem;
+                border:3px solid  rgba($color: #4d3699, $alpha:0) ;
+                color: #4d3699;
+                font-size: 1.125rem;
+                border-radius: .7rem;
+
+                &:hover{
+                    background-color: #4d3699;
+                    color:#fff ;
+                    border: 3px solid #fff;
+                }
+            }
+
+        }
+        .nmwcButton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 85%;
+            margin-bottom: 1.2rem;
+            
+            button{
+                width: 100%;
+                
+               
+                font-weight: 600;
+                color: white;
+                background-color: #4d3699 ;
+                padding: .5rem 0rem;
+                border-radius: .7rem;
+                border: none;
+                font-size: 1.125rem;
+                cursor: pointer;
+                border: 3px solid #4d3699;
+
+                
+
+                &:hover{
+                    
+                    background-color: #fff;
+                    color:#4d3699 ;
+                }
+                a{
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
+        }
+    }
+}

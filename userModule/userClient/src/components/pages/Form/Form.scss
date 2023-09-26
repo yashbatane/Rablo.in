@@ -1,0 +1,23 @@
+$width:1024px;
+
+@mixin fmobile{
+    @media  (max-width:#{$width}) {
+        @content
+    }
+}
+
+$width1:768px;
+
+@mixin fmobile1{
+    @media (max-width:#{$width1}){
+        @content
+    }
+}
+
+$width3:321px;
+
+@mixin fmobile3{
+    @media (max-width:#{$width3}){
+        @content
+    }
+}

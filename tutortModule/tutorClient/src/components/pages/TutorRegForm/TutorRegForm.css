@@ -1,0 +1,19 @@
+.hello {
+  display: block;
+}
+
+.msg {
+  position: relative;
+  top: -10px;
+  width: 40px;
+  height: 30px;
+}
+
+svg path {
+  height: 102.6666717529px;
+  width: 60.6666641235px;
+  left: 23.3330078125px;
+  top: 4.6665039063px;
+  border-radius: 0px;
+  color: blue;
+}/*# sourceMappingURL=TutorRegForm.css.map */

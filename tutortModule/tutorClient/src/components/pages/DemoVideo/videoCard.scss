@@ -1,0 +1,75 @@
+#videoCard {
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px 4px rgba(164, 162, 255, 0.31);
+    border-radius: 7px;
+    padding: 1vw;
+    display: flex;
+    margin-right: 28vw;
+    margin-bottom: 4vh;
+
+    #videoSection {
+
+        flex: 1;
+    }
+
+    #gap {
+        flex: 1;
+    }
+
+    #contentSection {
+        flex: 8;
+
+        #topRow {
+
+            display: flex;
+            justify-content: space-between;
+
+            h3 {
+                margin: 0;
+                padding: 0;
+                font-size: 20px;
+                color: #6764FF;
+            }
+    
+            #subjectTags {
+    
+                display: flex;
+                gap: 1vw;
+    
+                .tags {
+                    border-radius: 35px;
+                    width: 6vw;
+                    height: 3vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #6764FF;
+                    color: white;
+    
+                }
+            }
+        }
+
+        #hashtags {
+
+            display: flex;
+
+            p {
+                font-size: 14px;
+                color: #6764FF;
+                padding-right: 1vw;
+            }
+        }
+
+        #explanation {
+
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.58);
+        }
+        
+
+
+    }
+    
+}

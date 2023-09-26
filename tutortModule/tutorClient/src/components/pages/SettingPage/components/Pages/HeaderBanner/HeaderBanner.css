@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container-header {
+  margin-top: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px -5px rgba(0, 0, 0, 0.25);
+  width: 94vw;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container-header #right-side-section {
+  display: flex;
+  gap: 15px;
+}
+.main-container-header #right-side-section p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.main-container-header #right-side-section #vertical-line {
+  border: 2px solid rgba(0, 0, 0, 0.15);
+}/*# sourceMappingURL=HeaderBanner.css.map */

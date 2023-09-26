@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300;1,400;1,500&family=Roboto+Slab&display=swap');
+
+.getStarted__headWrap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.getStarted__headWrap hr{
+    flex:1;
+    border-color: #888;
+}
+.yt_video {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    height: 448px;
+    width: 752px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.video_container {
+     margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.video_container p {
+    color: #c0c5fd;
+    font-weight: bold;
+    position: relative;
+    font-family: "poppins";
+    
+}
+
+.video_container h1 {
+    color:#5271ff;
+    position: relative;
+    font-family: "comfortaa";
+    font-size: 2rem;
+    top: 0;
+}
+
+.ab_platform {
+    text-align: center;
+    /* padding: 10px; */
+    color: #020101 !important;
+    line-height: 2rem;
+    font-weight: normal !important;
+    font-family: "poppins";
+    font-size: 1rem;
+}
+@media (max-width: 770px) {
+    .yt_video{
+        width: 300px;
+        height: 170px;
+    }
+}

@@ -1,0 +1,17 @@
+.Leftsidebar * {
+  margin: 0;
+  padding: 0;
+}
+.Leftsidebar p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.Leftsidebar p:nth-child(1) {
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 50px;
+}/*# sourceMappingURL=SideBar.css.map */

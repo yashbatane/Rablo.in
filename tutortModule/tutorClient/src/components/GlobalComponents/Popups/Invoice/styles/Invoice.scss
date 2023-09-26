@@ -1,0 +1,73 @@
+.invoiceBackground {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.invoiceContainer {
+  width: 37.5rem;
+  height: 52%;
+  border-radius: 0.75rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+
+  .invoiceBody {
+    flex: 50%;
+    font-size: 1.065rem;
+    color: rgb(0, 0, 0);
+    // padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .invoiceFooter {
+    flex: 20%;
+    margin-bottom: 2.5rem;
+    margin-top: -30px;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+  }
+}
+
+.invoiceTitleCloseBtn {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.563rem;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-right: 5px;
+  }
+}
+
+.downloadBtn {
+  border: none;
+  background-color: white;
+  margin-top: 12px;
+
+}
+.invoiceTable{
+  th{
+    font-weight:"400";
+    color:rgba(0, 0, 0, 0.70);
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
+.invoiceTableData{
+  td{
+    font-weight: 500;
+    font-size: 21px;
+    color:rgba(0, 0, 0, 0.70);
+  }
+}

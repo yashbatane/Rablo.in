@@ -1,0 +1,158 @@
+.createPlanSecondMainContainer {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.createPlanSecondMainContainer .box {
+  transform: translate(32%, 12%);
+  position: absolute;
+  width: 60%;
+  height: 78%;
+  text-align: center;
+  border: 2px solid #8444b1;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  z-index: 2;
+  padding: 0;
+  position: absolute;
+}
+.createPlanSecondMainContainer .box .header {
+  display: flex;
+  background-color: white;
+  height: 30%;
+  margin: 0;
+  border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.createPlanSecondMainContainer .box .header .logo {
+  display: inline;
+  width: 4em;
+  height: 4em;
+  border: 1px solid #803caf;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  margin: 0em 0em 0em 2em;
+  box-shadow: 0px 0px 3px 0.1px #803caf;
+}
+.createPlanSecondMainContainer .box .header .heading {
+  display: inline;
+  font-size: 2.5em;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  width: 82%;
+  color: #5c1276;
+  padding: 0;
+  font-weight: bold;
+}
+.createPlanSecondMainContainer .box .content {
+  width: 80%;
+  padding: 1em;
+  height: 40%;
+  border-radius: 0;
+  background-color: #f3ebf7;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
+}
+.createPlanSecondMainContainer .box .content .imageText {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1;
+  border-radius: 10px;
+  display: flex;
+  margin: 1em;
+}
+.createPlanSecondMainContainer .box .content .imageText i {
+  color: #5c1276;
+  margin-right: -0.5em;
+  position: relative;
+}
+.createPlanSecondMainContainer .box .content .imageText .attemptedQuestions {
+  padding: 10px;
+  background-color: white;
+  color: #8a25d2;
+  border-radius: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.1em;
+  width: 10em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.createPlanSecondMainContainer .box .content .almostThere {
+  grid-row: 2;
+  font-size: 1.3em;
+  color: rgb(84, 84, 84);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.createPlanSecondMainContainer .box .content .planInsights {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  height: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.createPlanSecondMainContainer .box .content .planInsights h3 {
+  color: #8a25d2;
+}
+.createPlanSecondMainContainer .box .content .planInsights .namePlan {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.createPlanSecondMainContainer .box .content .planInsights .namePlan h4 {
+  color: rgb(66, 66, 66);
+  font-weight: lighter;
+}
+.createPlanSecondMainContainer .box .bottomCornerImage {
+  border: 1px solid red;
+  height: 70px;
+  width: 60px;
+  position: relative;
+  float: right;
+  margin: -3em 4em;
+}
+.createPlanSecondMainContainer .box .paragraph {
+  width: 100%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  font-family: arial;
+  display: grid;
+}
+.createPlanSecondMainContainer .box .paragraph .finalizeButton {
+  background-color: #803caf;
+  width: 22em;
+  padding: 0.8em;
+  color: white;
+  border: 1px solid #803caf;
+  border-radius: 25px;
+  display: flex;
+  align-self: center;
+  border-radius: 25px;
+  justify-content: center;
+}
+.createPlanSecondMainContainer .box .paragraph .finalizeButton p {
+  font-size: 1.7em;
+}
+.createPlanSecondMainContainer .box .paragraph .finalizeButton i {
+  color: white;
+}/*# sourceMappingURL=CreatePlanSecond.css.map */

@@ -1,0 +1,100 @@
+.NavbarContainer {
+  padding: 0 1.5em;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.NavbarContainer .time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  font-size: 28px;
+  font-family: "Comfortaa";
+}
+.NavbarContainer .time p {
+  margin: 0;
+  padding: 0;
+}
+.NavbarContainer .notifications {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.NavbarContainer .rewardPointContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: right;
+  border: 2px solid blueviolet;
+  padding: 5px 13px 5px 13px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.NavbarContainer .rewardPointContainer img {
+  max-width: 30px;
+  max-height: 30px;
+}
+.NavbarContainer .info {
+  margin-left: auto;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 2em;
+}
+.NavbarContainer .info .openSidebar {
+  display: none;
+}
+.NavbarContainer .info .profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+}
+.NavbarContainer .info .profile .profileImg {
+  width: 50px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  place-self: center;
+  object-fit: cover;
+}
+.NavbarContainer .info .name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.NavbarContainer .info .points {
+  place-self: stretch;
+  margin: 0;
+  color: gray;
+}
+
+@media screen and (max-width: 900px) {
+  .NavbarContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .NavbarContainer .time {
+    display: none;
+  }
+  .NavbarContainer .info {
+    gap: 1em;
+    margin: 0;
+  }
+  .NavbarContainer .info .profile {
+    order: -1;
+  }
+  .NavbarContainer .info .openSidebar {
+    display: block;
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .NavbarContainer .info .openSidebar img {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=tutDashboardNavbar.css.map */

@@ -1,0 +1,9 @@
+.basicDetails__input__wrapper > label {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+}
+
+.basicDetails__input__wrapper > label > input {
+  flex: 1;
+}/*# sourceMappingURL=TutorVerificationForm.css.map */

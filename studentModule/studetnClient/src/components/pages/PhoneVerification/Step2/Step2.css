@@ -1,0 +1,78 @@
+.otp-input-container {
+  background-color: #fafaff;
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.otp-input-container .bold-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #d04e62;
+}
+.otp-input-container .subtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  width: 30rem;
+  color: #d04e62;
+  opacity: 0.7;
+}
+.otp-input-container .otp-input-text {
+  margin-top: 3rem;
+}
+.otp-input-container .otpINputVerification {
+  box-sizing: border-box;
+  width: 76px;
+  height: 56.4px;
+  background: #ffffff;
+  border: 1px solid #d04e62;
+  border-radius: 4px;
+  margin: 0.3rem;
+  font-size: xxx-large;
+  text-align: center;
+}
+.otp-input-container .otpverification-button {
+  box-sizing: border-box;
+  width: 366px;
+  height: 64.6px;
+  margin-top: 1rem;
+  background: #d04e62;
+  border: 1px solid #d04e62;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+}
+.otp-input-container .image-container {
+  height: "100vh";
+  width: "45vw";
+}
+.otp-input-container .headerImageLogoOTp {
+  position: absolute;
+  z-index: 100;
+}
+.otp-input-container .headerImageLogoOTp button {
+  all: unset;
+  cursor: pointer;
+}
+.otp-input-container .headerImageLogoOTp .logoHeaderImageOtp {
+  position: absolute;
+  width: 274px;
+  height: 92px;
+  left: 154px;
+  top: 38px;
+}/*# sourceMappingURL=Step2.css.map */

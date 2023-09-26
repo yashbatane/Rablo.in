@@ -1,0 +1,96 @@
+.aboutUsFooterContainerLanding {
+  position: relative;
+  padding: 10px !important;
+  background-image: linear-gradient(to bottom, #a4b3ff, #5473ff);
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutUsFooterContainerLanding .custom-shape-divider-top-1676288160 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.aboutUsFooterContainerLanding .custom-shape-divider-top-1676288160 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 150px;
+}
+.aboutUsFooterContainerLanding .custom-shape-divider-top-1676288160 .shape-fill {
+  fill: #FFFFFF;
+}
+.aboutUsFooterContainerLanding .logos {
+  margin-top: 100px;
+  display: flex;
+  width: 40vw;
+  justify-content: space-around;
+}
+.aboutUsFooterContainerLanding .logos img {
+  width: 27%;
+  opacity: 0.54;
+}
+.aboutUsFooterContainerLanding .logos img:hover {
+  opacity: 1;
+}
+.aboutUsFooterContainerLanding .aboutUsFooterHeading h2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 3rem !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 20px;
+  color: #4c3698;
+}
+.aboutUsFooterContainerLanding .aboutUsFooterHeading h2 span {
+  color: white;
+}
+.aboutUsFooterContainerLanding .aboutUsSubHeading {
+  margin-bottom: 100px;
+  color: rgba(255, 255, 255, 0.651);
+  font-size: 1.2rem !important;
+  font-weight: 600;
+}
+.aboutUsFooterContainerLanding .custom-shape-divider-bottom-1676288574 {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.aboutUsFooterContainerLanding .custom-shape-divider-bottom-1676288574 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 150px;
+}
+.aboutUsFooterContainerLanding .custom-shape-divider-bottom-1676288574 .shape-fill {
+  fill: #FFFFFF;
+}
+
+@media (max-width: 770px) {
+  .aboutUsFooterContainerLanding .logos {
+    display: flex;
+    flex-direction: column;
+    width: 82vh;
+    gap: 35px;
+    height: 28vh;
+    margin-left: 40px;
+    margin-right: auto;
+  }
+  .aboutUsSubHeading {
+    color: white;
+    font-size: larger;
+    font-family: "Poppins";
+  }
+  .aboutUsFooterHeading h2 {
+    font-size: 1.2rem !important;
+  }
+}/*# sourceMappingURL=Affiliated.css.map */

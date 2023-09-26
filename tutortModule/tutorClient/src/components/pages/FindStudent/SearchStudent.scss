@@ -1,0 +1,91 @@
+.onlineMainContainer {
+  justify-content: center;
+  align-items: center;
+  margin: 5em;
+ .upperPart{
+    display: flex;
+   
+  h1 {
+    margin-bottom: 0.5em;
+    color: #9d00ff;
+  }
+  h4 {
+    margin-bottom: 0.5em;
+  }
+  h5 {
+    margin-bottom: 0.5em;
+  }
+  i {
+    margin: 0.8em;
+  }
+  input {
+    margin: 1em;
+    padding: 0.5em;
+  }
+  select {
+    width: 7em;
+    height: 1.5em;
+    border-radius: none;
+    margin-left: 1em;
+}
+
+.searchButton{
+  background-color: #9d00ff;
+  border-radius: 5px;
+  margin: 3em 0em;
+  padding: 0.6em;
+  width: 8em;
+  color: #fff;
+  display: block;
+  border: 1px solid #9d00ff;
+}
+ 
+ .mapPart{
+  position: absolute;
+  right: 15em;
+  margin: 2em 4em;
+  float: right;
+ }
+ .findButton{
+  background-color: #9d00ff;
+  border-radius: 5px;
+  padding: 0.6em;
+  width: 7em;
+  color: #fff;
+  margin-left: 2em;
+  border: 1px solid #9d00ff;
+ }
+ .map{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 1em;
+ }
+ }
+.divForCards{
+  display: flex;
+  .ProgressRegistrationBarCard {
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 1em 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      background-color: #f1e9f7;
+    // width: 100%;
+    margin: 2em;
+    width: 100%;
+    i{
+      margin: 0.7em;
+    }
+    .profileImag {
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+}

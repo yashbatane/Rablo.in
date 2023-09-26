@@ -1,0 +1,91 @@
+.TutorFilterContainer {
+  padding: 1rem;
+  height: 100%;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #843838;
+  border-radius: 2.5rem;
+}
+.TutorFilterContainer h1,
+.TutorFilterContainer h3,
+.TutorFilterContainer p {
+  margin: 0;
+}
+.TutorFilterContainer .filter {
+  display: flex;
+  gap: 1rem;
+}
+.TutorFilterContainer .filter .filterItems {
+  flex: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.TutorFilterContainer .filter .filterItems .filterItem {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #d8232a;
+  font-weight: bold;
+}
+.TutorFilterContainer .filter .filterOptions {
+  flex: 6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-left: 1px solid;
+  padding-left: 1rem;
+}
+.TutorFilterContainer .filter .filterOptions .category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.TutorFilterContainer .filter .filterOptions .optionsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.TutorFilterContainer .filter .filterOptions .optionsContainer .option {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d8232a;
+  gap: 0.5rem;
+}
+.TutorFilterContainer .filter .filterOptions .ButtonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.TutorFilterContainer .filter .filterOptions .ButtonContainer button {
+  border: 0;
+  height: 45px;
+  padding: 1rem 2rem;
+  border-radius: 45px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+.TutorFilterContainer .filter .filterOptions .ButtonContainer .SolidButton {
+  background-color: #d04e62;
+  color: white;
+}
+.TutorFilterContainer .filter .filterOptions .ButtonContainer .TransparentButton {
+  background-color: transparent;
+  color: #d04e62;
+}/*# sourceMappingURL=TutorFilter.css.map */

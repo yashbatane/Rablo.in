@@ -1,0 +1,42 @@
+.bcmtutorboxtype3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bcmtutorboxtype3 .letsstart {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  max-width: 80%;
+  padding: 15px 40px;
+  border-radius: 100px;
+  border: none;
+  border: solid 2px rgba(0, 0, 0, 0);
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: rgb(37, 3, 75);
+  background-color: yellow;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 15px 5px;
+  transition-duration: 0.25s;
+  margin-bottom: 30px;
+  /* width: 17%; */
+}
+
+.bcmtutorboxtype3 .letsstart:hover {
+  background-color: rgb(108, 23, 208);
+  color: yellow;
+  border: solid 2px yellow;
+  transition-duration: 0.25s;
+}
+
+.bcmtutorboxtype3 a {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+

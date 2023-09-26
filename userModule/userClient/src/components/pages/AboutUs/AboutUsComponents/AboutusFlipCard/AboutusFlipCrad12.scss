@@ -1,0 +1,103 @@
+.two-cards-container {
+    width: 85%;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .flip-container {
+        margin-top: 0px;
+        margin-left: 0px;
+        perspective: 1200;
+
+        &:hover .card {
+            transform: rotateX(-180deg);
+        }
+    }
+
+    .flip-container-1 {
+        perspective: 1200;
+        margin-left: 5%;
+
+        &:hover .card {
+            transform: rotateX(-180deg);
+        }
+    }
+
+    .card {
+        width: 640px;
+        height: 300px;
+        transition: all 800ms ease-in-out;
+        transform-style: preserve-3d;
+        border: none;
+        .front {
+            width: 640px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            backface-visibility: hidden;
+            transform: rotateX(0deg);
+            background-color: white;
+            h3 {
+                color: #54595f;
+                font-family: "Comfortaa", Sans-serif;
+                font-size: 35px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 30px;
+                /* margin-top: 0px; */
+              }
+              p {
+                color: #666666;
+                font-family: "Poppins", Sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 25px;
+              }
+        }
+        .back {
+            width: 640px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            backface-visibility: hidden;
+            transform: rotateX(-180deg);
+            p {
+                color: #7a7a7a;
+                font-family: "Poppins", Sans-serif;
+                font-size: 18px;
+                line-height: 30px;
+                /* margin-top: 50px; */
+              }
+              button {
+                margin-left: 0;
+                font-family: "Poppins", Sans-serif;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #ffffff;
+                background-color: #b200ff;
+                border-color: #b200ff;
+                border-width: 2px;
+                border-radius: 30px;
+                cursor: pointer;
+                font-size: 15px;
+                padding: 12px 24px;
+                &:hover {
+                    fill: #fff;
+                    background-color: #818a91;
+                    transition: all 100ms ease-in-out;
+                  }
+              }
+          }
+
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .two-cards-container {
+      flex-direction: column;
+    }
+  }
+  

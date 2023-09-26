@@ -1,0 +1,188 @@
+.editDetailsContainer {
+
+  input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+  button {
+    cursor: pointer;
+  }
+  // padding:1.5rem;
+
+  position: absolute;
+  width: 699px;
+  height: 465px;
+  left: 27vw;
+  top: 20vh;
+
+  background: #ffffff;
+  border-radius: 13.5126px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  padding: 1.5rem;
+  .headingContainer-editDetails {
+    // align-items: center;
+
+    .editDet-heading {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 27.0253px;
+      line-height: 150%;
+
+      /* identical to box height, or 41px */
+
+      color: rgba(0, 0, 0, 0.75);
+    }
+    .lastEdit-editDet {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14.8639px;
+      line-height: 150%;
+
+      /* or 22px */
+
+      color: rgba(0, 0, 0, 0.53);
+    }
+  }
+  .infoContainer-editDetails {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14.8639px;
+      line-height: 150%;
+
+      color: rgba(0, 0, 0, 0.53);
+    }
+  }
+
+  .batchName-editDetails {
+    position: relative;
+    input {
+      width: 231.07px;
+      height: 43.25px;
+
+      background: #ffffff;
+      border: 0.988519px solid #6764ff;
+      border-radius: 4.94259px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.2152px;
+      line-height: 150%;
+
+      /* or 24px */
+
+      color: #000000;
+      padding-left: 0.5rem;
+    }
+    i {
+      position: absolute;
+      right: 6.5rem;
+      top: 2rem;
+    }
+  }
+
+  .timingsContainer-editDet {
+    .timingWrapper-editDet {
+      display: grid;
+      grid-template-columns: 40% 40%;
+      label {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10.8101px;
+        line-height: 150%;
+
+        /* or 16px */
+
+        color: #6764ff;
+      }
+      input {
+        width: 120.26px;
+        height: 43.24px;
+
+        background: #ffffff;
+        border: 0.988519px solid #6764ff;
+        border-radius: 4.94259px;
+      }
+      i {
+        position: absolute;
+        right: 1.3rem;
+        top: 1.75rem;
+      }
+    }
+    .start-timing-editDet {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .end-timing-editDet {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .buttonContainer-editDetails {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    margin-top: 2rem;
+    button {
+      border-radius: 31.41px;
+      width: 101px;
+      height: 44px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17.5664px;
+      line-height: 150%;
+    }
+  }
+
+  .scheduleContainer-editDetials {
+    button {
+      margin: 0.3rem;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13.5126px;
+      padding: 7.98354px 13.4051px;
+      border-radius: 25.674px;
+    }
+  }
+
+  .selected-editDetails {
+    background: #6764ff;
+    color: #ffffff;
+    border: 1px solid #6764ff;
+  }
+  .unselected-editDetails {
+    background: #ffffff;
+    color: #6764ff;
+    border: 1px solid #6764ff;
+  }
+
+  .subjectsContainer-editDetials {
+    button {
+      box-sizing: border-box;
+      padding: 8.08023px 11.5432px;
+      border-radius: 28.5524px;
+      margin: 0.3rem;
+    }
+  }
+}

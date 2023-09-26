@@ -1,0 +1,68 @@
+$poppins: "Comfortaa", cursive;
+$comferta: "Poppins", sans-serif;
+.JoinUsNowMainContainer {
+    margin: 3em 0 ;
+    font-family: $comferta;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #9001EA;
+    .JoinUsNowImage {
+        img {
+            width: 100%;
+        }
+    }
+    .JoinUsNowComponents {
+        margin: 2em 0 ;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+
+        .heading {
+            margin: 1em 0 ;
+            h1{
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+        }
+
+        .Content {
+            display: flex;
+            justify-content: center;
+            p {
+                text-align: center;
+                color: #e2e1e1;
+                margin: 1em 0 ;
+                font-weight: 400;
+                // /* or inline-block */
+                // text-overflow: ellipsis;
+                // word-wrap: break-word;
+                // min-height: 3.6em;
+                width: 70%;
+            }
+        }
+
+        .JoinCounting {
+            margin: 1em 0 ;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+
+            .JoinUsCountingContent {
+                text-align: center;
+                min-width: 400px;
+                padding: .5em 0 ;
+                .CountNumber {
+                    color: #ffffff;
+                }
+
+                .CountHead {
+                    color: #585BF2;
+                }
+            }
+        }
+    }
+}

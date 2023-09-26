@@ -1,0 +1,47 @@
+.registrationform {
+    display: flex;
+    padding: 0 0 0 12.32rem;
+    font-family: "Poppins";
+    .registrationform-left {
+        width: 6rem;
+        height: 34rem;
+    }
+    .registrationform-right {
+        .form-head {
+            div:nth-child(1) {
+                color: rgba(0, 0, 0, 0.7);
+                font-size: 1.6rem;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+            }
+            div:nth-child(2) {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 1rem;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+        .form-body {
+            padding-top: 1.155rem;
+            height: 34rem;
+            -ms-overflow-style: none; /* for Internet Explorer, Edge */
+            scrollbar-width: none; /* for Firefox */
+            overflow-y: scroll;
+
+            .form-body-fields {
+                display: flex;
+                margin-bottom: 1.15rem;
+                .body-fields-input {
+                    margin-right: 2.4rem;
+                }
+            }
+        }
+        .form-body::-webkit-scrollbar {
+            display: none; /* for Chrome, Safari, and Opera */
+        }
+    }
+}

@@ -1,0 +1,730 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.TutorVarification {
+  font-family: "Poppins", sans-serif;
+  grid-template-columns: 0.5fr 1.5fr;
+}
+.TutorVarification .sidebar {
+  width: 82.5rem;
+  height: 67.5rem;
+  flex-shrink: 0;
+}
+.TutorVarification .sidebar .sidebar-container {
+  position: relative;
+  width: 37.5rem;
+  height: 67.5rem;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.TutorVarification .sidebar .sidebar-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #6764ff;
+  opacity: 0.5;
+  z-index: 1;
+}
+.TutorVarification .sidebar .sidebar-container img {
+  width: 37.5rem;
+  height: 67.5rem;
+  flex-shrink: 0;
+}
+.TutorVarification .sidebar .sidebar-container .arrow-logo-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.TutorVarification .sidebar .sidebar-container .arrow-logo-wrapper .arrow-icon {
+  width: 0.3125rem;
+  height: 36.31269rem;
+  fill: #ffffff;
+  cursor: pointer;
+}
+.TutorVarification .sidebar .sidebar-container .arrow-logo-wrapper .rablo-logo img {
+  position: relative;
+  width: 250px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.TutorVarification .sidebar .sidebar-container .p {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Poppins;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.TutorVarification .sidebar .sidebar-container .logout-btn {
+  position: relative;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 1rem;
+  padding: 0.6rem;
+  color: #1d35fb;
+  font-weight: 500;
+  cursor: pointer;
+}
+.TutorVarification .sidebar .sidebar-container .logout-btn .logout-icon {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+.TutorVarification .form-section .top-section {
+  display: flex;
+  width: 13.5rem;
+  height: 1.625rem;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.43);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.TutorVarification .form-section .top-section span {
+  display: flex;
+  width: 9.0625rem;
+  height: 1.625rem;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #6764FF;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.TutorVarification .form-section .container {
+  width: 82.5rem;
+  height: 67.5rem;
+  flex-shrink: 0;
+  fill: #FFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.TutorVarification .form-section .container .form-container {
+  width: 80%;
+  height: 100%;
+}
+.TutorVarification .form-section .container .form-container .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.TutorVarification .form-section .container .form-container .description {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+.TutorVarification .form-section .container .form-container nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.TutorVarification .form-section .container .form-container nav ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  gap: 0.2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.3);
+}
+.TutorVarification .form-section .container .form-container nav ul li .forward-icon {
+  fill: rgba(0, 0, 0, 0.3);
+  width: 1.19706rem;
+  height: 1.13513rem;
+  flex-shrink: 0;
+}
+.TutorVarification .form-section .container .form-container nav ul li .nav-icons {
+  width: 1.277rem;
+  height: 1.27125rem;
+  flex-shrink: 0;
+}
+.TutorVarification .form-section .container .form-container nav ul li .nav-icons svg path:nth-child(2) {
+  fill: #999999;
+}
+.TutorVarification .form-section .container .form-container nav ul .active-state {
+  font-weight: 700;
+  color: #6764ff;
+  border-bottom: 2.4px solid #6764ff;
+}
+.TutorVarification .form-section .container .form-container nav ul .active-state .nav-icons svg path:nth-child(2) {
+  fill: #6764ff;
+  width: 20.3125rem;
+}
+.TutorVarification .form-section .container .form-container .form-container {
+  height: 46rem;
+  gap: 1rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .progress {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  flex-shrink: 0;
+  transform: rotate(-90.088deg);
+}
+.TutorVarification .form-section .container .form-container .form-container .progress .line {
+  flex: 1;
+  width: 0.2rem;
+  background-color: rgba(153, 153, 153, 0.41);
+  border-radius: 0.3rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .progress .line .line-completed {
+  margin-top: -0.3rem;
+  padding: 0;
+  border-radius: 0.3rem;
+  position: relative;
+  max-height: 94%;
+  width: 100%;
+  height: 65%;
+  background-color: rgba(103, 100, 255, 0.8);
+}
+.TutorVarification .form-section .container .form-container .form-container .progress .line .progress-indication {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  background-color: #0000ff;
+  padding: 0.4rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  display: none;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form {
+  width: 100%;
+  margin-left: 18.5rem;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form::-webkit-scrollbar {
+  display: none;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 82.5rem;
+  height: 67.5rem;
+  flex-shrink: 0;
+  margin-left: 18.5rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form label {
+  color: rgba(74, 55, 148, 0.8);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .two-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2.81rem;
+  width: 19.93869rem;
+  height: 4.0625rem;
+  flex-shrink: 0;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .two-section .group {
+  display: flex;
+  width: 19.875rem;
+  height: 4.0625rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .academics-section p {
+  font-size: 0.9rem;
+  color: #999999;
+  font-weight: 400;
+  margin-top: 0.2rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .academics-section .academics-input {
+  margin-top: 0.2rem;
+  width: 100%;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .file-upload-section {
+  width: 100%;
+  height: 10rem;
+  border: 2px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .file-upload-section input[type=file] {
+  display: none;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .file-upload-wrapper {
+  display: flex;
+  width: 100%;
+  height: 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: #919191;
+  font-weight: 400;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .file-upload-wrapper .file-upload-btn {
+  background-color: #a8b2fb;
+  padding: 0.6rem 0.8rem;
+  border-radius: 1.5rem;
+  font-size: 0.8rem;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .btns-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.6rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .btns-wrapper .btn {
+  width: fit-content;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(103, 100, 255, 0.8);
+  border: 2px solid #6764ff;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  padding: 1.3rem 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .btns-wrapper .btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .btns-wrapper .btn span {
+  background-color: rgba(103, 100, 255, 0.1);
+  color: #6764ff;
+  border: none;
+  padding: 0rem 0.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .certification-section p {
+  font-size: 0.9rem;
+  color: #999999;
+  font-weight: 400;
+  margin-top: 0.2rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .certification-section input {
+  margin: 0.6rem 0;
+  width: 100%;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .address-section .address-section-wrapper {
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #6764ff;
+  padding: 0.3rem 0.9rem;
+  border-radius: 0.3rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .address-section .address-section-wrapper input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  flex: 1;
+  padding: 0.3rem 0.3rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .address-section .address-section-wrapper .address-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  stroke: #6764ff;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .address-section .map-image-wrapper {
+  width: 100%;
+  height: 12rem;
+  border-radius: 0 0 1.2rem 1.2rem;
+  overflow: hidden;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .address-section .map-image-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section p {
+  font-size: 0.8rem;
+  color: #999999;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section .options {
+  width: 50%;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 14.2rem;
+  overflow-y: scroll;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section .options::-webkit-scrollbar {
+  display: none;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section .options .options-wrapper {
+  width: 100%;
+  border: 2px solid #1d35fb;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.3rem;
+  display: grid;
+  grid-template-columns: 0.3fr 1.7fr;
+  align-items: center;
+  color: rgba(103, 100, 255, 0.8);
+  font-weight: 600;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section .options .letter-icon {
+  width: fit-content;
+  padding: 0.2rem;
+  background-color: rgba(103, 100, 255, 0.1);
+  border-radius: 0.3rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section .options .letter-icon svg {
+  stroke: #6764ff;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section .down-icon-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.1rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .class-select-section .down-icon-wrapper .down-icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  fill: #6764ff;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container {
+  width: 80%;
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .language-wrapper {
+  cursor: pointer;
+  width: fit-content;
+  color: #6764ff;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6764ff;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .language-selected {
+  color: #ffffff;
+  background-color: #6764ff;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .other {
+  cursor: pointer;
+  width: fit-content;
+  color: #6764ff;
+  font-weight: 500;
+  padding: 0.3rem 1.5rem;
+  padding-right: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6764ff;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .other .icon-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .other .icon-input-wrapper .add-language {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  border: 1px solid #d5d5fb;
+  padding: 0.1rem 0.8rem;
+  border-radius: 2rem;
+  height: 2.1rem;
+  gap: 1rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .other .icon-input-wrapper .add-language svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: #6764ff;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .other .icon-input-wrapper .add-language input {
+  height: 100%;
+  width: 5rem;
+  border: none;
+  background-color: #f8f8f8;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section .languages-container .other .icon-input-wrapper .add-language input::placeholder {
+  color: #9f9f9f;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section p {
+  color: #999999;
+  font-size: 0.9rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .language-select-section p span {
+  color: #6764ff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .card-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .card-section .card {
+  width: 100%;
+  height: 8.5rem;
+  border: 1px solid #6764ff;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  cursor: pointer;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .card-section .card .icon-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .card-section .card .icon-text-wrapper .card-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: #999999;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .card-section .card:hover {
+  color: #1d35fb;
+  border: 2px solid #6764ff;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .card-section .card:hover .card-icon {
+  fill: #6764ff;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .real-time-photo-section .file-upload-section {
+  margin-top: 0.4rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .real-time-photo-section .browse {
+  cursor: pointer;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .real-time-photo-section .camera-browse-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .driving-license-section .input-wrapper p {
+  font-size: 0.9rem;
+  color: #999999;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .driving-license-section .input-wrapper input {
+  margin-top: 0.3rem;
+  width: 100%;
+  padding: 1rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .accept-terms-condition-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .accept-terms-condition-section .checkbox-text-wrapper {
+  font-size: 0.9rem;
+  display: grid;
+  grid-template-columns: 0.1fr 1.8fr;
+  align-items: center;
+  gap: 0.1rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.4);
+}
+.TutorVarification .form-section .container .form-container .form-container .main-form .form .accept-terms-condition-section .checkbox-text-wrapper input {
+  width: 1rem;
+}
+.TutorVarification .form-section .container .dropdown-btn {
+  background-color: #ffffff;
+  border: 1px solid #6764ff;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  padding: 0.6rem 0.7rem;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  width: 15.54325rem;
+  height: 1.68106rem;
+  flex-shrink: 0;
+}
+.TutorVarification .form-section .container .dropdown-btn .dropdown-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  fill: #999999;
+}
+.TutorVarification .form-section .container .dropdown {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: 0.9s ease-in-out;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.TutorVarification .form-section .container .dropdown .dropdown-items {
+  font-weight: 600;
+  color: rgba(103, 100, 255, 0.8);
+  border: 2px solid #6764ff;
+  border-radius: 0.3rem;
+  margin-top: 0.3rem;
+  padding: 0.4rem;
+  display: grid;
+  grid-template-columns: 0.2fr 1.7fr;
+  cursor: pointer;
+}
+.TutorVarification .form-section .container .dropdown .dropdown-items div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TutorVarification .form-section .container .dropdown .dropdown-items .dropdown-items-btn {
+  background-color: rgba(103, 100, 255, 0.1);
+  color: #6764ff;
+  border: none;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TutorVarification .form-section .container .dropdown-open {
+  height: fit-content;
+}
+.TutorVarification .form-section .container .dropdown-close {
+  height: 0;
+  overflow: hidden;
+}
+.TutorVarification .form-section .container input[type=text] {
+  outline: none;
+  background-color: #ffffff;
+  border: 1px solid #6764ff;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.6rem 0.7rem;
+  color: black;
+}
+.TutorVarification .form-section .container input[type=text]::placeholder {
+  color: #999999;
+  font-weight: 300;
+}
+.TutorVarification .form-section .container .date-input {
+  border: 1px solid #6764ff;
+  display: flex;
+  align-items: center;
+  border-radius: 0.3rem;
+  padding: 0 0.7rem;
+}
+.TutorVarification .form-section .container .date-input input {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.TutorVarification .form-section .container .date-input .calender-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: rgba(103, 100, 255, 0.8);
+}
+.TutorVarification .form-section .btns-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TutorVarification .form-section .btns-section .skip-btn {
+  color: #6764ff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.TutorVarification .form-section .btns-section .next-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.3rem;
+  margin-left: auto;
+}
+.TutorVarification .form-section .btns-section .next-btn-wrapper .next-btn {
+  padding: 0.6rem 4rem;
+  border: none;
+  background-color: #6764ff;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  border: 2px solid transparent;
+}
+.TutorVarification .form-section .btns-section .next-btn-wrapper .next-btn svg {
+  fill: #ffffff;
+  height: 0.9rem;
+  width: 0.9rem;
+}
+.TutorVarification .form-section .btns-section .next-btn-wrapper .back-btn {
+  padding: 0.6rem 2rem;
+  background-color: #ffffff;
+  border: 2px solid #6764ff;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6764ff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: auto;
+}
+.TutorVarification .form-section .btns-section .next-btn-wrapper .back-btn svg {
+  fill: #6764ff;
+  height: 0.9rem;
+  width: 0.9rem;
+}/*# sourceMappingURL=TutorVarification.css.map */

@@ -1,0 +1,296 @@
+.gridcontainer-fav {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    width: 95vw;
+    .subsStatus {
+      background: #fafafa;
+      border-radius: 15px;
+      border-radius: 0px 15px 15px 0px;
+      margin-top: 2rem;
+      margin-left: -1rem;
+      padding: 0.7rem;
+      gap: 0.3rem;
+      align-items: center;
+      z-index: -19;
+      display: flex;
+      flex-direction: column;
+      b{
+        margin-top: 2rem;
+      }
+      div {
+        padding-left: 3rem;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13.0371px;
+        line-height: 20px;
+  
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+  
+        color: rgba(0, 0, 0, 0.5);
+      }
+      span{
+        font-weight: 400;
+        font-size: 13.0371px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      button {
+        margin-top: 1rem;
+        cursor: pinter;
+        width: 120px;
+        height: 32px;
+        position: relative;
+        border: 0.870159px solid rgba(236, 55, 55, 0.8);
+        border-radius: 12.1822px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13.0371px;
+        line-height: 20px;
+  
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        color: #ec3737;
+        background-color: white;
+        div {
+          position: absolute;
+          color: #ec3737;
+          right: 8px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18.0371px;
+        }
+      }
+    }
+    .tutDetCard-container-substut {
+      z-index: 2;
+      display: flex;
+      flex-direction: row;
+      background: #ffffff;
+      border-radius: 15px;
+      margin-top: 2rem;
+      padding: 0.7rem;
+      gap: 1rem;
+      align-items: center;
+      border: 1px solid #f05f5f;
+      border-radius: 15px;
+      // width: 75vw;
+      // width: 75vw;
+  
+      .tudDet_card_image {
+        width: 13.5rem;
+        object-fit: fill;
+        border-radius: 28px;
+        margin-left: 1vw;
+      }
+  
+      .middle-container {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        align-items: center;
+        align-content: center;
+        gap: 0.5em;
+      }
+  
+      .midContainer-topRow {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 1rem;
+        align-items: center;
+        button {
+          all: unset;
+          cursor: pointer;
+        }
+      }
+  
+      .tutorName-mid-container {
+        font-weight: 700;
+        font-size: 38.3px;
+      }
+  
+      .percent-mid-container {
+        display: flex;
+        gap: 0.8rem;
+        border-style: solid;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 5.9rem;
+        height: 2rem;
+        border-color: #ffffff;
+        box-shadow: 0px 2.98207px 2.98207px rgba(0, 0, 0, 0.1);
+        border-radius: 11.1828px;
+        div {
+          padding-right: 3px;
+          display: absolute;
+          left: 2rem;
+          font-weight: 600;
+          font-size: 17.8924px;
+          color: #70c249;
+        }
+        img {
+          width: 25px;
+        }
+      }
+  
+      .midContainer-midRow {
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+        align-items: center;
+      }
+  
+      .dot-in-midrow {
+        hr {
+          border: 3px solid #00000080;
+          border-radius: 100%;
+        }
+      }
+  
+      .subject-midRow {
+        font-weight: 600;
+        font-size: 21.8883px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+  
+      .exp-midRow {
+        font-weight: 600;
+        font-size: 21.8883px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+  
+      .rating-midrow {
+        font-weight: 600;
+        font-size: 21.8883px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+  
+      .midContainer-bottomRow {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 22vw;
+        // height: 5rem;
+        border: 0.547207px solid rgba(0, 0, 0, 0.5);
+        border-radius: 16.4162px;
+        // justify-content: center;
+        // padding-left: 2rem;
+        .num-content-container {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .num-content {
+          // position: relative;
+          font-weight: 600;
+          font-size: 45.797px;
+          color: #f05f5f;
+        }
+      }
+  
+      .subScript-numcontent {
+        font-weight: 600;
+        font-size: 14.8167px;
+        color: #f05f5f;
+      }
+  
+      .rightMost-container {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        margin-left: 1vw;
+        align-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
+  
+      .heading-rightmost-container {
+        font-weight: 400;
+        font-size: 17.5186px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+  
+      .time-slots {
+        display: flex;
+        gap: 2rem;
+      }
+  
+      .insideTimeSlot {
+        display: flex;
+        border: 1.16928px solid #f05f5f;
+        border-radius: 16.3699px;
+        width: 119.13px;
+        height: 43px;
+        font-weight: 500;
+        font-size: 15.4883px;
+        color: #f05f5f;
+        align-items: center;
+        align-content: center;
+        div {
+          margin-left: 1.5rem;
+        }
+      }
+  
+      .price-container-rightmost-container {
+        // display: flex;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        border: 0.588146px solid rgba(0, 0, 0, 0.5);
+        border-radius: 17.6444px;
+        width: 24.3vw;
+        height: 95.22px;
+        align-items: center;
+        align-content: center;
+        .price {
+          font-weight: 700;
+          font-size: 26.278px;
+          color: #f05f5f;
+          // margin-left: 2rem;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+        }
+        .price-container-flex {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.3rem;
+        }
+        .perhourRightMostContainer {
+          font-weight: 400;
+          font-size: 18.278px;
+          color: #f05f5f;
+        }
+  
+        .priceContainer-button {
+          all: unset;
+          text-align: center;
+          background: #ec3737;
+          border-radius: 16.5576px;
+          width: 111px;
+          height: 35.08px;
+          color: white;
+          cursor: pointer;
+        }
+      }
+      .divider {
+        height: 12rem;
+        border: 1px solid #808080;
+      }
+  
+      .starImageTutCardComp {
+        height: 1.5rem;
+      }
+    }
+  }
+  

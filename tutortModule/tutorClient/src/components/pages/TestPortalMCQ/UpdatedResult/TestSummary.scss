@@ -1,0 +1,310 @@
+.testSummaryMainContainer {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+
+  height: 100vh;
+  width: 100vw;
+
+  .box {
+    // top: 50%;
+    // right: 50%;
+    // position: absolute;
+    // transform: translate(50%, 15%);
+    width: 50%;
+    height: 75%;
+    text-align: center;
+    border: 2px solid #803caf;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // grid-template-rows: 1fr 1fr 1fr;
+    // z-index: 2;
+    padding: 0;
+    flex-wrap: wrap;
+
+    .summaryHeader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+
+      // justify-content: center;
+      //   background-color: #803caf;
+      // height: 22%;
+      margin: 0;
+      // border-bottom-left-radius: 70%;
+      // border-bottom-right-radius: 70%;
+      // border-top-right-radius: 10px;
+      // border-top-right-radius: 10px;
+
+      // margin-bottom: 2em;
+      .logoDiv {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .logo {
+        display: inline;
+
+        width: 4em;
+        height: 4em;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin: 1em;
+      }
+      .crossDiv {
+        background-color: black;
+        margin: -1.5em -1.5em 0em 0;
+        cursor: pointer;
+        position: relative;
+        float: right;
+        // top: 0;
+        // left: 0;
+        // right: 0;
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        border: 1px solid black;
+        i {
+          color: white;
+        }
+      }
+      .heading {
+        display: flex;
+        font-size: 2em;
+        // margin-top:40px;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        // width: 40%;
+        color: black;
+        padding: 20px;
+
+        // margin-left: 4em;
+        font-weight: bold;
+        // border: 1px solid red;
+        // border: 2px solid black;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+          rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      }
+    }
+    .summaryBody {
+      width: 70%;
+      // padding: 1em;
+
+      height: 35%;
+      border-radius: 0;
+      margin: auto;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .attemptedQuestions {
+        // border: 1px solid #803caf;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        background-color: white;
+        color: black;
+        border-radius: 2px;
+        font-weight: bold;
+        margin: 1em;
+        font-size: 1em;
+        width: 30%;
+
+        height: 60%;
+
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.8px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+          rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      }
+      .attemptedQuestionsGreen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        background-color: white;
+        color: #46a772;
+        border-radius: 2px;
+        font-weight: bold;
+        margin: 1em;
+        font-size: 1em;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+          rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+        width: 30%;
+        height: 60%;
+        // line-height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.8px;
+        // box-shadow: 0px 0px 2px 0.1px #803caf;
+      }
+    }
+
+    .buttonsContainer {
+      display: flex;
+      justify-content: center;
+
+      text-align: center;
+
+      .submitButton {
+        background-color: #803caf;
+
+        padding: 0.8em;
+        color: white;
+        border: 1px solid #803caf;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        p {
+          font-size: 1.7em;
+        }
+        i {
+          color: white;
+        }
+      }
+
+      .submitButton:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #803caf;
+        i {
+          color: #803caf;
+        }
+      }
+
+      .prevButton {
+        background-color: #803caf;
+        // width: 17em;
+
+        padding: 0.8em;
+        color: white;
+        border: 1px solid #803caf;
+        border-radius: 5px;
+        //   font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-right: 1.5em;
+        p {
+          font-size: 1.7em;
+        }
+        i {
+          color: white;
+        }
+      }
+
+      .prevButton:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #803caf;
+        i {
+          color: #803caf;
+        }
+      }
+    }
+
+    .paragraph {
+      // grid-row: 3;
+      // // width: 70%;
+      // display: grid;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+      // grid-template-columns: 25% 50% 25%;
+      // margin-top: 40px;
+      // background-color: red;
+
+      margin: auto;
+      font-family: arial;
+      h2 {
+        margin: auto;
+        font-weight: 300;
+        color: #46a772;
+        text-align: center;
+        margin-right: 80px;
+      }
+      .images {
+        // margin: 0 3.5em;
+        margin-right: 10px;
+
+        width: 7em;
+        height: 7em;
+        border: 1px solid red;
+
+        border-radius: 50%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1175px) {
+    .box {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .box {
+      width: 90%;
+      height: auto;
+      margin: auto;
+      padding: 7px;
+      .summaryHeader {
+        font-size: 1rem;
+
+        .crossDiv {
+          color: rebeccapurple;
+
+          margin-top: -1.7em;
+          margin-right: -1em;
+        }
+      }
+      .summaryBody {
+        .attemptedQuestions {
+          width: 50%;
+          height: 60%;
+        }
+        .attemptedQuestionsGreen {
+          width: 50%;
+          height: 60%;
+        }
+      }
+
+      .buttonsContainer {
+        // width: 95%;
+
+        // justify-content: space-between;
+        // align-items: center;
+        margin-bottom: 20px;
+        .prevButton {
+          // margin-right: -10em;
+          padding: 0.35em;
+          align-items: center;
+          // justify-content: center;
+        }
+        .submitButton {
+          padding: 0.35em;
+          align-items: center;
+        }
+      }
+      .paragraph {
+        h2 {
+          margin-right: 2px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

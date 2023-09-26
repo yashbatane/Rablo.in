@@ -1,0 +1,61 @@
+.NearMeTabContainer {
+  margin: 2rem;
+  height: 80%;
+}
+.NearMeTabContainer .NearMe-map-container {
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+.NearMeTabContainer .nearMeTab-button-container {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.NearMeTabContainer .button-unselected {
+  background-color: white;
+  color: #D04E62;
+  border-radius: 1rem;
+  width: 3.5rem;
+  height: 1.8rem;
+  border-color: #D04E62;
+  cursor: pointer;
+}
+.NearMeTabContainer .button-selected {
+  background-color: #D04E62;
+  color: white;
+  border-radius: 1rem;
+  width: 3.5rem;
+  height: 1.8rem;
+  border-color: #D04E62;
+  cursor: pointer;
+}
+.NearMeTabContainer .InfoWindowContainer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 13rem;
+}
+.NearMeTabContainer .InfoWindowContainer img {
+  height: 60px;
+  width: auto;
+  border-radius: 100%;
+}
+.NearMeTabContainer .InfoWindowContainer .infowindowTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
+.NearMeTabContainer .infowindowName {
+  width: auto;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #D04E62;
+}
+.NearMeTabContainer .infowindowDistance {
+  font-size: 10px;
+}/*# sourceMappingURL=NearMeTab.css.map */

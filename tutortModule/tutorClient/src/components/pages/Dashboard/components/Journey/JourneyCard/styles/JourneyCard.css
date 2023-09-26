@@ -1,0 +1,25 @@
+.journey-body-card .body-card-top div {
+  text-align: center;
+  font-size: 0.9625rem;
+  font-weight: 600;
+  width: 15rem;
+}
+.journey-body-card .body-card-top div:nth-child(1) {
+  color: #bac5fd;
+}
+.journey-body-card .body-card-top div:nth-child(2) {
+  color: #5271ff;
+}
+.journey-body-card .body-card-bottom {
+  margin-top: 1.25rem;
+}
+.journey-body-card .body-card-bottom div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.journey-body-card .body-card-bottom div:nth-child(2) {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: rgba(103, 100, 255, 0.5);
+}/*# sourceMappingURL=JourneyCard.css.map */

@@ -1,0 +1,90 @@
+.notificationmodel-dashboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(128, 128, 128, 0.2);
+  opacity: 3;
+}
+
+.notification-container-stuDash {
+  background-color: white;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  width: 533px;
+  height: 90%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 2.5rem;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  overflow-x: scroll;
+  gap: 1.5rem;
+}
+.notification-container-stuDash .head-of-notif-panel {
+  display: grid;
+  grid-template-columns: 95% 5%;
+}
+.notification-container-stuDash .head-of-notif-panel .notif-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #ad3744;
+}
+.notification-container-stuDash .head-of-notif-panel .gearIconbtn button {
+  all: unset;
+  cursor: pointer;
+}
+.notification-container-stuDash .notification-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.notification-container-stuDash .notification-content .norif-content-loop {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.notification-container-stuDash .notification-content .profile-pic-notif {
+  border-radius: 50%;
+  background-color: #a1adff;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.notification-container-stuDash .notification-content hr {
+  width: 172px;
+  height: 0px;
+  border: 1px solid #808080;
+  margin-left: 108px;
+}
+.notification-container-stuDash .notification-content .content-notif {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.notification-container-stuDash .notification-content .content-notif div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.notification-container-stuDash .notification-content .content-notif span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #000000;
+  opacity: 0.5;
+}/*# sourceMappingURL=StudentDashboardNotification.css.map */

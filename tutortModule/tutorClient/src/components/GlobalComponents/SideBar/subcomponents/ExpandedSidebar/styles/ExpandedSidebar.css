@@ -1,0 +1,185 @@
+.Leftsidebar .expanded {
+  width: 19.25rem;
+  height: 100vh;
+  background: rgba(82, 113, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Leftsidebar .expanded .expanded-close {
+  width: 100%;
+  text-align: right;
+  padding: 1rem 1.5rem 0 0;
+  cursor: pointer;
+}
+.Leftsidebar .expanded .expanded-dashboard {
+  margin-top: 4.8125rem;
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-head {
+  font-family: "Poppins";
+  font-size: 0.9625rem;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 0 0 1.925rem;
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items {
+  color: #ffffff;
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items .dashboard-items-notselected {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 2.887rem;
+  padding: 0 0 0 2.166rem;
+  cursor: pointer;
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items .dashboard-items-notselected div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items .dashboard-items-notselected div:nth-child(2) {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items .dashboard-items-notselected:hover {
+  background-color: rgba(164, 162, 255, 0.5);
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items .dashboard-items-selected {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 2.887rem;
+  cursor: pointer;
+  padding: 0 0 0 2.166rem;
+  background-color: rgba(164, 162, 255, 0.5);
+  border-left: 0.3rem solid rgba(255, 252, 252, 0.8);
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items .dashboard-items-selected div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+}
+.Leftsidebar .expanded .expanded-dashboard .expanded-dashboard-items .dashboard-items-selected div:nth-child(2) {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Leftsidebar .expanded .expanded-bottom {
+  position: absolute;
+  bottom: 2.21rem;
+  width: 19.25rem;
+}
+.Leftsidebar .expanded .expanded-bottom .expanded-settings {
+  font-size: 0.9625rem;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 0 0 1.78rem;
+  font-weight: 800;
+}
+.Leftsidebar .expanded .expanded-bottom .options {
+  display: flex;
+  height: 2.8875rem;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 2.166rem;
+  align-items: center;
+  cursor: pointer;
+}
+.Leftsidebar .expanded .expanded-bottom .options div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-right: 0.48rem;
+}
+.Leftsidebar .expanded .expanded-bottom .options:hover {
+  background-color: rgba(164, 162, 255, 0.5);
+}
+.Leftsidebar .expanded .expanded-bottom .selected-options {
+  display: flex;
+  height: 2.8875rem;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 2.166rem;
+  align-items: center;
+  background-color: rgba(164, 162, 255, 0.5);
+  border-left: 0.3rem solid rgba(255, 252, 252, 0.8);
+  cursor: pointer;
+}
+.Leftsidebar .expanded .expanded-bottom .selected-options div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-right: 0.48rem;
+}
+.Leftsidebar .expanded .expanded-bottom .options-logout {
+  display: flex;
+  padding: 0.33726rem 1.20351rem 0.33726rem 1.20351rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: fit-content;
+  margin-left: 1.2rem;
+  margin-top: 0.722rem;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.Leftsidebar .expanded .expanded-bottom .options-logout div:nth-child(1) {
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Leftsidebar .expanded .expanded-bottom .options-logout div:nth-child(2) {
+  font-size: 1.203rem;
+  font-weight: 500;
+  color: #1d35fb;
+}
+.Leftsidebar .expanded-point-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 11.61458vw;
+  background-color: white;
+  color: #6764FF;
+  aspect-ratio: 223/80;
+  margin: 30px;
+  font-size: 1.04167vw;
+  border-radius: 12px;
+  padding: 0px 1.2963vh;
+  margin-top: 210px;
+}
+.Leftsidebar #text1 {
+  width: 4.63542vw;
+  height: 4.81481vh;
+  margin-top: -15px;
+}
+.Leftsidebar #points {
+  background-color: #6764FF;
+  display: flex;
+  border-radius: 10px;
+  width: 4.8958vw;
+  height: 3.9815vh;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFF;
+}
+.Leftsidebar #add-button {
+  border-radius: 5px;
+  font-size: 0.04167vw;
+  width: 1.3021vw;
+  aspect-ratio: 1;
+  color: #6764FF;
+}/*# sourceMappingURL=ExpandedSidebar.css.map */

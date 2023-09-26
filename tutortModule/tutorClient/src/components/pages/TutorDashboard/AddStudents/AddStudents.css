@@ -1,0 +1,285 @@
+.AddStudentContainer {
+  transition: 1s all ease;
+  display: flex;
+}
+.AddStudentContainer main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem 0 2rem;
+  flex: 1;
+  height: 90%;
+}
+.AddStudentContainer main .headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  gap: 3rem;
+}
+.AddStudentContainer main .headerContainer .searchContainer {
+  display: flex;
+  gap: 0.5rem;
+  background-color: rgb(226, 226, 226);
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+.AddStudentContainer main .headerContainer .searchContainer input {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  height: 25px;
+}
+.AddStudentContainer main .dataContainer {
+  height: calc(100% - 250px - 1rem);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.AddStudentContainer main .dataContainer .tabsContainer {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid #d9d9d9;
+  gap: 1rem;
+}
+.AddStudentContainer main .dataContainer .tabsContainer .tab {
+  width: fit-content;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  margin-bottom: -3px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.AddStudentContainer main .dataContainer .tabsContainer .activeTab {
+  background: transparent;
+  font-weight: bold;
+  color: #6764ff;
+  border-bottom: 4px solid #6764ff;
+}
+.AddStudentContainer main .dataContainer .tableContainer::-webkit-scrollbar {
+  background-color: white;
+  width: 0.5rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer::-webkit-scrollbar-thumb {
+  background-color: #e2e2e2;
+  border-radius: 1rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer {
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+  position: relative;
+}
+.AddStudentContainer main .dataContainer .tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.AddStudentContainer main .dataContainer .tableContainer table .circle {
+  height: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: cyan;
+}
+.AddStudentContainer main .dataContainer .tableContainer table thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.AddStudentContainer main .dataContainer .tableContainer table tbody tr:nth-child(odd) {
+  background-color: #fbfbfb;
+}
+.AddStudentContainer main .dataContainer .tableContainer table tbody tr.activeStudent {
+  background-color: #a8b8ff;
+}
+.AddStudentContainer main .dataContainer .tableContainer table tr {
+  text-align: left;
+  font-size: 0.8rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer table td,
+.AddStudentContainer main .dataContainer .tableContainer table th {
+  padding: 0.5rem;
+}
+.AddStudentContainer main .dataContainer .tableContainer table td.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.AddStudentContainer .proposalSidebar {
+  height: 100vh;
+  width: auto;
+}
+.AddStudentContainer .proposalSidebar .stdDesc {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.AddStudentContainer .proposalSidebar .stdDesc h5 {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.9rem;
+  margin: 0;
+}
+.AddStudentContainer .proposalSidebar .tutorIcons {
+  gap: 20px;
+  display: flex;
+}
+.AddStudentContainer .proposalSidebar .indivisualIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background-color: #0300a1;
+  border-radius: 50%;
+  color: white;
+}
+.AddStudentContainer .proposalSidebar .tutorAbout {
+  margin: 15px 5px 0px 0px;
+}
+.AddStudentContainer .proposalSidebar .tutorAbout h6 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+.AddStudentContainer .proposalSidebar .tutorAbout p {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.AddStudentContainer .proposalSidebar .studentInfo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: -2rem;
+  gap: 30px;
+  color: #ffffff;
+}
+.AddStudentContainer .proposalSidebar .studentInfo .stuInfoHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.AddStudentContainer .proposalSidebar .studentInfo .studentInfoSubheading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.AddStudentContainer .proposalSidebar .studentInfo .stuInforating img {
+  height: 15px;
+}
+.AddStudentContainer .proposalSidebar .inviteBtn {
+  width: 244px;
+  border-radius: 1.4rem;
+  border: none;
+  background-color: #ffffff;
+  /* padding: 5px 93px; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #4d4bc8;
+  cursor: pointer;
+  /* margin: auto; */
+}
+.AddStudentContainer .proposalSidebar .invite_button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  /* padding-right: 10px; */
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+  fill-opacity: 50%;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.modal div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  height: 436px;
+  width: 811px;
+  border-radius: 5px;
+}
+.modal div .close {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+  left: calc(50vw + 350px);
+  top: calc(50vh - 200px);
+  color: #6764ff;
+  z-index: 3;
+  font-size: 28px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.modal div .head1 {
+  text-align: center;
+  height: fit-content;
+  color: rgba(101, 6, 6, 0.8);
+  font-weight: 600;
+  font-size: 28px;
+}
+.modal div .head2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.modal div img {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+.modal div button {
+  margin: 20px;
+  background-color: rgba(103, 100, 255, 0.6);
+  border: none;
+  height: 52px;
+  width: 165px;
+  border-radius: 30px;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+@keyframes copy {
+  0% {
+    background-color: rgb(69, 231, 69);
+  }
+}/*# sourceMappingURL=AddStudents.css.map */

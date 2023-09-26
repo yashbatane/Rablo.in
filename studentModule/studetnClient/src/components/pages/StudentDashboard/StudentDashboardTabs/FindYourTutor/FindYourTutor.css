@@ -1,0 +1,138 @@
+.FindYourTut-container {
+  font-family: "Poppins", sans-serif;
+  background: #fafaff;
+  height: 100%;
+}
+.FindYourTut-container .FYT-heading-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 1rem 3.5rem 4rem;
+}
+.FindYourTut-container .FYT-heading-1 {
+  font-weight: 600;
+  font-size: 34px;
+}
+.FindYourTut-container .FYT-subheading-container {
+  position: absolute;
+  font-weight: 400;
+  font-size: 24px;
+  color: #969699;
+  top: 2.5rem;
+}
+.FindYourTut-container .FYT-Menu-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 5.7rem;
+  background-color: #d04e62;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 3rem;
+}
+.FindYourTut-container .FYT-Menu-container input {
+  all: unset;
+  width: 12rem;
+  height: 2.8rem;
+  color: #d04e62;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 43px;
+  background: #fcfcfc;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.FindYourTut-container .FYT-Menu-container select {
+  all: unset;
+  color: #d04e62;
+  height: 2.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background: #ffffff;
+  border: 1px solid #d04e62;
+  border-radius: 53px;
+  padding: 0rem 2.5rem 0rem 1.5rem;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='red' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 10px;
+}
+.FindYourTut-container .FYT-Menu-container button {
+  all: unset;
+  color: #d04e62;
+  width: 6.1rem;
+  height: 2.8rem;
+  border: 1px solid #d04e62;
+  border-radius: 53px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 1.6rem;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+.FindYourTut-container .FYT-Menu-container button span {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.FindYourTut-container .FYT-Menu-container .fyt-menu-search-container {
+  color: #d04e62;
+  position: relative;
+}
+.FindYourTut-container .FYT-Menu-container .fyt-menu-search-container button {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 11px;
+}
+.FindYourTut-container .FYT-menu-content {
+  color: #d04e62;
+}
+.FindYourTut-container .card-component-map-container {
+  margin: 2rem;
+}
+.FindYourTut-container .fytNotfoundoops {
+  margin-top: 2.5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.FindYourTut-container .fytNotFoundcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 8rem;
+}
+.FindYourTut-container .fytNotFoundcontainer img {
+  height: 20rem;
+}
+.FindYourTut-container .fytNotFoundcontainer button {
+  all: unset;
+  text-align: center;
+  margin-top: 0.5rem;
+  background: rgba(236, 55, 55, 0.8);
+  border: 2px solid #ec3737;
+  border-radius: 40.75px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.1111px;
+  line-height: 27px;
+  width: 11rem;
+  height: 2.5rem;
+  cursor: pointer;
+  color: #f8f8f8;
+}/*# sourceMappingURL=FindYourTutor.css.map */

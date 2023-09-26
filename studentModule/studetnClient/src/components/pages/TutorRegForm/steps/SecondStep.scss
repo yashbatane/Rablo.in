@@ -1,0 +1,222 @@
+.btn1 {
+    box-shadow: 0px 10px 14px -7px #7609d8;
+    background: linear-gradient(to bottom, #7609d8 5%, #7609d8 100%);
+    background-color: #7609d8;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: $Comfortaa;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7609d8;
+}
+
+.btn2 {
+    box-shadow: 0px 10px 14px -7px #09d851;
+    background: linear-gradient(to bottom, #09d840 5%, #13ef30 100%);
+    background-color: #2cd809;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: $Comfortaa;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #55ff99;
+}
+
+.radiobuttonGender {
+    margin: 1em 0;
+    display: flex;
+
+}
+
+.radiobuttonGender input {
+    display: none;
+    cursor: pointer;
+}
+
+.GenderLabel {
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 0 1em;
+
+}
+
+.GenderLabel:hover {
+    outline: #010244;
+    border: 1px solid #010244;
+    cursor: pointer;
+}
+
+.GenderLabel.selected {
+    background-color: blueviolet;
+    color: white;
+    transform: scale(0.9);
+    transition: ease-in-out;
+}
+
+
+.TutorBasicDetailForm{
+    /* width: 60%; */
+   
+    height: 100%;
+    margin-left: 10%;
+    font-size: 100%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(10,0.3fr);
+   
+}
+
+.tbd-fname{
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+.tbd-lname{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.tbd-whtsno{
+    grid-column: 1/3;
+    grid-row: 2/2;
+}
+.tbd-schoolName{
+    grid-column: 1/3;
+    grid-row: 3/3;
+}
+.tbd-schoolBoard{
+    grid-column: 1/2;
+    grid-row: 4/4;
+}
+.tbd-class{
+    grid-column: 1/1;
+    grid-row: 5/5;
+}
+.tbd-modeclass{
+    margin-left: 15px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.tbd-gender{
+    grid-column: 1/3;
+    grid-row: 6/6;
+}
+.tbd-agegrp{
+    grid-column: 1/3;
+    grid-row: 7/7;
+}
+.tbd-address{
+    grid-column: 1/3;
+    grid-row: 8/8;
+}
+.JoinUsButton {
+    grid-column: 1/3;
+    grid-row: 9/9;
+    margin: 2em 0;
+    text-align: end;
+}
+@media only screen and (max-width: 650px) {
+    .TutorBasicDetailForm{
+        margin-left: 3%;
+    }
+    .tbd-fname{
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+    .tbd-lname{
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+    .tbd-whtsno{
+        grid-column: 1/1;
+        grid-row: 3/3;
+    }
+    .tbd-schoolName{
+        grid-column: 1/1;
+        grid-row: 4/4;
+    }
+    .tbd-schoolBoard{
+        grid-column: 1/1;
+        grid-row: 5/5;
+    }
+    .tbd-class{
+        grid-column: 1/1;
+        grid-row: 6/6;
+    }
+    .tbd-modeclass{
+        margin-left: 0px;
+        grid-column: 1/1;
+        grid-row: 7/7;
+    }
+    .tbd-gender{
+        grid-column: 1/3;
+        grid-row: 8/8;
+    }
+    .tbd-agegrp{
+        grid-column: 1/1;
+        grid-row: 9/9;
+    }
+    .tbd-address{
+        grid-column: 1/3;
+        grid-row: 10/10;
+    }
+    .JoinUsButton {
+        grid-column: 1/3;
+        grid-row: 11/11;
+        margin: 2em 0;
+        text-align: end;
+    }
+    .btn1 {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+///////////////////////////////////////
+
+/* label {
+    height: 100%;
+    display: block;
+    background: white;
+    border: 2px solid hsla(150, 75%, 50%, 1);
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    //margin: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+    position: relative;
+  } */
+  input[type="radio"]:checked + label {
+    background: hsla(150, 75%, 50%, 1);
+    color: hsla(215, 0%, 100%, 1);
+    box-shadow: 0px 0px 20px hsla(150, 100%, 50%, 0.75);
+    &::after {
+      color: hsla(215, 5%, 25%, 1);
+      font-family: FontAwesome;
+      border: 2px solid hsla(150, 75%, 45%, 1);
+      content: "\f00c";
+      font-size: 24px;
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 50%;
+      background: white;
+      box-shadow: 0px 2px 5px -2px hsla(0, 0%, 0%, 0.25);
+    }
+  }

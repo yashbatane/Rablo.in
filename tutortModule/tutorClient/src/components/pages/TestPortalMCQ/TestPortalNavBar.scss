@@ -1,0 +1,199 @@
+.allContainer {
+  display: flex;
+  // display: flex;
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em 0em 0em 0em;
+  // margin: auto;
+  justify-content: center;
+  align-items: center;
+  // align-content: center;
+  // margin: 1em;
+  width: 100vw;
+  
+  // height: 90px;
+  .SelectNavbar {
+    // z-index: 1;
+    // background-color: #eadbf1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: red;
+    // justify-content: center;
+    // align-items: center;
+    display: flex;
+    border-radius: 0.5em;
+    position: relative;
+    margin: auto;
+    // flex-wrap: wrap;
+    // margin: 1em 0em;
+    // box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px;
+    // margin: 0em 0em 0em 2em;
+    // padding: 5px;
+    h4 {
+      font-size: 1.6em;
+      // padding: 0.5em;
+      font-weight: 200;
+      // color: #803caf;
+    }
+
+    .instruction {
+      border: 1px solid #803caf;
+      // position: absolute;
+      // float: right;
+      right: 2em;
+      padding: 0.5em;
+      margin: 0.6em;
+      color: #803caf;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: white;
+    }
+  }
+
+  .box {
+    transform: translate(0%, 50%);
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    border: 3px solid #803caf;
+    background-color: white;
+    margin: auto;
+
+    border-radius: 10px;
+    margin: auto;
+    // display: grid;
+    justify-content: center;
+    // grid-template-columns: 1fr 4fr 0.4fr;
+    // grid-template-rows: 1fr 4fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    // z-index: 2;
+
+    .headerDiv {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      // background-color: rebeccapurple;
+      // height: 30%;
+      margin-top: -45px;
+    }
+    .iconDiv {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .icon {
+      display: inline;
+      grid-column: 1;
+      width: 5em;
+      height: 5em;
+      border: 1px solid red;
+      border-radius: 50%;
+      margin: 1.5em;
+    }
+    .heading {
+      display: inline;
+      grid-column: 2;
+      font-size: 2em;
+      margin: 2em 1em 2em 0em;
+      text-align: center;
+      color: black;
+      padding: 0;
+    }
+    .cross {
+      width: 2.5em;
+      height: 2.5em;
+      // margin-right: 0.5em;
+      margin-top: -6em;
+      cursor: pointer;
+      z-index: 100;
+    }
+    .points {
+      // display: block;
+      // grid-row: 2;
+      // grid-column: span 3;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 90%;
+
+      text-align: left;
+      // background-color: red;
+
+      .pointsInnerDiv {
+        width: 100%;
+        overflow-wrap: break-word;
+      }
+
+      .pointsToRemember {
+        margin: 0.2em;
+        font-size: 1.4em;
+        font-weight: 100;
+        align-content: left;
+      }
+    }
+    .checkDiv {
+      width: 35%;
+      margin-top: 20px;
+      // margin-right: 500px;
+      display: flex;
+      // background-color: rebeccapurple;
+      // align-items: center;
+      justify-content: space-around;
+
+      p {
+        margin-left: 5px;
+        font-weight: 700;
+        font-size: 17px;
+      }
+    }
+    .proctoringImages {
+      display: flex;
+      flex-grow: wrap;
+      width: 100%;
+
+      align-items: center;
+      justify-content: space-around;
+      .images {
+        // display: inline;
+        width: 5em;
+        height: 5em;
+        border: 1px solid red;
+        border-radius: 50%;
+        margin: 1em;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .allContainer {
+    .box {
+      transform: translate(5%, -20%);
+
+      position: fixed;
+      width: 50%;
+      height: auto;
+      width: 90%;
+
+      margin: auto;
+      .headerDiv {
+        margin-top: -15px;
+      }
+      .checkDiv {
+        width: 70%;
+      }
+    }
+    .SelectNavbar {
+      flex-direction: column;
+    }
+  }
+}

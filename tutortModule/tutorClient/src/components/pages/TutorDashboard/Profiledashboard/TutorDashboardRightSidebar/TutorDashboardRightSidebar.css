@@ -1,0 +1,127 @@
+.rightProfileContainer {
+  height: 95vh;
+  background: url("./SeaLighthouse-day.png") center;
+  position: relative;
+  padding: 1rem 0.3rem;
+  transition: all 1s ease;
+}
+.rightProfileContainer .rightProfileWrapper {
+  transition: all 2s ease;
+  height: 98%;
+  background-color: rgba(78, 75, 255, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  width: 98%;
+  flex-direction: column;
+  position: absolute;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileFirstChild {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 0.4rem;
+  color: white;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileFirstChild .arrow1 {
+  padding: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7774fd;
+  cursor: pointer;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileFirstChild .arrow1 .arrow {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 0.5rem;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileFirstChild .warning1 {
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileFirstChild .warning {
+  font-size: 3rem;
+  color: #FFD400;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 90%;
+  margin-top: 4rem;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .frist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .frist .fristImage {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid greenyellow;
+  border-radius: 50%;
+  margin: 0.5rem 0rem;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .frist .fristImage img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .frist h5 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.1rem;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .frist p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFD400;
+  padding: 0.8rem 0.9rem;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .second a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .second a .anchorContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .second a p {
+  margin-right: 0.1rem;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .second a span {
+  display: flex;
+  align-items: center;
+  justify-content: cent;
+}
+.rightProfileContainer .rightProfileWrapper .rightProfileSecondChild .second a span .arrow {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=TutorDashboardRightSidebar.css.map */

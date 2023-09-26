@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.batch-sidebar-container {
+
+    width: 12vw;
+    background-image: linear-gradient(#0D27FE,#9DA8E9);
+    height: 100vh;
+    padding: 5rem 1rem;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+
+    #rablo-logo-division {
+
+        margin-bottom: 3rem;
+
+        img {
+            width: 7vw;
+        }
+    }
+
+    #middle-section {
+
+        margin-bottom: 10rem;
+
+        #icons {
+
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+
+            i {
+                color: white;
+            }
+        }
+    }
+
+    #sub-section-class {
+
+        margin-left: 1.5rem;
+        font-size: 15px;
+        
+    }
+
+    #bottom-division {
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        #icons {
+            
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+
+
+    }
+}

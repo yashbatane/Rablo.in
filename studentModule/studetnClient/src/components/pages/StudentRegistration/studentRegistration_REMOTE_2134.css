@@ -1,0 +1,84 @@
+.studentregistrationcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.studentregistrationcontainer .studentregistrationformcontainer {
+  width: 95%;
+  max-width: 800px;
+  min-height: 70vh;
+  padding-bottom: 20px;
+  border-bottom: solid 1px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form {
+  width: 100%;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer {
+  width: 100%;
+  transition-delay: 2s;
+  position: relative;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer label {
+  font-family: "Poppins", sans-serif;
+  color: #010244;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer .inputbox {
+  background-color: yellow;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer .inputbox #countrycodephone {
+  height: 50px;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer .inputbox .inputclass {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer p {
+  color: red;
+  background-color: red;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer .studentheadcontainer {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-bottom: 30px;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer .studentheadcontainer h1 {
+  font-family: "Barlow Condensed", Sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 43px;
+  color: #010244;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer .studentheadcontainer p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  color: #333333;
+  font-size: 18px;
+  color: red;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer input[type=text]:focus {
+  outline: solid 1px #80bdff;
+  color: #495057;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer select:focus {
+  border: solid 1px #80bdff;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer #countrycodephone {
+  margin-right: -10px;
+  outline: none;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.studentregistrationcontainer .studentregistrationformcontainer form .formdatacontainer .btncontainerstudentform {
+  height: 90px;
+}/*# sourceMappingURL=studentRegistration.css.map */

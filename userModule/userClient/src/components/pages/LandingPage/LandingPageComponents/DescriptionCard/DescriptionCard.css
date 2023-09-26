@@ -1,0 +1,28 @@
+.description-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 60%;
+  margin-top: 50px;
+  font-family: "Poppins", Sans-serif;
+}
+@media screen and (max-width:930px) {
+  .description-card-wrapper{
+  width: 90%;
+  justify-content: space-around;
+  }
+  
+}
+@media (max-width: 500px) {
+  .description-card-wrapper {
+    /* flex-direction: column; */
+    width: 80%;
+
+    /* height: 500px; */
+
+    /* margin: 0px 80px; */
+  }
+  
+}

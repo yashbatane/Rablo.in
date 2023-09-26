@@ -1,0 +1,55 @@
+#table-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+#table-content #demoDate #day {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#table-content #demoDate #date {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.25);
+}
+#table-content #demoDate #date #highlight {
+  background-color: #6764FF;
+  color: white;
+  border-radius: 2px;
+  width: 1rem;
+}
+
+#mode {
+  color: #6764FF;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#time {
+  color: #6764FF;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6764FF;
+  font-size: 15px;
+  font-weight: 700;
+}
+#action #accept-btn {
+  background-color: #6764FF;
+  padding: 0.4rem;
+  margin-right: 0.4rem;
+  color: white;
+  border-radius: 10px;
+}/*# sourceMappingURL=TableContent.css.map */

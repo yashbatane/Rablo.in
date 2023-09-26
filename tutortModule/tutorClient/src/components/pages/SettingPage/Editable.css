@@ -1,0 +1,25 @@
+.editable__inputWrapperOuter {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.editable__inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+}
+
+.editable__inputWrapper input {
+  color: red;
+  width: 90%;
+  padding: 5px 0;
+}
+
+.editable__inputWrapper span {
+  color: red;
+}
+
+.editable__inputWrapper .editable__content {
+  width: 90%;
+}/*# sourceMappingURL=Editable.css.map */

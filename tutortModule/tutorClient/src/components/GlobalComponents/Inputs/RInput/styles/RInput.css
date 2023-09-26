@@ -1,0 +1,38 @@
+.rinput {
+  display: flex;
+  width: 15.3rem;
+  flex-direction: column;
+}
+.rinput .rinput-label {
+  color: rgba(74, 55, 148, 0.8);
+  font-size: 0.9625rem;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  height: 1.925rem;
+  display: flex;
+}
+.rinput .rinput-label div {
+  display: flex;
+}
+.rinput .rinput-inputs {
+  background: #6764ff;
+  border-radius: 4px;
+  width: 100%;
+}
+.rinput .rinput-inputs .default-input {
+  padding: 0.738rem 1.1rem;
+  width: 100%;
+  color: #999;
+  font-size: 0.78rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  border-radius: 4px;
+  border: 1px solid #6764ff;
+  background: #fff;
+}/*# sourceMappingURL=RInput.css.map */

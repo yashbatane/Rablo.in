@@ -1,0 +1,405 @@
+.createPlanContentMainContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  width: 100vw;
+  margin-bottom: 5em;
+  .weekendClassesContainer {
+    display: grid;
+    grid-template-rows: 20% 1fr;
+    align-self: left;
+    .numberclassHeading {
+      // grid-row: 1;
+      display: flex;
+      text-align: left;
+      margin: 2em 6em;
+      i {
+        color: #8a25d2;
+        padding: 0.2em;
+      }
+      h2 {
+        color: #8a25d2;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.4px;
+        padding: 0.6em;
+        // width: 100%;
+      }
+    }
+    .cardContainer {
+      // grid-row: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      // margin: 2em 0em;
+      .alternateCard {
+        grid-column: 1;
+        border: 2px solid #5d1277;
+        border-radius: 1em;
+        text-align: center;
+        margin: 2em 4em 2em 6em;
+        width: 16%;
+        h2 {
+          background-color: #5d1277;
+          text-align: center;
+          color: white;
+          padding: 0.6em 0.8em;
+          border-top-left-radius: 0.5em;
+          border-top-right-radius: 0.5em;
+        }
+        h1 {
+          padding: 0.5em;
+          color: #5d1277;
+          font-size: 2.5em;
+        }
+        .weekendClasses {
+          font-size: 2em;
+        }
+        h3 {
+          padding: 0em 0.5em 0.8em 0.5em;
+          color: rgb(80, 76, 76);
+          font-weight: lighter;
+          // letter-spacing: 1px;
+        }
+        .buttonContainer {
+          align-items: center;
+          justify-content: center;
+          button {
+            margin: 1em auto 0.5em auto;
+            display: block;
+            align-self: center;
+            padding: 0.3em 0.2em;
+            width: 10em;
+            border: 2px solid #803caf;
+            background-color: #803caf;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 1.1em;
+          }
+          .MWFButton {
+            margin: 0em auto 2em auto;
+            background-color: #eadbf1;
+            color: #803caf;
+          }
+        }
+      }
+      .eachCard {
+        grid-column: 1;
+        border-radius: 1em;
+        background-color: #f3ebf7;
+        text-align: center;
+        margin: 2em 4em 2em 2em;
+        width: 16%;
+        h2 {
+          text-align: center;
+          color: white;
+          padding: 0.8em;
+          border-top-left-radius: 0.5em;
+          border-top-right-radius: 0.5em;
+        }
+        h1 {
+          padding: 0.8em 0em 0em 0em;
+          color: #5d1277;
+          font-size: 2.5em;
+        }
+        .weekendClasses {
+          font-size: 2em;
+        }
+        h3 {
+          margin: 1em 0em;
+          padding: 0em 0.5em 0.5em 0.5em;
+          color: rgb(80, 76, 76);
+          font-weight: lighter;
+          // letter-spacing: 1px;
+        }
+        .buttonContainer {
+          align-items: center;
+          justify-content: center;
+          button {
+            cursor: pointer;
+            margin: 1em auto 0.5em auto;
+            display: block;
+            align-self: center;
+            padding: 0.3em 0.2em;
+            width: 10em;
+            border: 2px solid #803caf;
+            background-color: #803caf;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            // letter-spacing: 1px;
+            font-size: 1.1em;
+          }
+          .MWFButton {
+            margin: 0em auto 2em auto;
+            background-color: #eadbf1;
+            color: #803caf;
+          }
+        }
+      }
+      .eachCard:hover{
+        border: 2px solid #803caf;
+        box-shadow: 0px 0px 5px 1px #5d1277;
+        cursor: pointer;
+        h2{
+        color: #4b6457;
+        }
+      }
+      
+  
+      
+      .eachCard:active{
+        border: 2px solid #0fa958;
+        background-color: #a6dfc1;
+        box-shadow: none;
+      }
+      // .eachCard:visited{
+      //   border: 2px solid green;
+      //   box-shadow: 0px 0px 4px 1px #5d1277;
+      // }
+      // .eachCard:focus{
+      //   border: 2px solid green;
+      //   box-shadow: 0px 0px 4px 1px #5d1277;
+      // }
+      
+    }
+  }
+
+  .finalizeWeekDaysContainer {
+    margin-top: 5em;
+
+    .finalizeDayHeader {
+      display: flex;
+      text-align: left;
+      margin: 2em 6em;
+      i {
+        color: #8a25d2;
+        padding: 0.2em;
+      }
+      h2 {
+        color: #8a25d2;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.4px;
+        padding: 0.6em;
+        // width: 100%;
+      }
+    }
+    .weekNameContainer {
+      display: flex;
+      justify-content: center;
+      align-items: right;
+      margin-left: 6em;
+      .weekNameBox {
+        margin: 0.5em;
+        text-align: center;
+        width: 7em;
+        border: 1px solid #5d1277;
+        padding: 0.3em;
+        border-radius: 20px;
+        color: #9747ff;
+        font-size: 1.3em;
+        background-color: #f3ebf7;
+        font-weight: bold;
+        // letter-spacing: 1px;
+      }
+      .weekNameBoxAlternate {
+        margin: 0.5em;
+        text-align: center;
+        width: 7em;
+        border: 1px solid #5d1277;
+        padding: 0.3em;
+        border-radius: 20px;
+        color: white;
+        font-size: 1.3em;
+        font-weight: bold;
+        background-color: #af74c4;
+        // letter-spacing: 1px;
+      }
+    }
+  }
+
+  .fillTime {
+    margin-top: 5em;
+    .fillTimeHeader {
+      display: flex;
+      text-align: left;
+      margin: 2em 6em;
+      i {
+        color: #8a25d2;
+        padding: 0.2em;
+      }
+      h2 {
+        color: #8a25d2;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.4px;
+        padding: 0.6em;
+        // width: 100%;
+      }
+    }
+    
+    .fillTimeSelection {
+        select {
+            margin-left: 10em;
+            text-align: left;
+            width: 17em;
+            border: 1px solid #5d1277;
+            padding-left: 0.5em;
+            height: 2em;
+            border-radius: 10px;
+            font-size: 1.3em;
+            background-color: #f3ebf7;
+            //   font-weight: bold;
+            letter-spacing: 1px;
+            color: #9747ff;
+            
+            option {
+                border: 1px solid #5d1277;
+                color: #9747ff;
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .fillTimeHeaderSecond {
+      display: flex;
+      text-align: left;
+      margin: 2em 10.5em;
+      i {
+        color: #8a25d2;
+        padding: 0.2em;
+      }
+      h2 {
+        color: #8a25d2;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.4px;
+        padding: 0.6em;
+        // width: 100%;
+      }
+    }
+    .fillTimeInput {
+      display: flex;
+      margin-left: 12em;
+      //   justify-content: center;
+      //   align-items: center;
+      input {
+        margin: 0.5em 1em;
+        text-align: left;
+        width: 10em;
+        border: 1px solid #5d1277;
+        padding: 0.5em 0.8em;
+        border-radius: 10px;
+        color: #803caf;
+        font-size: 1.3em;
+        background-color: #f3ebf7;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      input::placeholder {
+        color: #9747ff;
+        opacity: 0.4;
+      }
+    }
+   
+  }
+  .payExpectPerDay {
+    margin-top: 3em;
+    .payExpectHeader {
+      display: flex;
+      text-align: left;
+      margin: 2em 6em;
+      i {
+        color: #8a25d2;
+        padding: 0.2em;
+      }
+      h2 {
+        color: #8a25d2;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.4px;
+        padding: 0.6em;
+        // width: 100%;
+      }
+    }
+
+    .payExpectContainer{
+        width: 100%;
+        margin-left: 12em;
+        font-size: 1em;
+        display: flex;
+        h2{
+            word-spacing: 1em;
+        }
+    
+
+    .payExpectBar{
+        width: 51.5em;
+        height: 0.5em;
+        border-radius: 5px;
+        margin: 3em 1em 1em -1.2em;
+        border: 1px solid #5d1277;
+        background-color: #f3ebf7;
+        display: flex;
+        // position: absolute;
+        i{
+            position: relative;
+            margin-left: 5.9em;
+            color: #8a25d2;
+            font-size: 2em;
+            margin-top: -0.7em;
+        }
+    }
+
+    .startedIntialSalaryBox{
+        width: 25%;
+        text-align: center;
+        padding: 0.5em;
+        margin: 2em 1em;
+        font-size: 1.1em;
+        // border: 1px solid #5d1277;
+        background: #f3ebf7;
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px 0.5px gray;
+    }
+}
+.commentSection{
+    font-family: Arial, Helvetica, sans-serif;
+    // position: relative;
+    margin: -25em 0em 0em 10em;
+    width: 25%;
+    .commentIcon{
+        // margin: 1em;
+    //    font-size: 22em;
+    width: 340px;
+    height: 210px;
+    border: 1px solid #5d1277;
+    //    color: #5d1277;
+       background-color: #9747ff;
+       border-radius: 40px;
+    }
+    h3{
+        position: relative;
+        margin: -10em 0em 0em -2.5em;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: lighter;
+        color: white;
+        word-spacing: 5px;
+        line-height: 1.5em;
+    }
+    .tutorImage{
+        border: 1px solid red;
+        width: 7em;
+        height: 15em;
+        margin: 2em 0em 0em -2em;
+    }
+}
+}
+}

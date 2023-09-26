@@ -1,0 +1,26 @@
+@import '../Global.scss';
+.footerContainer {
+    width: 101.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mobile{
+      width: 100%;
+    }
+  
+    .footerWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      @include mobile{
+        justify-content:center;
+      }
+      width: 100%;
+      color:rgba(94, 66, 187, 0.45);
+      
+      font-size: .8125rem;
+      font-weight: 700;
+    }
+
+}

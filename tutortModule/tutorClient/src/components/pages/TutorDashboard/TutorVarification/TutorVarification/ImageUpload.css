@@ -1,0 +1,63 @@
+.drops {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%' height='100%' fill='none' stroke='gray' stroke-width='4' stroke-dasharray='26%2c 14' stroke-dashoffset='23' stroke-linecap='square'/%3e%3c/svg%3e");
+  height: 10rem;
+  width: 95%;
+  position: relative;
+  opacity: 0.5;
+  border-radius: 13px;
+}
+.drops .fileUpload .imgPreview {
+  width: 600px;
+  height: 8rem;
+  border: 2px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  display: block;
+  align-items: center;
+  padding-bottom: 10%;
+}
+.drops .fileUpload .imgPreview .uploaDoc {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20%;
+  background: #A8B2FB;
+  border-radius: 37px;
+  font-size: 0.8rem;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.uploaDoc {
+  background: #A8B2FB;
+  border-radius: 37px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20%;
+  padding: 0.4rem 0.6rem;
+  color: #ffffff;
+  width: 170px;
+}
+
+.dropHere {
+  margin-top: 0.2%;
+}
+
+.dropHere1 {
+  margin-top: 0.5%;
+}
+
+.drops.dragging {
+  border-color: #3d70b2; /* Update with desired dragging border color */
+}
+
+.drops.dragging .dropHere,
+.drops.dragging .dropHere1 {
+  color: #3d70b2; /* Update with desired dragging text color */
+}
+
+.customFileUpload {
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=ImageUpload.css.map */

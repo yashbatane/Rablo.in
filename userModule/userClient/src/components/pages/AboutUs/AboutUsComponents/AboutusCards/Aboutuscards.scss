@@ -1,0 +1,43 @@
+.aboutuscardscontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    flex-direction: row;
+    gap: 10px;
+    .aboutuscard{
+        width: 250px;
+        height: 100%;
+        box-shadow: 0px 7px 59px -12px rgb(0 0 0 / 8%);
+        // transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        .card{
+            height: 100%;
+            border: none;
+            margin: 2px;
+            .iconcards{
+                font-size: 100px;
+                font-weight: 900;
+            }
+            .card-body{
+                text-align: center;
+                color: #515151;
+                font-family: "Poppins", Sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 1.6em;
+                letter-spacing: 0.2px;
+                .card-title{
+                    color: blue;
+                    
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+

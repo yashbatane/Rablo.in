@@ -1,0 +1,102 @@
+.StudentDetailsContainer {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+  background: #fafaff;
+  font-family: "Poppins", sans-serif;
+  overflow-y: scroll;
+  gap: 2rem;
+}
+.StudentDetailsContainer h1,
+.StudentDetailsContainer h2,
+.StudentDetailsContainer p {
+  margin: 0;
+}
+.StudentDetailsContainer header {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.StudentDetailsContainer header p {
+  color: rgba(0, 0, 0, 0.4);
+}
+.StudentDetailsContainer form {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.StudentDetailsContainer form .FormGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.StudentDetailsContainer form .FormElement.large {
+  flex-basis: 100%;
+}
+.StudentDetailsContainer form .FormElement {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-basis: calc(50% - 0.5rem);
+}
+.StudentDetailsContainer form .FormElement .row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.StudentDetailsContainer form .FormElement .row p {
+  color: #999999;
+}
+.StudentDetailsContainer form .FormElement input, .StudentDetailsContainer form .FormElement select {
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #d04e62;
+  padding: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.StudentDetailsContainer form .FormElement option {
+  background-color: white;
+  color: black;
+}
+.StudentDetailsContainer form .FormElement .optionsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.StudentDetailsContainer form .FormElement .optionsContainer .option {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d8232a;
+  gap: 0.5rem;
+  background-color: white;
+}
+.StudentDetailsContainer .FormActionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #D04E62;
+  font-size: 24px;
+}
+.StudentDetailsContainer .FormActionContainer button {
+  background: #D04E62;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
+}/*# sourceMappingURL=StudentDetailsForm.css.map */

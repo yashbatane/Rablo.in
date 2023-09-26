@@ -1,0 +1,49 @@
+
+.tableRow {
+    background-color: #FFF;
+    // border: 1px solid black;
+    height: 45px;
+    // margin: 100px;
+    border: none;
+    // line-height: 100px;
+    // padding: 50px;
+    text-align:center;
+
+
+    .btnInvoice {
+
+        width: 110px;
+        height: 33px;
+        padding: 5px;
+        border-radius: 7px;
+        background: #6764FF;
+        border: 1px solid #6764FF;
+        color: white;
+        font-family: Poppins;
+        letter-spacing: -0.2px;
+        font-size: 15px;
+         margin-right:-28px;
+    }
+
+    .btnInvoice:hover {
+        background: #ffffff;
+        color: #6764FF;
+        border: 1px solid #6764FF;
+    }
+
+
+    td {
+        color: rgba(0, 0, 0, 0.70);
+        // align-items: ;
+        text-align:center;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: none;
+        //  margin: 0px 20px 0px 0px;
+        // padding: 0px 110px 0px 0px;
+
+    }
+}

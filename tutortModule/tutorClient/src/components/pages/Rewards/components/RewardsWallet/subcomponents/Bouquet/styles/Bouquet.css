@@ -1,0 +1,40 @@
+.bouquet {
+  padding: 1.85vh 1.3vw;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 31.7056px;
+  width: 22.08vw;
+}
+.bouquet .bouquet-head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25vw;
+  color: #6764ff;
+  margin-bottom: 0.58rem;
+}
+.bouquet .bouquet-desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: rgba(0, 0, 0, 0.68);
+  margin-bottom: 1.85vh;
+}
+.bouquet .bouquet-list {
+  overflow-y: scroll;
+  height: max-content;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 57.54vh;
+}
+.bouquet .bouquet-list::-webkit-scrollbar {
+  display: none;
+}
+.bouquet .bouquet-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.04vw;
+  color: #6764ff;
+}/*# sourceMappingURL=Bouquet.css.map */

@@ -1,0 +1,583 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+$Comfortaa: "Comfortaa", Sans-serif;
+
+.msf-icon-container > .msf-logo-button {
+  height: 40px;
+}
+.msf-logo-button {
+  cursor: pointer;
+  border: none;
+}
+
+button.msf-logo-button .btn1 {
+  margin: top 20px;
+}
+
+.msf-main-container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  /*box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;*/
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /*width: 97%;*/
+  font-size: 80%;
+  height: 103vh;
+
+  padding-bottom: 2rem;
+}
+
+.msf-sidebar {
+  /*  margin-top: 6px;
+    margin-left: 6px; */
+  flex: 1;
+  border-radius: 10px;
+  height: 110%;
+  min-width: 25%;
+  max-width: 30%;
+  padding: 0px 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 5px;
+  background-size: 300% 300%;
+
+  background: linear-gradient(rgba(#6764ff), rgba(#6764ff));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.logoimage-reg {
+  color: white;
+  width: 200px;
+  height: auto;
+}
+.msf-sidebar-logo {
+  grid-column: 1/3;
+  color: white;
+  font-weight: bolder;
+  padding: 5%;
+  margin-top: 5%;
+  text-shadow: 1px 1px black;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+.button-msf-back {
+  all: unset;
+  cursor: pointer;
+}
+
+.msf-sidebar-content {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+.msf-sidebar-content h5 {
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  font-size: 1.8rem;
+  /* text-decoration: underline; */
+}
+
+.msf-sidebar-content h5 p {
+  font-size: 0.86rem;
+  text-shadow: none;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  /* text-decoration: none; */
+}
+
+.msf-sidebar-title {
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  grid-column: 1/4;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* padding: 20px 0px; */
+  text-align: center;
+}
+
+.msf-sidebar-title-selected {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-decoration: underline rgb(255, 255, 255);
+  text-underline-offset: 0.3em;
+  /* text-shadow: 1px 1px rgb(0, 0, 0); */
+  font-weight: 900;
+  font-size: 1.25rem;
+  padding: 10px 0px;
+}
+
+.msf-reward {
+  grid-column: 1/4;
+  margin: auto;
+  grid-row: 6/7;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  border: 1px solid rgba(143, 0, 0, 0.2);
+  padding: 15px 10px;
+}
+
+.msf-pageDotSec {
+  grid-column: 2/3;
+  grid-row: 7/8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: rgb(173, 173, 173);
+}
+
+.msf-pageDot0 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 0.6rem;
+  text-shadow: 1px 1px white;
+}
+
+.msf-pageDot1 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 0.6rem;
+}
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out 1;
+}
+.animate-charcter {
+  /* text-transform: uppercase; */
+  background-image: linear-gradient(
+    -225deg,
+    rgb(0, 136, 199) 0%,
+    rgb(0, 42, 255) 29%,
+    rgb(164, 0, 224) 67%,
+    rgb(255, 0, 179) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.msf-form {
+  /*width: 65%;*/
+  padding: 20px 10px;
+  flex: 1;
+  overflow-y: scroll;
+}
+.msf-form::-webkit-scrollbar {
+  width: 10px;
+}
+
+.msf-first-step-form-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.msf-icon-container {
+  display: flex;
+}
+
+.msf-modal-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msf-modal-container {
+  height: 350px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.modal__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.ButtonBefore {
+  background: #6764ff;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin: 2%;
+  padding: 10px 15px;
+  transition: transform 100ms ease-out;
+  width: 300px;
+  padding-left: 2%;
+}
+.ButtonBefore1 {
+  border: 3px solid #6764ff;
+  border-radius: 10px;
+  color: #6764ff;
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin: 2%;
+  padding: 10px 15px;
+  transition: transform 100ms ease-out;
+  width: 150px;
+  margin-right: 30%;
+}
+.ButtonBefore:hover {
+  background: #682ede;
+  transform: scale(1.1);
+}
+
+.btn2 {
+  box-shadow: 0px 10px 14px -7px #09d851;
+  background: linear-gradient(to bottom, #09d840 5%, #13ef30 100%);
+  background-color: #2cd809;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: $Comfortaa;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #55ff99;
+}
+
+.ButtonAfter {
+  background: #54ffac;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  transition: transform 100ms ease-out;
+
+  &:hover {
+    background: #00d66f;
+    transform: scale(1.1);
+  }
+}
+
+.OtpText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 1.1rem;
+}
+.logootpsend {
+  position: relative;
+  color: #6764ff;
+}
+.msgboxotp {
+  position: absolute;
+  right: 0;
+  top: -1rem;
+}
+.subtextotpsend {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #1d2ca2;
+
+  opacity: 0.7;
+}
+
+.OtpText h4 {
+  font-weight: 800;
+  text-align: center;
+  color: #9625f9;
+  padding: 2%;
+}
+
+.OtpText p {
+  color: #bec3e4;
+  text-align: center;
+  font-size: 80%;
+}
+
+.OtpModalInput {
+  height: 55px;
+  width: 56px;
+  left: 1135px;
+  top: 609px;
+  border-radius: 4px;
+  margin-left: 20px;
+  color: #6764ff;
+  border-color: #6764ff;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.msf-otp-container {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .TutorBasicDetailForm {
+    width: 100%;
+    margin: auto;
+  }
+  .msf-main-container {
+    flex-direction: column;
+    height: 1400px;
+  }
+
+  .msf-sidebar {
+    margin-left: 0%;
+    height: 40%;
+    max-width: none;
+  }
+  .msf-form {
+    margin: 0px auto;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  /*.msf-form {width: 100%;}*/
+  .msf-form .TutorBasicDetailForm {
+    max-width: 100%;
+  }
+}
+
+.hr {
+  color: #edecf0;
+
+  width: 100%;
+}
+
+.heading1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #6764ff;
+}
+
+.OtpModalSend {
+  height: 40px;
+  width: 300px;
+  left: 867px;
+  top: 605px;
+  border-radius: 2px;
+  color: #6764ff;
+  border-color: #6764ff;
+}
+
+.startingphno {
+  height: 40px;
+  width: 36px;
+  border-radius: 2px;
+
+  border-color: #6764ff;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #1d2ca2;
+
+  opacity: 0.7;
+}
+
+.Buttons {
+  display: flex;
+}
+
+.progress {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  height: 29rem;
+  display: flex;
+  .line {
+    flex: 1;
+    width: 0.2rem;
+    background-color: rgba(153, 153, 153, 0.41);
+    border-radius: 0.3rem;
+    .line-completed {
+      margin-top: -0.3rem;
+      padding: 0;
+      border-radius: 0.3rem;
+      position: relative;
+      max-height: 94%;
+      width: 100%;
+      height: 65%;
+      background-color: rgba(103, 100, 255, 0.8);
+    }
+
+    .progress-indication {
+      display: none;
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translateX(-50%);
+      color: #ffffff;
+      background-color: #0000ff;
+      padding: 0.4rem;
+      height: 1.7rem;
+      width: 1.7rem;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.4rem;
+    }
+  }
+}
+.logout-btn {
+  position: relative;
+  margin-top: 700px;
+  margin-right: 700px;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 1rem;
+  margin-bottom: 0%;
+  color: #696b7c;
+  font-weight: 500;
+  cursor: pointer;
+  .logout-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+}
+
+.logout-popup-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logout-popup {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    .logout-popup-content {
+      .logout-popup-buttons {
+        display: flex;
+        gap: 100px;
+        .logout-button {
+          padding: 5px 25px;
+          background: #6764ff;
+          border: 1px solid #4f62f5;
+          border-radius: 10px;
+          justify-self: center;
+          margin-top: 120px;
+          font-size: 20px;
+          letter-spacing: 1px;
+          cursor: pointer;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+}

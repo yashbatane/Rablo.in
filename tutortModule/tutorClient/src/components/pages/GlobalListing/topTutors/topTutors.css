@@ -1,0 +1,130 @@
+.topTutorsContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  align-items: center;
+  justify-content: center;
+}
+.topTutorsContainer .h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+  color: #4a3794;
+  text-align: center;
+}
+.topTutorsContainer .topTutorsChecks {
+  display: flex;
+  gap: 20px;
+}
+.topTutorsContainer .topTutorsChecks .tickText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.topTutorsContainer .topTutorsChecks .tickText img {
+  max-width: 25px;
+}
+.topTutorsContainer .topTutorsCardsContainer {
+  display: flex;
+  align-self: center;
+  width: 90%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard {
+  display: flex;
+  width: 42%;
+  gap: 50px;
+  padding: 40px;
+  box-shadow: -2px 0px 24px rgba(0, 0, 0, 0.35);
+  border-radius: 45px;
+  margin-top: 40px;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardLeft {
+  flex: 1;
+  flex-direction: column;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardLeft img {
+  flex: 1;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 22px;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardLeft .teacherType {
+  position: relative;
+  display: flex;
+  align-items: center;
+  bottom: 30px;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: white;
+  color: #4a3794;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardLeft .teacherType img {
+  background-color: white;
+  max-width: 25px;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: 500;
+  gap: 10px;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight .teacherName {
+  color: #4a3794;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight .teacherName img {
+  max-width: 35px;
+  object-fit: contain;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight .teacherLocation {
+  font-weight: normal;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight .expertise {
+  padding: 6px;
+  background: #d9d9d9;
+  border-radius: 12px;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight .viewprofile {
+  color: #4a3794;
+  margin-top: 35px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  align-items: center;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight .viewprofile img {
+  max-width: 45px;
+  object-fit: contain;
+}
+.topTutorsContainer .topTutorsCardsContainer .singleCard .singleCardRight .topTutorCategory {
+  color: #4a3794;
+}
+.topTutorsContainer .viewAllTutors {
+  background: #3b4959;
+  border-radius: 12px;
+  align-self: flex-start;
+  font-family: "Poppins";
+  background-color: #3b4959;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 5%;
+}/*# sourceMappingURL=topTutors.css.map */

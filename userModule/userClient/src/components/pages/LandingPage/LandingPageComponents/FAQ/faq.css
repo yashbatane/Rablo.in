@@ -1,0 +1,95 @@
+.main-div {
+    width: 100%;
+    margin-top: 70px;
+    /* height: 100vh; */
+    /* background-color: black; */
+    /* margin: 0 8rem; */
+}
+
+
+
+.faq-section {
+    /* width: 50%; */
+    max-width: 1100px;
+    padding: 0 10px;
+
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: all 0.3s linear;
+}
+.main-heading h3{
+    font-family: "poppins";
+    font-size: 1.2rem;
+    font-weight:600 ;
+    color:#54595f;
+}
+.main-div h1{
+    font-family: "comfortaa";
+    color: #5287FF;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+.faq__headWrap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    max-width: 1120px;
+    margin: 20px auto;
+
+}
+.faq__headWrap hr{
+    flex:1;
+    border-color: #888;
+}
+.main-p{
+    color: #c0c5fd;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.main-p2{
+    color: #a9a9a9;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: larger;
+}
+.main-heading button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.faq__button__wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+.faq__button
+{
+    border-radius: 10px;
+    background-color: #4d3699;
+    color: white;
+    padding: 8px 15px;
+    outline-color: transparent;
+    border-color: transparent;
+    font-weight: 600;
+    transition: all 0.1s linear;
+    border: 3px solid #4d3699;
+    margin: auto !important ;
+}
+.faq__button:hover
+{
+    background-color: transparent;
+    color:#4d3699;
+}

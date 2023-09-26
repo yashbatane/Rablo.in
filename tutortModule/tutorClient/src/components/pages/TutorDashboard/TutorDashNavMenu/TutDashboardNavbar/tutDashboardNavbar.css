@@ -1,0 +1,92 @@
+.NavbarContainer {
+  padding: 0 1.5em;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.NavbarContainer .time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  font-size: 28px;
+}
+.NavbarContainer .time p {
+  margin: 0;
+  padding: 0;
+}
+.NavbarContainer .info {
+  margin-left: auto;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 2em;
+}
+.NavbarContainer .info .openSidebar {
+  display: none;
+}
+.NavbarContainer .info .rewardPoints,
+.NavbarContainer .info .notifications {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.NavbarContainer .info .profile {
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  grid-template-rows: 50% 50%;
+  height: 100%;
+  column-gap: 1em;
+  row-gap: 0.5em;
+}
+.NavbarContainer .info .profile .profileImg {
+  width: 50px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  grid-row: 1/-1;
+  grid-column: 1/2;
+  place-self: center;
+  object-fit: cover;
+}
+.NavbarContainer .info .profile .name {
+  font-size: 18px;
+  font-weight: bold;
+  grid-row: 1/2;
+}
+.NavbarContainer .info .profile .points {
+  grid-row: 2/3;
+  place-self: stretch;
+  margin: 0;
+  color: gray;
+}
+
+@media screen and (max-width: 900px) {
+  .NavbarContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .NavbarContainer .time {
+    display: none;
+  }
+  .NavbarContainer .info {
+    gap: 1em;
+    margin: 0;
+  }
+  .NavbarContainer .info .profile {
+    order: -1;
+  }
+  .NavbarContainer .info .openSidebar {
+    display: block;
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .NavbarContainer .info .openSidebar img {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=tutDashboardNavbar.css.map */

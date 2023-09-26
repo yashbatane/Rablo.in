@@ -1,0 +1,32 @@
+.journey-body-card {
+    .body-card-top {
+        div {
+            text-align: center;
+            font-size: 0.9625rem;
+            font-weight: 600;
+            width: 15rem;
+        }
+        div:nth-child(1) {
+            color: #bac5fd;
+        }
+        div:nth-child(2) {
+            color: #5271ff;
+        }
+    }
+    .body-card-bottom {
+        margin-top: 1.25rem;
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div:nth-child(1) {
+            
+        }
+        div:nth-child(2) {
+            font-size: .76rem;
+            font-weight: 600;
+            color: rgba(103, 100, 255, 0.5);;
+        }
+    }
+}

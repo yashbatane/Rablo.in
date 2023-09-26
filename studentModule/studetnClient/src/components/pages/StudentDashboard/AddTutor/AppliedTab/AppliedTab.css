@@ -1,0 +1,22 @@
+.postneeded_container {
+  margin-top: 2rem;
+  height: 100%;
+  width: 90%;
+}
+.postneeded_container th {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.4135px;
+  line-height: 92%;
+  color: #000000;
+}
+.postneeded_container .accepted-appliedtab {
+  color: #10cb00;
+}
+.postneeded_container .max-lim-appTab {
+  color: #de4827;
+}
+.postneeded_container .pending-appliedTab {
+  color: #ff9e45;
+}/*# sourceMappingURL=AppliedTab.css.map */

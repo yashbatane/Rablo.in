@@ -1,0 +1,325 @@
+.mainSection {
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  .sideBar {
+    min-height: 100vh;
+  }
+
+  .mainContent {
+
+    #dateTime {
+
+      padding: 2rem;
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+      #stats {
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+
+          #date {
+            margin-right: 1rem;
+            p {
+              color: rgba(0,0,0,0.5);
+            }
+          }
+
+          #button-wallet {
+
+            background-color:#6764FF;
+            color: white;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            height: 40px;
+            margin-right: 2rem;
+
+            p {
+              margin-left: 0.5rem;
+            }
+
+          }
+
+          #messages {
+            color: #6764FF;
+            height: 60px;
+            margin-right: 1rem;
+            margin-top: 1.5rem;
+          }
+
+          #notification {
+            color: #6764FF;
+            height: 60px;
+            margin-right: 1rem;
+            margin-top: 1.5rem;
+
+          }
+
+          #horizontal-division {
+            
+            border: 1px solid rgba(0,0,0,0.4);
+            height: 60px;
+            margin-right: 1rem;
+          }
+
+          #profile-pic {
+
+          }
+
+
+      }
+
+    }
+
+    .InviteStudentForm {
+    
+      display: flex;
+      flex-direction: column;
+      font-family: "Poppins", sans-serif;
+      gap: 1.5rem;
+      background: #F8F8F8;
+      padding: 0.9rem;
+      min-height: 80vh;
+      
+    
+      h3 {
+        color: #6764ff;
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+    
+      button {
+        height: 45px;
+        font-weight: 600;
+        background-color: #6764ff;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border-radius: 0.6rem;
+        border: 0;
+        font-family: "Poppins", sans-serif;
+        padding: 0.5rem 1rem;
+        color: white;
+        cursor: pointer;
+      }
+    
+    #dateTime {
+  
+      #stats {
+  
+      }
+    }
+  
+    .topRow {
+  
+      display: flex;
+      gap: 15vw;
+  
+      p {
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.7);
+      }
+  
+      input {
+        background: #ECECEC;
+        border-radius: 18.3214px;
+        border: none;
+        padding: 0.8rem;
+        align-items: center;
+        
+      }
+  
+    }
+    
+      .formRow {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 3rem;
+        align-items: center;
+      }
+    
+      .FormContainer {
+  
+        h3 {
+          margin: 0;
+          padding: 0;
+        }
+  
+        p{
+          margin-top: -2%;
+          padding: 0;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: rgba(0, 0, 0, 0.4);
+        }
+  
+  
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          padding-top: 1rem;
+    
+          .InputContainer {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+    
+            label {
+              color: hsla(0, 0%, 0%, 0.6);
+              font-weight: 600;
+            }
+    
+            input,
+            select {
+              height: 45px;
+              padding: 0 0.75rem;
+              border: 1px solid #6764ff;
+              border-radius: 0.6rem;
+              font-family: "Poppins", sans-serif;
+            }
+    
+            input {
+              min-width: 250px;
+            }
+            select {
+              min-width: 200px;
+            }
+  
+            #selectingBatch{
+  
+              display: flex;
+              flex-direction: column;
+            }
+  
+            .LinkContainer {
+              margin-top: 1.32rem;
+              display: flex;
+  
+              .link {
+  
+                padding: 0.5rem 1rem;
+                background-color: #ffffff;
+                p {
+                  color: black;
+                }
+              }
+            }
+  
+            #shareButton {
+              margin-top: 1.32rem;
+              border-radius: 200px;
+            }
+  
+            }
+  
+            
+        }
+      
+        #orSection {
+  
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          .dotted {
+            height: 0px;
+            width: 17vw;
+            border: 1px dashed rgba(0, 0, 0, 0.3);
+          }
+        }
+  
+        #sendNotification {
+  
+          h3{
+            margin-bottom: 1rem;
+          }
+          p {
+            margin-bottom: 1rem;
+            font-size: 16px;
+          }
+        }
+  
+        #selectBatch {
+  
+          display: flex;
+          gap: 2rem;
+  
+  
+          input,
+            select {
+              height: 45px;
+              padding: 0 0.75rem;
+              border: 1.5px solid #6764FF;
+              border-radius: 6px;
+              font-family: "Poppins", sans-serif;
+            }
+  
+            label {
+              color: hsla(0, 0%, 0%, 0.6);
+              font-weight: 600;
+            }
+        }
+  
+        #plusButton {
+  
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1.2rem;
+          background-color: #6764FF;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          color: white;
+          
+        }
+  
+        #invitationBtn {
+  
+          margin-left: 65%;
+  
+          button {
+            display: flex;
+            align-items: center;
+            padding: 1rem 3rem;
+          }
+        }
+  
+      }
+      
+    }
+  
+
+  }
+  
+
+
+
+}
+
+
+
+

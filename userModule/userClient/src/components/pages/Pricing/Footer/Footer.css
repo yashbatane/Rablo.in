@@ -1,0 +1,25 @@
+.footerContainer {
+  width: 101.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .footerContainer {
+    width: 100%;
+  }
+}
+.footerContainer .footerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  color: rgba(94, 66, 187, 0.45);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .footerContainer .footerWrapper {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=Footer.css.map */

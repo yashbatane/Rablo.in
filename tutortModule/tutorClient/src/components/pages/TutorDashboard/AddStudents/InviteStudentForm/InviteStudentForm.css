@@ -1,0 +1,230 @@
+.mainSection {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.mainSection .sideBar {
+  min-height: 100vh;
+}
+.mainSection .mainContent #dateTime {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainSection .mainContent #dateTime #stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainSection .mainContent #dateTime #stats #date {
+  margin-right: 1rem;
+}
+.mainSection .mainContent #dateTime #stats #date p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.mainSection .mainContent #dateTime #stats #button-wallet {
+  background-color: #6764FF;
+  color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 40px;
+  margin-right: 2rem;
+}
+.mainSection .mainContent #dateTime #stats #button-wallet p {
+  margin-left: 0.5rem;
+}
+.mainSection .mainContent #dateTime #stats #messages {
+  color: #6764FF;
+  height: 60px;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+.mainSection .mainContent #dateTime #stats #notification {
+  color: #6764FF;
+  height: 60px;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+.mainSection .mainContent #dateTime #stats #horizontal-division {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  height: 60px;
+  margin-right: 1rem;
+}
+.mainSection .mainContent .InviteStudentForm {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  gap: 1.5rem;
+  background: #F8F8F8;
+  padding: 0.9rem;
+  min-height: 80vh;
+}
+.mainSection .mainContent .InviteStudentForm h3 {
+  color: #6764ff;
+  margin: 0;
+}
+.mainSection .mainContent .InviteStudentForm p {
+  margin: 0;
+}
+.mainSection .mainContent .InviteStudentForm button {
+  height: 45px;
+  font-weight: 600;
+  background-color: #6764ff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 0.6rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+.mainSection .mainContent .InviteStudentForm .topRow {
+  display: flex;
+  gap: 15vw;
+}
+.mainSection .mainContent .InviteStudentForm .topRow p {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.mainSection .mainContent .InviteStudentForm .topRow input {
+  background: #ECECEC;
+  border-radius: 18.3214px;
+  border: none;
+  padding: 0.8rem;
+  align-items: center;
+}
+.mainSection .mainContent .InviteStudentForm .formRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 3rem;
+  align-items: center;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer h3 {
+  margin: 0;
+  padding: 0;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer p {
+  margin-top: -2%;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer label {
+  color: hsla(0, 0%, 0%, 0.6);
+  font-weight: 600;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer input,
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer select {
+  height: 45px;
+  padding: 0 0.75rem;
+  border: 1px solid #6764ff;
+  border-radius: 0.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer input {
+  min-width: 250px;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer select {
+  min-width: 200px;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer #selectingBatch {
+  display: flex;
+  flex-direction: column;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer .LinkContainer {
+  margin-top: 1.32rem;
+  display: flex;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer .LinkContainer .link {
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer .LinkContainer .link p {
+  color: black;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer form .InputContainer #shareButton {
+  margin-top: 1.32rem;
+  border-radius: 200px;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #orSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #orSection .dotted {
+  height: 0px;
+  width: 17vw;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #sendNotification h3 {
+  margin-bottom: 1rem;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #sendNotification p {
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #selectBatch {
+  display: flex;
+  gap: 2rem;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #selectBatch input,
+.mainSection .mainContent .InviteStudentForm .FormContainer #selectBatch select {
+  height: 45px;
+  padding: 0 0.75rem;
+  border: 1.5px solid #6764FF;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #selectBatch label {
+  color: hsla(0, 0%, 0%, 0.6);
+  font-weight: 600;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #plusButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.2rem;
+  background-color: #6764FF;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #invitationBtn {
+  margin-left: 65%;
+}
+.mainSection .mainContent .InviteStudentForm .FormContainer #invitationBtn button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+}/*# sourceMappingURL=InviteStudentForm.css.map */

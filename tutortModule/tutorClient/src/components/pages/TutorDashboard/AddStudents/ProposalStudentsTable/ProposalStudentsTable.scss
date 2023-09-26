@@ -1,0 +1,110 @@
+.proposalMaincontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    .proposalSearchContainer {
+        select {
+            background: #ffffff;
+            border: 1.19554px solid #3c5aac;
+            border-radius: 4.78218px;
+            font-size: 15px;
+            padding: 5px;
+            width: 110px;
+        }
+    }
+    .proposalTableContainer {
+        // margin-top: 40px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+
+            thead {
+                position: sticky;
+                top: 0;
+                background-color: white;
+            }
+
+            tbody {
+                tr:nth-child(odd) {
+                    background-color: #fbfbfb;
+                }
+                tr {
+                    margin-left: 10px;
+                    box-shadow: 0px 4px 4px rgba(103, 100, 255, 0.11);
+                    td {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.5em;
+                        .action{
+                            background-color: #6764ff;
+                            color: #ffffff;
+                            border: 0;
+                            width: 80px;
+                            border-radius: 5px;
+                            height: 40px;
+                            
+                            &:hover{
+                                color: #6764ff;
+                                border: 2px solid #6764ff;
+                                background-color: white;
+                                border-radius: 5px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .charge{
+                        color: #6764ff;
+                        font-weight: 600;
+
+                        svg{
+                            color: #6764ff;
+                        }
+                    }
+                    .plan{
+                        color: #F82083CC;
+                    }
+                }
+            }
+
+            th {
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 150%;
+                /* identical to box height, or 20px */
+                color: rgba(0, 0, 0, 0.6);
+            }
+        }
+        .studentName {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            /* identical to box height, or 24px */
+            color: #000000;
+        }
+        .studentStatus {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 150%;
+            /* identical to box height, or 21px */
+
+            color: #6764ff;
+        }
+        .studentSent {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            /* identical to box height, or 21px */
+
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .studentViewDetails {
+            a {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 150%;
+                text-decoration-line: underline;
+                color: #6764ff;
+                cursor: pointer;
+            }
+        }
+    }
+}

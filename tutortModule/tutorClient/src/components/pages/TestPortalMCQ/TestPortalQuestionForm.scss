@@ -1,0 +1,40 @@
+.container {
+  // background-color: white;
+  // height: 100%;
+  // width: 100vw;
+  // padding: 1em;
+  // .navBarArea{
+  //     z-index: 0;
+  //     position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  // }
+  .navBarArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+  }
+  .TestArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    // margin-top: 50px;
+
+    // background-color: rebeccapurple;
+  }
+
+  @media screen and (max-width: 500px) {
+    .TestArea {
+      width: 100vw;
+      height: auto;
+      flex-wrap: wrap;
+      // background-color: pink;
+    }
+  }
+}

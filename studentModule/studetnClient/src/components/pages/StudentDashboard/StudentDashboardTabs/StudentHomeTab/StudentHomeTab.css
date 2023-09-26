@@ -1,0 +1,221 @@
+.DashboardContainer {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 2rem;
+}
+.DashboardContainer h2,
+.DashboardContainer p {
+  margin: 0;
+}
+.DashboardContainer .Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.DashboardContainer .Header p {
+  color: #D04E62;
+  font-weight: bold;
+}
+.DashboardContainer .HeaderContainer {
+  width: 100%;
+  height: 75px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.DashboardContainer .HeaderContainer img {
+  height: 75%;
+}
+.DashboardContainer .HeaderContainer .ProfileContainer {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  text-transform: uppercase;
+}
+.DashboardContainer .HeaderContainer .ProfileContainer img {
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+}
+.DashboardContainer .GreetingContainer {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.DashboardContainer .GreetingContainer .banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #d04e62;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  color: white;
+  position: relative;
+}
+.DashboardContainer .GreetingContainer .banner img {
+  position: absolute;
+  top: -10%;
+  right: 5%;
+  height: 100%;
+}
+.DashboardContainer .SubjectsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+.DashboardContainer .SubjectsContainer .subjects {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.DashboardContainer .SubjectsContainer .subjects .subject {
+  position: relative;
+  height: 150px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3rem;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 6.116399765px 6.116399765px 0px rgba(0, 0, 0, 0.1019607843);
+  overflow: hidden;
+}
+.DashboardContainer .SubjectsContainer .subjects .subject .IconContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.DashboardContainer .SubjectsContainer .subjects .subject h3 {
+  margin: 0;
+}
+.DashboardContainer .SubjectsContainer .subjects .subject .blob {
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 70% 30% 51% 70%/60% 40% 60% 40%;
+  top: -50%;
+  right: -50%;
+  z-index: -10;
+}
+.DashboardContainer .TopTutorContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-direction: column;
+}
+.DashboardContainer .TopTutorContainer .tutors::-webkit-scrollbar {
+  height: 5px;
+  border-radius: 5px;
+}
+.DashboardContainer .TopTutorContainer .tutors::-webkit-scrollbar-thumb {
+  background-color: rgba(37, 132, 233, 0.7254901961);
+}
+.DashboardContainer .TopTutorContainer .tutors {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 1rem;
+}
+.DashboardContainer .TopTutorContainer .tutors .tutor {
+  height: 150px;
+  min-width: 300px;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d04e62;
+}
+.DashboardContainer .TopTutorContainer .tutors .tutor h3 {
+  margin: 0;
+}
+.DashboardContainer .TopTutorContainer .tutors .tutor img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.DashboardContainer .TopTutorContainer .tutors .tutor .DetailsContainer {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.DashboardContainer .YourProgressContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.DashboardContainer .YourProgressContainer .ProgressContainer {
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  border: 1px solid #d04e62;
+}
+.DashboardContainer .YourProgressContainer .ProgressContainer .progressReport {
+  display: flex;
+  gap: 0.5rem;
+  min-width: 300px;
+  flex-basis: 32%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.DashboardContainer .YourProgressContainer .ProgressContainer .batchType {
+  height: 50px;
+  background: rgba(37, 132, 233, 0.1215686275);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  font-weight: bold;
+  color: #f83d00;
+  border-radius: 10px;
+}
+.DashboardContainer .YourProgressContainer .ProgressContainer .descContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.DashboardContainer .YourProgressContainer .ProgressContainer .progressbar {
+  width: 150px;
+  height: 10px;
+  border-radius: 10px;
+  background: #adc7f8;
+}
+.DashboardContainer .YourProgressContainer .ProgressContainer .progressbar .progress {
+  background-color: #2584e9;
+  height: 100%;
+  border-radius: 10px;
+}/*# sourceMappingURL=StudentHomeTab.css.map */

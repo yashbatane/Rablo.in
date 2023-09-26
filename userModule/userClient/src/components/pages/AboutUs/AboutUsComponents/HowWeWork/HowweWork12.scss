@@ -1,0 +1,56 @@
+.howweworkcontainer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .howweworktitle {
+        font-family: "Comfortaa", Sans-serif;
+        font-size: 30px;
+        margin-bottom: 15px;
+        /* text-shadow: 1px 1px rgb(167, 167, 167); */
+    }
+
+    .boxesType1 {
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        .bbox {
+            height: auto;
+            padding: 20px 10px !important;
+            margin: 20px;
+            p{
+                width: 50%;
+            }
+            #first{
+                width: 50% !important;
+                
+            }
+        }
+    }
+
+    .horizontal-line {
+        width: 65%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .howweworkcontainer {
+        width: 100%;
+    }
+
+    .howweworkcontainer .boxesType1 {
+        width: 92%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .howweworkcontainer .boxesType1 {
+        width: 100%;
+    }
+}

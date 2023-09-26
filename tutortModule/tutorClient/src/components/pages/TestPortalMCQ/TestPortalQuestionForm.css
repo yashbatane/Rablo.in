@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .navBarArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 50px;
+}
+.container .TestArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+}
+@media screen and (max-width: 500px) {
+  .container .TestArea {
+    width: 100vw;
+    height: auto;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=TestPortalQuestionForm.css.map */

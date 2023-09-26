@@ -1,0 +1,42 @@
+.NavContainer{
+  position: relative;
+  height:100%;
+  min-width: 50px;
+  width:50px;
+  display:flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: left;
+
+  nav{
+    padding:2rem 0;
+    z-index: 10;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    .NavElemsContainer,.LogoutContainer{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      gap:1rem;
+    }
+  }
+
+
+
+
+
+}
+
+.NavContainer::before{
+  content:"";
+  position: absolute;
+  height:100%;
+  width:100%;
+  background-color: rgba(255,0,0,0.5);
+}

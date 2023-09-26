@@ -1,0 +1,32 @@
+.registration {
+  display: flex;
+  width: 100vw;
+}
+.registration .registration-form {
+  height: 100vh;
+  width: 100%;
+  background: #ffffff;
+}
+.registration .registration-form .registration-form-top {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  padding: 2.26226rem 2.93601rem 2.5025rem 0;
+  color: rgba(0, 0, 0, 0.43);
+  font-size: 1.20351rem;
+  font-weight: 500;
+}
+.registration .registration-form .registration-form-top span {
+  color: #6764FF;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.registration .registration-form .registration-form-bottom {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem 15.15976rem 1.2rem 0;
+}/*# sourceMappingURL=TutorRegistration.css.map */

@@ -1,0 +1,437 @@
+.AddStudentContainer {
+    transition: 1s all ease;
+    display: flex;
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem 0 2rem;
+        flex: 1;
+        height: 90%;
+
+        .headerContainer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 50px;
+            gap: 3rem;
+
+            .searchContainer {
+                display: flex;
+                gap: 0.5rem;
+                background-color: rgb(226, 226, 226);
+                border-radius: 15px;
+                padding: 0.5rem;
+
+                input {
+                    font-family: "Poppins", sans-serif;
+                    border: 0;
+                    outline: 0;
+                    background: transparent;
+                    height: 25px;
+                }
+            }
+        }
+        .dataContainer {
+            height: calc(100% - 250px - 1rem);
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            .tabsContainer {
+                display: flex;
+                height: 50px;
+                width: 100%;
+                border-bottom: 2px solid #d9d9d9;
+                gap: 1rem;
+
+                .tab {
+                    width: fit-content;
+                    padding: 0.5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 0;
+                    margin-bottom: -3px;
+                    color: rgba(0, 0, 0, 0.5);
+                    cursor: pointer;
+                }
+                .activeTab {
+                    background: transparent;
+                    font-weight: bold;
+                    color: #6764ff;
+                    border-bottom: 4px solid #6764ff;
+                }
+            }
+            .tableContainer::-webkit-scrollbar {
+                background-color: white;
+                width: 0.5rem;
+            }
+            .tableContainer::-webkit-scrollbar-thumb {
+                background-color: #e2e2e2;
+                border-radius: 1rem;
+            }
+            .tableContainer {
+                width: 100%;
+                height: calc(100% - 50px);
+                overflow-y: scroll;
+                position: relative;
+
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+
+                    .circle {
+                        height: 30px;
+                        aspect-ratio: 1/1;
+                        border-radius: 50%;
+                        background-color: cyan;
+                    }
+
+                    thead {
+                        position: sticky;
+                        top: 0;
+                        background-color: white;
+                    }
+
+                    tbody {
+                        tr:nth-child(odd) {
+                            background-color: #fbfbfb;
+                        }
+                        tr.activeStudent {
+                            background-color: #a8b8ff;
+                        }
+                    }
+
+                    tr {
+                        text-align: left;
+                        font-size: 0.8rem;
+                    }
+
+                    td,
+                    th {
+                        padding: 0.5rem;
+                    }
+                    td.flex {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        gap: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+    // .AddStudentContainer aside {
+    //   // height: 100vh;
+    //   // width: 18.75rem;
+
+    //   // margin-right: 0;
+    //   overflow-y: hidden;
+    //   scroll-behavior: smooth;
+    //   scrollbar-width: 0;
+    // }
+    .proposalSidebar {
+        height: 100vh;
+        width: auto;
+        // border-radius: 26px 0px 0px 26px;
+
+        // .profileImage {
+        //     height: 3.125rem;
+        // }
+        // .sideContainer {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: center;
+        //     padding-top: 6.25rem;
+        //     background: #ffffff;
+        //     box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.25);
+        //     border-radius: 16px;
+        //     border-left: 1px solid rgba(106, 106, 106, 0.58);
+        // }
+        // .profileImageContainer {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: center;
+        // }
+        // .profileImg {
+        //     height: 9.56rem;
+        //     padding-bottom: 0.6rem;
+        // }
+        // .profileImageContainer h5 {
+        //     font-size: 1.5rem;
+        //     font-weight: 500;
+        //     color: rgba(0, 0, 0, 0.6);
+        //     font-family: "Poppins";
+        //     margin: 0;
+        // }
+        // .tutorInfoList li {
+        //     color: rgba(0, 0, 0, 0.58);
+        //     font-weight: 500;
+        //     line-height: 150%;
+        //     font-size: 1rem;
+        //     padding-bottom: 30px;
+        // }
+        // .tutorName {
+        //     padding: 1.4rem;
+        // }
+        // .tutorName h2 {
+        //     color: #6764ff;
+        //     font-family: "Poppins";
+        //     font-weight: 600;
+        //     font-size: 2rem;
+        //     line-height: 150%;
+        //     margin: 0;
+        // }
+        // .sideContainer1 {
+        //     position: relative;
+        //     display: flex;
+        //     margin: 10px 0px 10px 0px;
+        //     flex-direction: column;
+        //     gap: 0.8rem;
+        //     justify-content: center;
+        //     border-radius: 26px 0px 0px 26px;
+        //     height: 100%;
+        //     align-items: center;
+        //     align-content: center;
+        //     overflow: scroll;
+        //     padding-left: 25px;
+        //     padding-right: 10px;
+        //     background: linear-gradient(180deg, #80a3ef 0%, #3e3ca8 100%);
+        // }
+
+        // .left-arrow {
+        //     position: absolute;
+        //     background-color: transparent;
+        //     border: none;
+        //     font-size: 30px;
+        //     font-weight: 1000;
+        //     color: white;
+        //     cursor: pointer;
+        //     top: 2rem;
+        //     // right: 17.2rem;
+        //     left: 1rem;
+        //     // left: -10px;
+        //     img {
+        //         height: 3rem;
+        //     }
+        // }
+        // .profileImageContainer1 {
+        //     display: flex;
+        //     position: relative;
+        //     // margin-top: 1.5rem;
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: center;
+        //     h2 {
+        //         font-size: 2.2rem;
+        //         font-weight: 600;
+        //         color: #ffffff;
+        //         font-family: "Poppins";
+        //         margin: 0;
+        //         padding: 0;
+        //     }
+        //     .profileImg1 {
+        //         height: 9.56rem;
+        //     }
+        //     .sideContainer1StarImg {
+        //         position: absolute;
+        //         top: 0.5rem;
+        //         left: 2.5rem;
+        //         height: 25px;
+        //     }
+        //     .sideContainer1CircleImg {
+        //         position: absolute;
+        //         top: 0.2rem;
+        //         left: 8.5rem;
+        //         height: 40px;
+        //     }
+        // }
+
+        .stdDesc {
+            margin-top: -10px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            h5 {
+                color: #ffffff;
+                font-family: "Poppins";
+                font-weight: 400;
+                font-size: 1.25rem;
+                line-height: 1.9rem;
+                margin: 0;
+            }
+        }
+        .tutorIcons {
+            gap: 20px;
+            display: flex;
+            // padding-top: 10px;
+        }
+        .indivisualIcons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 46px;
+            height: 46px;
+            background-color: #0300a1;
+            border-radius: 50%;
+            color: white;
+        }
+        .tutorAbout {
+            margin: 15px 5px 0px 0px;
+            h6 {
+                color: #ffffff;
+                font-weight: 500;
+                font-size: 20px;
+                margin: 0;
+                // padding-top: 30px;
+            }
+            p {
+                color: #ffffff;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+
+        .studentInfo {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin-left: -2rem;
+            gap: 30px;
+            color: #ffffff;
+            // font-size: 16px;
+            .stuInfoHeading {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .studentInfoSubheading {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .stuInforating {
+                img {
+                    height: 15px;
+                }
+            }
+        }
+
+        .inviteBtn {
+            width: 244px;
+            border-radius: 1.4rem;
+            border: none;
+            background-color: #ffffff;
+            /* padding: 5px 93px; */
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 48px;
+            color: #4d4bc8;
+            cursor: pointer;
+            /* margin: auto; */
+        }
+        .invite_button {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 10px 0px 10px 0px;
+            /* padding-right: 10px; */
+            // margin: 20px;
+        }
+    }
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.5);
+    fill-opacity: 50%;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        height: 436px;
+        width: 811px;
+        border-radius: 5px;
+
+        .close {
+            position: absolute;
+            height: 30px;
+            width: 30px;
+            font-size: 18px;
+            left: calc(50vw + 350px);
+            top: calc(50vh - 200px);
+            color: #6764ff;
+            z-index: 3;
+            font-size: 28px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+
+        .head1 {
+            text-align: center;
+            height: fit-content;
+            color: rgba(101, 6, 6, 0.8);
+            font-weight: 600;
+            font-size: 28px;
+        }
+
+        .head2 {
+            text-align: center;
+            font-weight: 400;
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.4);
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            // overflow: scroll;
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            margin: 20px;
+        }
+
+        button {
+            margin: 20px;
+            background-color: #6764ff99;
+            border: none;
+            height: 52px;
+            width: 165px;
+            border-radius: 30px;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+    }
+}
+
+@keyframes copy {
+    0% {
+        background-color: rgb(69, 231, 69);
+    }
+}

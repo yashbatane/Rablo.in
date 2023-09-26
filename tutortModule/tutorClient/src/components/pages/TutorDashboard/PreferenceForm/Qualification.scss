@@ -1,0 +1,54 @@
+.preferencesMainContainer
+{
+    position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.qualification
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+
+
+color: rgba(0, 0, 0, 0.4);
+}
+span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+
+color: rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins';
+}
+
+
+.yes{
+    border: 0.768708px solid #6764FF;
+    // padding:10px;
+   width:80px;
+   border-radius: 30px;
+
+   align-items: center;
+   text-align: center;
+}
+
+.no
+{  padding:10px;
+ 
+     
+    border: 0.768708px solid #6764FF;
+     border-radius: 30px;
+      width:80px;
+   
+}
+.active{
+    background-color:#6764FF;
+    color:white !important;
+}

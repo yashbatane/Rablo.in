@@ -1,0 +1,253 @@
+.tutorProposalBar {
+  position: relative;
+  width: 310px;
+  height: 90vh;
+  padding: 0 20px 20px 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  overflow-y: scroll;
+  transition: 1s all ease;
+  margin-top: 30px;
+}
+.tutorProposalBar .start {
+  margin-left: 30px;
+}
+.tutorProposalBar .row {
+  display: flex;
+}
+.tutorProposalBar .row::after {
+  position: absolute;
+  content: "";
+  top: 154px;
+  left: 200px;
+  width: 2px;
+  height: 56px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.tutorProposalBar .cross {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 20px;
+  color: #6764FF;
+  cursor: pointer;
+}
+.tutorProposalBar h1:nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.tutorProposalBar p:nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.tutorProposalBar .schedule p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 5px 0;
+}
+.tutorProposalBar .schedule .days {
+  display: flex;
+}
+.tutorProposalBar .schedule .days p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6764ff;
+  margin-right: 35px;
+}
+.tutorProposalBar .schedule .days .rightArrow {
+  position: relative;
+  top: -15px;
+  font-size: 25px;
+  color: #6764ff;
+}
+.tutorProposalBar .schedule::after {
+  position: absolute;
+  content: "";
+  top: 300px;
+  width: 287px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.tutorProposalBar .free-classes p:nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.tutorProposalBar .free-classes p:nth-child(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.tutorProposalBar .free-classes .classes .days:nth-child(1) {
+  display: flex;
+}
+.tutorProposalBar .free-classes .classes .days:nth-child(1) p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 92%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.66em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.tutorProposalBar .free-classes .classes .days:nth-child(2) {
+  display: flex;
+}
+.tutorProposalBar .free-classes .classes .days:nth-child(2) p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1em;
+  color: #6764ff;
+  margin: 0;
+}
+.tutorProposalBar .free-classes .classes .days:nth-child(2) .rightArrow {
+  position: relative;
+  top: -15px;
+  font-size: 25px;
+  color: #6764ff;
+}
+.tutorProposalBar .free-classes .classes::after {
+  position: absolute;
+  content: "";
+  top: 470px;
+  width: 287px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.tutorProposalBar .subjects p:nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+}
+.tutorProposalBar .subjects p:nth-child(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.tutorProposalBar .subjects select {
+  width: 287px;
+  height: 40px;
+  border: none;
+  background: rgba(246, 238, 238, 0.8);
+  border-radius: 6px;
+}
+.tutorProposalBar .subjects::after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  bottom: 269px;
+  width: 287px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.tutorProposalBar .salary p:nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.tutorProposalBar .salary p:nth-child(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.tutorProposalBar .salary h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #6764ff;
+}
+.tutorProposalBar .salary h1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.3019607843);
+  margin-left: 8px;
+}
+.tutorProposalBar .salary p:nth-child(3) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.tutorProposalBar .salary div {
+  display: flex;
+}
+.tutorProposalBar .salary div button {
+  width: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 20px;
+  color: #ffffff;
+  border: none;
+  background: #6764ff;
+  border-radius: 30px;
+}
+.tutorProposalBar .salary div button:nth-child(2) {
+  background: transparent;
+  border: 1px solid #6764ff;
+  color: #6764ff;
+}
+
+.tutorProposalBar::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=tutorProposalBar.css.map */

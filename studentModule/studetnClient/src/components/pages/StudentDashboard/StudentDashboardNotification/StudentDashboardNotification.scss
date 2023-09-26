@@ -1,0 +1,103 @@
+.notificationmodel-dashboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  // background-color: grey;
+  background: rgba($color: grey, $alpha: 0.2);
+  opacity: 3;
+}
+
+.notification-container-stuDash {
+  background-color: white;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  width: 533px;
+  height: 90%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 2.5rem;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  overflow-x: scroll;
+  gap: 1.5rem;
+
+  .head-of-notif-panel {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    .notif-label {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+
+      /* identical to box height */
+
+      color: #ad3744;
+    }
+    .gearIconbtn {
+      button {
+        all: unset;
+        cursor: pointer;
+      }
+    }
+  }
+  .notification-content {
+    // background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .norif-content-loop {
+      display: grid;
+      grid-template-columns: 25% 75%;
+    }
+    
+    .profile-pic-notif {
+      border-radius: 50%;
+      background-color: #a1adff;
+      height: 80px;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    hr {
+      width: 172px;
+      height: 0px;
+
+      border: 1px solid #808080;
+      margin-left: 108px;
+    }
+    .content-notif {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      div {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #000000;
+      }
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        /* identical to box height */
+
+        color: #000000;
+
+        opacity: 0.5;
+      }
+    }
+  }
+}

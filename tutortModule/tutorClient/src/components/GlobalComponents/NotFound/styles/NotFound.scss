@@ -1,0 +1,27 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .notfound-head {
+        margin-bottom: 1.21rem;
+    }
+    .notfound-msg {
+        margin-bottom: 1.21rem;
+        color: rgba(0, 0, 0, 0.40);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .notfound-link {
+        .link-button {
+            padding: .6rem 1rem; 
+            cursor: pointer;
+            background: rgba(103, 100, 255, 0.6);
+            border-radius: 32.4211px;
+            color: #F8F8F8;
+        }
+    }
+}

@@ -1,0 +1,191 @@
+.tutDetCard-container {
+  display: flex;
+  background: #ffffff;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  gap: 1rem;
+  align-items: center;
+}
+.tutDetCard-container .tudDet_card_image {
+  width: 13.5rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border-radius: 28px;
+  margin-left: 1vw;
+}
+.tutDetCard-container .middle-container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  align-items: center;
+  align-content: center;
+  gap: 0.5em;
+}
+.tutDetCard-container .midContainer-topRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+.tutDetCard-container .midContainer-topRow button {
+  all: unset;
+  cursor: pointer;
+}
+.tutDetCard-container .tutorName-mid-container {
+  font-weight: 700;
+  font-size: 38.3px;
+}
+.tutDetCard-container .percent-mid-container {
+  display: flex;
+  gap: 0.8rem;
+  border-style: solid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 5.9rem;
+  height: 2rem;
+  border-color: #ffffff;
+  box-shadow: 0px 2.98207px 2.98207px rgba(0, 0, 0, 0.1);
+  border-radius: 11.1828px;
+}
+.tutDetCard-container .percent-mid-container div {
+  padding-right: 3px;
+  display: absolute;
+  left: 2rem;
+  font-weight: 600;
+  font-size: 17.8924px;
+  color: #70c249;
+}
+.tutDetCard-container .percent-mid-container img {
+  width: 25px;
+}
+.tutDetCard-container .midContainer-midRow {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  align-items: center;
+}
+.tutDetCard-container .dot-in-midrow hr {
+  border: 3px solid rgba(0, 0, 0, 0.5019607843);
+  border-radius: 100%;
+}
+.tutDetCard-container .subject-midRow {
+  font-weight: 600;
+  font-size: 21.8883px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.tutDetCard-container .exp-midRow {
+  font-weight: 600;
+  font-size: 21.8883px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.tutDetCard-container .rating-midrow {
+  font-weight: 600;
+  font-size: 21.8883px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.tutDetCard-container .midContainer-bottomRow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 22vw;
+  border: 0.547207px solid rgba(0, 0, 0, 0.5);
+  border-radius: 16.4162px;
+}
+.tutDetCard-container .midContainer-bottomRow .num-content-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tutDetCard-container .midContainer-bottomRow .num-content {
+  font-weight: 600;
+  font-size: 45.797px;
+  color: #f05f5f;
+}
+.tutDetCard-container .subScript-numcontent {
+  font-weight: 600;
+  font-size: 14.8167px;
+  color: #f05f5f;
+}
+.tutDetCard-container .rightMost-container {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.tutDetCard-container .heading-rightmost-container {
+  font-weight: 400;
+  font-size: 17.5186px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.tutDetCard-container .time-slots {
+  display: flex;
+  gap: 2rem;
+}
+.tutDetCard-container .insideTimeSlot {
+  display: flex;
+  border: 1.16928px solid #f05f5f;
+  border-radius: 16.3699px;
+  width: 119.13px;
+  height: 43px;
+  font-weight: 500;
+  font-size: 15.4883px;
+  color: #f05f5f;
+  align-items: center;
+  align-content: center;
+}
+.tutDetCard-container .insideTimeSlot div {
+  margin-left: 1.5rem;
+}
+.tutDetCard-container .price-container-rightmost-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  border: 0.588146px solid rgba(0, 0, 0, 0.5);
+  border-radius: 17.6444px;
+  width: 24.3vw;
+  height: 95.22px;
+  align-items: center;
+  align-content: center;
+}
+.tutDetCard-container .price-container-rightmost-container .price {
+  font-weight: 700;
+  font-size: 26.278px;
+  color: #f05f5f;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.tutDetCard-container .price-container-rightmost-container .price-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.tutDetCard-container .price-container-rightmost-container .perhourRightMostContainer {
+  font-weight: 400;
+  font-size: 18.278px;
+  color: #f05f5f;
+}
+.tutDetCard-container .price-container-rightmost-container .priceContainer-button {
+  all: unset;
+  text-align: center;
+  background: #ec3737;
+  border-radius: 16.5576px;
+  width: 111px;
+  height: 35.08px;
+  color: white;
+  cursor: pointer;
+}
+.tutDetCard-container .divider {
+  height: 12rem;
+  border: 1px solid #808080;
+}
+.tutDetCard-container .starImageTutCardComp {
+  height: 1.5rem;
+}/*# sourceMappingURL=TutDet_cardComponent.css.map */

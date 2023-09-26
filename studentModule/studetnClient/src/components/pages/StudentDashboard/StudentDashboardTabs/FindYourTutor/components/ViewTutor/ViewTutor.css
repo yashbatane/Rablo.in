@@ -1,0 +1,152 @@
+.TutorProfileContainer {
+  background: linear-gradient(179.48deg, #D04E62 0.45%, #650606 213.12%);
+  height: 100vh;
+  width: 350px;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  filter: drop-shadow(-27px 0px 116px rgba(0, 0, 0, 0.25));
+}
+.TutorProfileContainer .ProfileItems {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.TutorProfileContainer h1, .TutorProfileContainer h3, .TutorProfileContainer p, .TutorProfileContainer h4, .TutorProfileContainer h2 {
+  margin: 0;
+}
+.TutorProfileContainer .BackButtonContainer {
+  position: sticky;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.TutorProfileContainer .ProfileImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.TutorProfileContainer .ProfileImageContainer img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.TutorProfileContainer .ProfileImageContainer .StarContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FFD872;
+  height: -moz-fit-content;
+  height: fit-content;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TutorProfileContainer .ProfileInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.TutorProfileContainer .RoutineContainer {
+  display: flex;
+  gap: 1rem;
+  color: #504141;
+}
+.TutorProfileContainer .RoutineContainer .Routine {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+}
+.TutorProfileContainer .RoutineContainer .Routine .timeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.TutorProfileContainer .RoutineContainer .Routine .DaysContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+.TutorProfileContainer .RoutineContainer .AddRoutine {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+}
+.TutorProfileContainer .AboutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.TutorProfileContainer .AboutContainer p {
+  font-size: 0.85rem;
+}
+.TutorProfileContainer .InfoContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.TutorProfileContainer .InfoContainer .info {
+  flex-basis: 45%;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.TutorProfileContainer .InfoContainer .info .ratingContainer {
+  display: flex;
+  gap: 0.25rem;
+}
+.TutorProfileContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+  height: 45px;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
+}
+
+.TutorProfileContainer:hover .ProfileItems::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ProfileItems::-webkit-scrollbar {
+  width: 5px;
+}
+
+.ProfileItems::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+}/*# sourceMappingURL=ViewTutor.css.map */

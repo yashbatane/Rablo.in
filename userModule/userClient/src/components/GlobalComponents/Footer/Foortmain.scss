@@ -1,0 +1,242 @@
+.mainfooter {
+  min-height: 60vh;
+  background-color: rgba(108, 23, 208);
+  width: 100%;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  .footercontentsmaincontainer {
+    margin: 6vh 20vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    h3 {
+      color: #fbc909;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+
+    // footercontainer1
+    .mainfootercontainer1 {
+      flex: 2;
+      padding-right: 10px;
+      .FooterAboutCompnay{
+       width: 80%;
+      }
+      p {
+        // margin: 2em 5em 2em 0;
+        font-size: 1.3em;
+        line-height: 1.5;
+        font-weight: 500;
+      }
+      //   find us
+      .FooterFindus {
+        display: flex;
+        margin-bottom: 1em;
+
+
+        .FooterLocation {
+          margin: 0.5em;
+          display: flex;
+          flex-direction: row;
+          margin: 15px;
+          address {
+            padding: 0.3em 0 0 0.5em;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 1.5em;
+          }
+          a {
+            padding: 0.3em 0 0 0.5em;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 1.5em;
+          }
+        }
+        img {
+          width: 40px;
+        }
+      }
+      .FooterCompanySocialMeadia {
+        margin: 3em 0;
+        img {
+          width: 40px;
+          margin: 0.5em;
+          cursor: pointer;
+        }
+      }
+      img {
+        width: 200px;
+      }
+    }
+
+    // navigations links
+    .mainfooternavigationslinks {
+      display: flex;
+      //   flex-direction: row;
+      flex: 2;
+      // footercontainer2
+      .mainfootercontainer2 {
+        flex: 1;
+        .footerMainMenu {
+          margin-top: 1.5em;
+          display: flex;
+          flex-direction: column;
+          a {
+            padding: 0.8em 0;
+            font-weight: 600;
+            font-size: 1em;
+          }
+        }
+      }
+
+      // footercontainer3
+      .mainfootercontainer3 {
+        flex: 1;
+        .FooterImportantLink {
+          margin-top: 1.5em;
+          display: flex;
+          flex-direction: column;
+          a {
+            padding: 0.8em 0;
+            font-weight: 600;
+            font-size: 1em;
+          }
+        }
+      }
+    }
+
+    // footercontainer4
+    .mainfootercontainer4 {
+      flex: 0.5;
+      .FooterinfoButtons {
+        display: flex;
+        flex-direction: column;
+        a {
+          border-radius: 50px;
+          padding: 10px 10px;
+          color: black;
+          font-weight: 600;
+          background-color: #fbc909;
+          margin: 0.1em 1em;
+        }
+      }
+      .FooterShareLinks {
+        margin: 1.5em;
+
+        img {
+          margin: 0.4em;
+          width: 30px;
+          display: flex;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  //   footer copyright
+  .footer-copyright {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px 0 5px 0;
+    span {
+      color: #fbc909;
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .FooterFindus {
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 900px) {
+  .footercontentsmaincontainer {
+    margin: 6vh 2vh !important;
+    display: flex;
+    flex-direction: column;
+    .FooterinfoButtons {
+      align-self: center;
+    }
+    .FooterCompanySocialMeadia {
+      text-align: center;
+    }
+    .FooterFindus {
+      flex-direction: row !important;
+      align-self: center;
+      justify-content: center;
+    }
+  }
+  .mainfooternavigationslinks {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 3em 0;
+  }
+  .mainfootercontainer4 {
+    align-self: center;
+    text-align: center;
+    .FooterShareLinks {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .FooterinfoButtons {
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footercontentsmaincontainer {
+    flex-direction: column;
+    .mainfootercontainer1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .FooterAboutCompnay{
+        width: 100%;
+   
+       }
+      .FooterAboutCompnay {
+        margin: 10px 0px;
+        text-align: center;
+      }
+      .FooterFindus{
+        // width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        // background-color: red;
+
+        
+      }
+    }
+    .mainfooternavigationslinks {
+      flex-direction: column;
+      .mainfootercontainer2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .footerMainMenu {
+          align-items: center;
+        }
+      }
+      .mainfootercontainer3 {
+        // background-color: rebeccapurple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .FooterImportantLink {
+          align-items: center;
+        }
+      }
+    }
+  }
+}

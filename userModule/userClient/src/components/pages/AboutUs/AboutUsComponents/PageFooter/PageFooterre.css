@@ -1,0 +1,77 @@
+.aboutpagefooter {
+  margin-top: 30px;
+  width: 100%;
+  min-height: 70vh;
+  background-image: linear-gradient(135deg, rgb(133, 47, 204) 0%, rgb(155, 81, 224) 100%);
+  font-family: "Comfortaa", Sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.aboutpagefooter img {
+  margin-top: -2px;
+  width: 100%;
+  transform: rotate(180deg);
+}
+.aboutpagefooter .aboutpagefootercontent {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.aboutpagefooter .aboutpagefootercontent .aboutpagfooterheading {
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+.aboutpagefooter .aboutpagefootercontent .catalogcontainer {
+  width: 60%;
+}
+.aboutpagefooter .aboutpagefootercontent .catalogcontainer .desc {
+  color: white;
+}
+.aboutpagefooter .aboutpagefootercontent .catalogcontainer .data {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  margin: 50px 0;
+}
+.aboutpagefooter .aboutpagefootercontent .catalogcontainer .data .category {
+  width: 100%;
+  padding: 10px;
+}
+.aboutpagefooter .aboutpagefootercontent .btn1 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  fill: #160042;
+  color: #160042;
+  background-color: #fce300;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #fce300;
+  width: 20%;
+  border-radius: 30px 30px 30px 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+.aboutpagefooter .aboutpagefootercontent .btn1:hover {
+  transition: 0.2ms;
+  color: #fce300;
+  background-color: #9D00FF;
+}
+
+@media screen and (max-width: 900px) {
+  .catalogcontainer .data {
+    flex-direction: column !important;
+  }
+}/*# sourceMappingURL=PageFooterre.css.map */

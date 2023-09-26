@@ -1,0 +1,95 @@
+.benifitboxcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  /* width: 90%; */
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+.benifitboxcontainer .benifitboxinfo {
+  background-color: rgb(108, 23, 208);
+  /* background-size: cover; */
+  width: 100%;
+  text-align: center;
+  padding-bottom: 60px;
+  padding: 200px 0;
+  padding-top: 90px;
+  border-radius: 0px 0px 100% 100%;
+  line-height: 30px;
+}
+.benifitboxcontainer .benifitboxinfo button {
+  margin-top: 30px;
+  border: none;
+  max-width: 300px;
+  width: auto;
+  padding: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #9d00ff;
+  border-color: #9d00ff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+  font-weight: 400;
+}
+.benifitboxcontainer .benifitboxinfo .benifitboxinfoicon {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.benifitboxcontainer .benifitboxinfo .heading1 {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-overflow: ellipsis;
+}
+.benifitboxcontainer .benifitboxinfo p {
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: medium;
+}
+.benifitboxcontainer .boxesType1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.benifitboxcontainer .boxesType1 .boxesTypeWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.benifitboxcontainer .boxesType1 .boxesTypeWrapper .boxesType1Inner {
+  width: 90%;
+  margin: 20px 0px;
+  height: auto;
+}
+.benifitboxcontainer .boxesType1 .boxesTypeWrapper #bbb2 {
+  margin-top: -100px;
+}
+.benifitboxcontainer .boxesType1 .boxesTypeWrapper #bbb5 {
+  margin-top: -100px;
+}
+
+@media screen and (max-width: 980px) {
+  .boxesTypeWrapper {
+    justify-items: center;
+  }
+  .boxesTypeWrapper #bbb2 {
+    margin: 5px 10px !important;
+  }
+  .boxesTypeWrapper #bbb5 {
+    margin: 5px 10px !important;
+  }
+}/*# sourceMappingURL=Benefitbox.css.map */
